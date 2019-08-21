@@ -21,10 +21,10 @@
                     <li class="is-active">
                       <a>Home</a>
                     </li>
-                    <li><a href="">Examples</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Team</a></li>
-                    <li><a href="">Help</a></li>
+                    <li><a href="">Item 0</a></li>
+                    <li><a href="">Item 1</a></li>
+                    <li><a href="">Item 2</a></li>
+                    <li><a href="">Item 3</a></li>
                   </ul>
                 </div>
               </div>
@@ -35,19 +35,30 @@
       <div class="hero-body">
         <div class="container">
           <div class="columns is-vcentered">
-            <div class="column is-5">
-              <span class="grid-line-vert-01" />
-              <span class="grid-line-vert-02" />
-              <span class="grid-line-03" />
-              <span class="grid-line-04" />
-              <span class="grid-line-05" />
+            <div class="column is-6">
               <h1 class="title is-2 jtron-logotype">
                 <span class="first-name">Jabulani</span> <span class="second-name">Robbins</span>
+                <span class="subtitle is-inline-block">Web Development Portfolio &amp; Résumé</span>
               </h1>
-              <br>
+
             </div>
-            <div class="column is-6 is-offset-1">
+            <div class="column is-6">
               <!-- MAIN CONTENT WILL LIVE HERE -->
+<div class="columns is-multiline">
+      <div class="column is-6">
+         <div class="has-background-primary">1</div>
+      </div>
+      <div class="column is-6">
+         <div class="has-background-danger">1</div>
+      </div>
+      <div class="column is-6">
+         <div class="has-background-warning">1</div>
+      </div>
+      <div class="column is-6">
+         <div class="has-background-info">1</div>
+      </div>
+</div>
+              <!-- *************************** -->
             </div>
           </div>
         </div>
@@ -57,6 +68,9 @@
         <div class="container">
           <div class="tabs is-centered">
             <ul>
+              <li><a>And this is the bottom</a></li>
+              <li><a>And this is the bottom</a></li>
+              <li><a>And this is the bottom</a></li>
               <li><a>And this is the bottom</a></li>
             </ul>
           </div>
@@ -79,69 +93,27 @@ export default {
 <style>
         html,
         body {
-            background: #7a0026;
+            /* background: #7a0026; */
             font-family: 'Open Sans';
         }
 
 div {
-    border: 1px solid #fff;
+    border: 1px solid gray;
 }
         .has-font-roboto-slab {
             font-family: 'Roboto Slab', serif;
         }
 
         h1.jtron-logotype {
-            position: absolute;
-            width: 100vw;
-            margin-left: -50px;
-            padding-left: 50px;
-            border-top: 1px solid #91002d;
-            border-bottom: 1px solid #91002d;
             font-family: 'Roboto Slab', serif;
-            color: #ff0051;
-        }
-
-        .jtron-logotype::before,
-        .jtron-logotype::after {
-            content: "";
-            position: relative;
-            width: 100%;
-            height: 0;
-            border-top: 1px solid #91002d;
-        }
-
-        .jtron-logotype::after {
-            top: 45px;
-            left: 0;
         }
 
         .jtron-logotype span.second-name {
-            color: #bd003c;
-        }
-
-        span.grid-line-vert-01,
-        span.grid-line-vert-02
-        {
-            width: 0;
-            height: 100vh;
-            position: absolute;
-            border: none;
-            border-left: 1px solid #91002d;
-            top: -400px;
-        }
-        span.grid-line-vert-02 {
-            left: 375px;
-        }
-        span.grid-line-02::after {
-            left: 300px;
+            /* color: #bd003c; */
         }
 
         .j-primary {
             visibility: hidden;
         }
 
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
 </style>
