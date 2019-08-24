@@ -68,7 +68,7 @@ export default {
           options: {
             fix: true
           }
-        })
+        });
       }
     }
   }
