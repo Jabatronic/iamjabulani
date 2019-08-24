@@ -1,12 +1,13 @@
 <template>
-  <div class="container">
+  <div class="container has-text-dark-gray">
     <section class="hero is-fullheight is-default is-bold">
       <div class="hero-head">
-        <nav class="navbar j-primary">
+        <nav class="navbar">
           <div class="container">
-            <div class="navbar-brand is-hidden">
+            <div class="navbar-brand">
               <a class="navbar-item" href="../">
                 <!-- <img src="../images/bulma.png" alt="Logo"> -->
+                MJR
               </a>
               <span class="navbar-burger burger" data-target="navbarMenu">
                 <span />
@@ -33,31 +34,56 @@
         </nav>
       </div>
       <div class="hero-body">
-        <div class="container">
+        <div class="container content">
           <div class="columns is-vcentered">
             <div class="column is-6">
               <h1 class="title is-2 jtron-logotype">
-                <span class="first-name">Jabulani</span> <span class="second-name">Robbins</span>
+                <span class="first-name">M Jabulani</span> <span class="second-name">Robbins</span>
                 <span class="subtitle is-inline-block">Web Development Portfolio &amp; Résumé</span>
               </h1>
-
+              <div>
+                <p>I am a web developer/designer with ability, knowledge, and experience across the  <a href="#">full-stack</a> but weighted towards the <a href="#">front-end</a>.</p>
+                <p><a href="#">HTML5</a>, <a href="#">CSS3</a>, and <a href="#">JavaScript</a> are part of my everyday vocabulary and custom <a href="#">Wordpress</a> sites make up a large part of my commercial <a href="#">experience</a>.</p>
+                <p>  </p>
+              </div>
             </div>
             <div class="column is-6">
               <!-- MAIN CONTENT WILL LIVE HERE -->
-<div class="columns is-multiline">
-      <div class="column is-6">
-         <div class="has-background-primary">1</div>
-      </div>
-      <div class="column is-6">
-         <div class="has-background-danger">1</div>
-      </div>
-      <div class="column is-6">
-         <div class="has-background-warning">1</div>
-      </div>
-      <div class="column is-6">
-         <div class="has-background-info">1</div>
-      </div>
-</div>
+              <div class="columns">
+                <div class="column is-8 is-offset-2">
+                  <div class="folio-tile box">
+                    <img src="~/assets/images/dantanna_frontpage_folio.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-8 is-offset-2">
+                  <div class="folio-tile box">
+                    <img src="~/assets/images/first_wealth_frontpage_folio.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-8 is-offset-2">
+                  <div class="folio-tile box">
+                    <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-8 is-offset-2">
+                  <div class="folio-tile box">
+                    EDAS
+                  </div>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column is-8 is-offset-2">
+                  <div class="folio-tile box">
+                    The Big Programme
+                  </div>
+                </div>
+              </div>
               <!-- *************************** -->
             </div>
           </div>
@@ -81,8 +107,6 @@
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
-
 export default {
   components: {
     // ...
@@ -90,7 +114,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
         html,
         body {
             /* background: #7a0026; */
@@ -98,7 +122,7 @@ export default {
         }
 
 div {
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
 }
         .has-font-roboto-slab {
             font-family: 'Roboto Slab', serif;
@@ -106,14 +130,37 @@ div {
 
         h1.jtron-logotype {
             font-family: 'Roboto Slab', serif;
+            color: teal;
         }
 
         .jtron-logotype span.second-name {
-            /* color: #bd003c; */
+            // color: #444444;
         }
 
         .j-primary {
             visibility: hidden;
         }
 
+  /* Folio Tiles */
+.folio-tile {
+    // background: url(https://via.placeholder.com/468x90.png?text=Folio+Item);
+    // background-size: contain;
+    height: 90px;
+    font-size: 66px;
+    text-align: center;
+    color: #00cfcf;
+    // background: #008080;
+    border-radius: 5px;
+    overflow:hidden;
+    width: 460px;
+}
+
+.folio-tile img {
+    transition: all .6s;
+}
+
+.folio-tile img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
 </style>
