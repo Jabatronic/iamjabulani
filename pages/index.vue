@@ -44,7 +44,7 @@
               <div>
                 <p>I am a web developer/designer with ability, knowledge, and experience across the  <a href="#">full-stack</a> but weighted towards the <a href="#">front-end</a>.</p>
                 <p><a href="#">HTML5</a>, <a href="#">CSS3</a>, and <a href="#">JavaScript</a> are part of my everyday vocabulary and custom <a href="#">Wordpress</a> sites make up a large part of my commercial <a href="#">experience</a>.</p>
-                <p>  </p>
+                <p />
               </div>
             </div>
             <div class="column is-6">
