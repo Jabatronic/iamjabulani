@@ -4,10 +4,10 @@
       <div class="hero-head">
         <nav class="navbar">
           <div class="container">
-            <div class="navbar-brand">
+            <div class="navbar-brand is-hidden-desktop-only">
               <a class="navbar-item" href="../">
                 <!-- <img src="../images/bulma.png" alt="Logo"> -->
-                MJR
+                MJRdddxx
               </a>
               <span class="navbar-burger burger" data-target="navbarMenu">
                 <span />
@@ -51,35 +51,35 @@
               <!-- MAIN CONTENT WILL LIVE HERE -->
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <div class="folio-tile box">
+                  <div class="image folio-tile box">
                     <img src="~/assets/images/dantanna_frontpage_folio.jpg" alt="">
                   </div>
                 </div>
               </div>
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <div class="folio-tile box">
+                  <div class="image folio-tile box">
                     <img src="~/assets/images/first_wealth_frontpage_folio.jpg" alt="">
                   </div>
                 </div>
               </div>
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <div class="folio-tile box">
+                  <div class="image folio-tile box">
                     <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt="">
                   </div>
                 </div>
               </div>
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <div class="folio-tile box">
+                  <div class="image folio-tile box">
                     EDAS
                   </div>
                 </div>
               </div>
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <div class="folio-tile box">
+                  <div class="image folio-tile box">
                     The Big Programme
                   </div>
                 </div>
@@ -117,13 +117,10 @@ export default {
 <style lang="scss">
         html,
         body {
-            /* background: #7a0026; */
-            font-family: 'Open Sans';
+            // background: #7a0026;
+            font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
-div {
-    /* border: 1px solid gray; */
-}
         .has-font-roboto-slab {
             font-family: 'Roboto Slab', serif;
         }
@@ -143,20 +140,15 @@ div {
 
   /* Folio Tiles */
 .folio-tile {
-    // background: url(https://via.placeholder.com/468x90.png?text=Folio+Item);
-    // background-size: contain;
-    height: 90px;
-    font-size: 66px;
-    text-align: center;
-    color: #00cfcf;
-    // background: #008080;
-    border-radius: 5px;
-    overflow:hidden;
-    width: 460px;
+}
+
+.folio-tile {
+  padding: 0;
+  overflow: hidden;
 }
 
 .folio-tile img {
-    transition: all .6s;
+  transition: all .6s;
 }
 
 .folio-tile img:hover {
