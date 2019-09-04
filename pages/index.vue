@@ -46,8 +46,8 @@
           <div class="columns is-vcentered">
             <div class="column is-6">
               <figure class="image is-128x128">
-  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
+                <img class=" image is-rounded" src="~/assets/images/jabulani_robbins.jpg">
+              </figure>
               <h1 class="title is-2 jtron-logotype">
                 <span class="first-name">M Jabulani</span>
                 <span class="second-name">Robbins</span>
@@ -74,7 +74,9 @@
 
               <div class="columns">
                 <div class="column is-8 is-offset-2">
-                  <h2 class="has-text-grey-lighter ">Recent Works</h2>
+                  <h2 class="has-text-grey-lighter ">
+                    Recent Works
+                  </h2>
                   <hr>
                   <p class="menu-label">
                     Dantanna Beatz
@@ -110,7 +112,7 @@
                     EDAS
                   </p>
                   <div class="image folio-tile box">
-                    <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
+                    <img src="~/assets/images/edas_frontpage_folio.jpg" alt>
                   </div>
                 </div>
               </div>
