@@ -6,7 +6,6 @@
           <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
               <span class="jtron-logotype">MJR</span>
-              <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
             </a>
 
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -65,7 +64,7 @@
         <div class="container content">
           <div class="columns">
             <div class="column is-7">
-              <figure class="image is-128x128">
+              <figure class="image is-128x128 is-marginless">
                 <img class=" image is-rounded" src="~/assets/images/jabulani_robbins.jpg">
               </figure>
               <h1 class="title is-2 jtron-logotype">
