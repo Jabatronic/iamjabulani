@@ -1,40 +1,60 @@
 <template>
-  <div class="container has-text-dark-gray">
-    <section class="hero is-fullheight is-default is-bold">
+  <div class="has-text-dark-gray">
+    <section class="hero is-fullheight-with-navbar is-bold">
       <div class="hero-head">
-        <nav class="navbar is-hidden-desktop">
-          <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item" href="../">
-                <!-- <img src="../images/bulma.png" alt="Logo"> -->
-                MJRdddxx
+        <nav class="navbar container is-fixed-top is-white" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+              <span class="jtron-logotype">MJR</span>
+              <!-- <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28"> -->
+            </a>
+
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item">
+                Home
               </a>
-              <span class="navbar-burger burger" data-target="navbarMenu">
-                <span />
-                <span />
-                <span />
-              </span>
+
+              <a class="navbar-item">
+                Documentation
+              </a>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  More
+                </a>
+
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    About
+                  </a>
+                  <a class="navbar-item">
+                    Jobs
+                  </a>
+                  <a class="navbar-item">
+                    Contact
+                  </a>
+                  <hr class="navbar-divider">
+                  <a class="navbar-item">
+                    Report an issue
+                  </a>
+                </div>
+              </div>
             </div>
-            <div id="navbarMenu" class="navbar-menu">
-              <div class="navbar-end">
-                <div class="tabs is-right">
-                  <ul>
-                    <li class="is-active">
-                      <a>Home</a>
-                    </li>
-                    <li>
-                      <a href>Item 0</a>
-                    </li>
-                    <li>
-                      <a href>Item 1</a>
-                    </li>
-                    <li>
-                      <a href>Item 2</a>
-                    </li>
-                    <li>
-                      <a href>Item 3</a>
-                    </li>
-                  </ul>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                   <a class="button is-teal has-text-white">
+                    Client Log in
+                  </a>
                 </div>
               </div>
             </div>
@@ -43,15 +63,15 @@
       </div>
       <div class="hero-body">
         <div class="container content">
-          <div class="columns is-vcentered">
-            <div class="column is-6">
+          <div class="columns">
+            <div class="column is-7">
               <figure class="image is-128x128">
                 <img class=" image is-rounded" src="~/assets/images/jabulani_robbins.jpg">
               </figure>
               <h1 class="title is-2 jtron-logotype">
                 <span class="first-name">M Jabulani</span>
                 <span class="second-name">Robbins</span>
-                <span class="subtitle is-inline-block">Web Development Portfolio &amp; Résumé</span>
+                <span class="subtitle is-block">Web Development Portfolio &amp; Résumé</span>
               </h1>
               <div>
                 <p>
@@ -69,11 +89,11 @@
                 <p />
               </div>
             </div>
-            <div class="column is-6">
+            <div class="column is-5">
               <!-- MAIN CONTENT WILL LIVE HERE -->
 
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <h2 class="has-text-grey-lighter ">
                     Recent Works
                   </h2>
@@ -87,7 +107,7 @@
                 </div>
               </div>
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <p class="menu-label">
                     First Wealth
                   </p>
@@ -97,7 +117,7 @@
                 </div>
               </div>
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <p class="menu-label">
                     The Ice Chef
                   </p>
@@ -107,7 +127,7 @@
                 </div>
               </div>
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <p class="menu-label">
                     EDAS
                   </p>
@@ -117,7 +137,7 @@
                 </div>
               </div>
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <p class="menu-label">
                     The Little Big Programme
                   </p>
@@ -127,7 +147,7 @@
                 </div>
               </div>
               <div class="columns">
-                <div class="column is-8 is-offset-2">
+                <div class="column">
                   <p class="menu-label">
                     The Big Programme
                   </p>
@@ -175,18 +195,39 @@ export default {
 </script>
 
 <style lang="scss">
+// * { background-color: rgba(255,0,0,.2); }
+// * * { background-color: rgba(0,255,0,.2); }
+// * * * { background-color: rgba(0,0,255,.2); }
+// * * * * { background-color: rgba(255,0,255,.2); }
+// * * * * * { background-color: rgba(0,255,255,.2); }
+// * * * * * * { background-color: rgba(255,255,0,.2); }
+// * * * * * * * { background-color: rgba(255,0,0,.2); }
+// * * * * * * * * { background-color: rgba(0,255,0,.2); }
+// * * * * * * * * * { background-color: rgba(0,0,255,.2); }
+
 html,
 body {
   font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Colours */
+$teal: teal;
+
+.has-text-teal {
+  color: $teal;
+}
+
+.is-teal {
+  background: $teal;
 }
 
 .has-font-roboto-slab {
   font-family: "Roboto Slab", serif;
 }
 
-h1.jtron-logotype {
+.jtron-logotype {
   font-family: "Roboto Slab", serif;
-  color: teal;
+  color: $teal !important;
 }
 
 .jtron-logotype span.second-name {
@@ -209,5 +250,10 @@ h1.jtron-logotype {
     transform: scale(1.2);
     cursor: pointer;
   }
+}
+
+/* Nav mods */
+.hero .navbar {
+    background: #fff;
 }
 </style>
