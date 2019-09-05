@@ -52,7 +52,7 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">
-                   <a class="button is-teal has-text-white">
+                  <a class="button is-teal has-text-white">
                     Client Log in
                   </a>
                 </div>
