@@ -15,8 +15,12 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab&display=swap' }
 
-    ]
+    ],
+    bodyAttrs: {
+      class: ['has-navbar-fixed-top']
+    }
   },
+
   /*
   ** Customize the progress-bar color
   */
