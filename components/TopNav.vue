@@ -5,14 +5,22 @@
         <span class="jtron-logotype">MJR</span>
       </a>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a
+        role="button"
+        class="navbar-burger burger"
+        :class="{'is-active': isMenuOpen}"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navbarBasicExample"
+        @click="isMenuOpen = !isMenuOpen"
+      >
         <span aria-hidden="true" />
         <span aria-hidden="true" />
         <span aria-hidden="true" />
       </a>
     </div>
 
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarMainTop" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <nuxt-link to="/" class="navbar-item">
           Home
@@ -57,3 +65,19 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      isMenuOpen: false
+    }
+  }
+}
+</script>
+
+<style>
+  #navbarBasicExample {
+    min-height: 100vh;
+  }
+</style>
