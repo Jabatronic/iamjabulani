@@ -4,16 +4,7 @@
       <div class="tabs is-centered">
         <ul>
           <li>
-            <a>And this is the bottom</a>
-          </li>
-          <li>
-            <a>And this is the bottom</a>
-          </li>
-          <li>
-            <a>And this is the bottom</a>
-          </li>
-          <li>
-            <a>And this is the bottom</a>
+            <a>Lets Work Together</a>
           </li>
         </ul>
       </div>
