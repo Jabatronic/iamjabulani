@@ -26,9 +26,9 @@
           Home
         </nuxt-link>
 
-        <a class="navbar-item">
-          Documentation
-        </a>
+        <nuxt-link to="resume" class="navbar-item">
+          Résumé
+        </nuxt-link>
 
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
