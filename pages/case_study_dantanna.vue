@@ -6,19 +6,8 @@
           Case Study: Dantanna Beatz
         </h1>
         <div>
-          <p>
-            I am a web developer/designer with ability, knowledge, and experience across the
-            <a href="#">full-stack</a> but weighted towards the
-            <a href="#">front-end</a>.
-          </p>
-          <p>
-            <a href="#">HTML5</a>,
-            <a href="#">CSS3</a>, and
-            <a href="#">JavaScript</a> are part of my everyday vocabulary and custom
-            <a href="#">Wordpress</a> sites make up a large part of my <a href="#">commercial
-              experience</a>.
-          </p>
-          <p />
+          <p>Dantanna Beatz is a music productin company speciliseing in live performance Hip Hop. They approached me to create a website that conveyed the "non-serious" party atmosphere they aimed to produce at their live gigs. They alos needed to be able to update elements of the site themselves.</p>
+          <p>I recommended a WordPress site with some custom animations.</p>
         </div>
       </div>
       <div class="column is-5">
