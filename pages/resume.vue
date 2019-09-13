@@ -6,7 +6,7 @@
         <h1 class="title is-uppercase has-font-roboto-slab">
           M Jabulani Robbins
         </h1>
-        <div class="is-hidden-tablet">
+        <div class="is-desktop">
           <p>
             {{ myPhoneNum }} | {{ myEmailAddr }}
           </p>
@@ -14,9 +14,9 @@
         </div>
         <hr class="is-teal">
         <div class="content">
-        <h3>Career Objective</h3>
-        <p>To gain experience with forward thinking digital agencies and develop my use of modern development techniques.</p>
-</div>
+          <h3>Career Objective</h3>
+          <p>To gain experience with forward thinking digital agencies and develop my use of modern development techniques.</p>
+        </div>
         <div class="columns content">
           <div class="column is-6">
             <h4>Education</h4>
@@ -83,10 +83,10 @@
         </p>
       </div>
 
-      <aside class="sidebar column is-2 is-teal has-text-white is-hidden-mobile is-centered">
+      <aside class="sidebar column is-2 is-teal has-text-white is-hidden-mobile">
         <div class="columns">
-          <div class="column content">
-            <figure class="image is-256x256 is-marginless">
+          <div class="column content is-centered">
+            <figure class="image">
               <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
             </figure>
             <div>
@@ -135,6 +135,7 @@ export default {
 }
 
 .sidebar {
-  min-width: 204px;
+  width: 200px;
 }
+
 </style>
