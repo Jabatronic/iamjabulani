@@ -2,38 +2,6 @@
   <div class="container content">
     <div class="columns is-fullheight is-centered">
       <!-- Personal Deets -->
-      <div class="column is-3 is-teal has-text-white  ">
-        <figure class="image is-128x128 is-marginless">
-          <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
-        </figure>
-        <div class="margin-top-40 ">
-          <br>
-          <br>
-          <h3 class="has-text-white has-font-roboto-slab">
-            Contact
-          </h3>
-          <address>
-            93 Parkstone Road<br>
-            Poole, Dorset<br>
-            BH15 2NZ
-          </address>
-          <br>
-          <p>
-            T: (+44) 7969 910 258
-          </p>
-          <p>E: jabu.robbins@gmail.com</p>
-          <h3 class="has-text-white has-font-roboto-slab ">
-            Interests
-          </h3>
-          <ul>
-            <li>Electric Guitar</li>
-            <li>Art &amp; Design</li>
-            <li> Science &amp; Tech</li>
-            <li>Current Affairs</li>
-            <li>Yoga &amp; Meditation</li>
-          </ul>
-        </div>
-      </div>
       <div class="column is-9">
         <h1 class="title is-uppercase has-font-roboto-slab">
           M Jabulani Robbins
@@ -106,6 +74,38 @@
         <p>
           20??: Graduate Placement (Arkwright Consulting)
         </p>
+      </div>
+      <div class="column is-3 is-teal has-text-white  ">
+        <figure class="image is-128x128 is-marginless">
+          <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
+        </figure>
+        <div class="margin-top-40 ">
+          <br>
+          <br>
+          <h3 class="has-text-white has-font-roboto-slab">
+            Contact
+          </h3>
+          <address>
+            93 Parkstone Road<br>
+            Poole, Dorset<br>
+            BH15 2NZ
+          </address>
+          <br>
+          <p>
+            T: (+44) 7969 910 258
+          </p>
+          <p>E: jabu.robbins@gmail.com</p>
+          <h3 class="has-text-white has-font-roboto-slab ">
+            Interests
+          </h3>
+          <ul>
+            <li>Electric Guitar</li>
+            <li>Art &amp; Design</li>
+            <li> Science &amp; Tech</li>
+            <li>Current Affairs</li>
+            <li>Yoga &amp; Meditation</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
