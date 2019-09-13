@@ -1,16 +1,23 @@
 <template>
-  <div class="container content">
-    <div class="columns is-fullheight is-centered">
+  <div class="container">
+    <div class="columns is-fullheight">
       <!-- Personal Deets -->
-      <div class="column is-9">
+      <div class="column is-10">
         <h1 class="title is-uppercase has-font-roboto-slab">
           M Jabulani Robbins
         </h1>
+        <div class="is-hidden-tablet">
+          <p>
+            {{ myPhoneNum }} | {{ myEmailAddr }}
+          </p>
+          <p>{{ myLocation }}</p>
+        </div>
         <hr class="is-teal">
+        <div class="content">
         <h3>Career Objective</h3>
         <p>To gain experience with forward thinking digital agencies and develop my use of modern development techniques.</p>
-
-        <div class="columns">
+</div>
+        <div class="columns content">
           <div class="column is-6">
             <h4>Education</h4>
             <ul>
@@ -75,45 +82,59 @@
           20??: Graduate Placement (Arkwright Consulting)
         </p>
       </div>
-      <div class="column is-3 is-teal has-text-white  ">
-        <figure class="image is-128x128 is-marginless">
-          <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
-        </figure>
-        <div class="margin-top-40 ">
-          <br>
-          <br>
-          <h3 class="has-text-white has-font-roboto-slab">
-            Contact
-          </h3>
-          <address>
-            93 Parkstone Road<br>
-            Poole, Dorset<br>
-            BH15 2NZ
-          </address>
-          <br>
-          <p>
-            T: (+44) 7969 910 258
-          </p>
-          <p>E: jabu.robbins@gmail.com</p>
-          <h3 class="has-text-white has-font-roboto-slab ">
-            Interests
-          </h3>
-          <ul>
-            <li>Electric Guitar</li>
-            <li>Art &amp; Design</li>
-            <li> Science &amp; Tech</li>
-            <li>Current Affairs</li>
-            <li>Yoga &amp; Meditation</li>
-          </ul>
+
+      <aside class="sidebar column is-2 is-teal has-text-white is-hidden-mobile is-centered">
+        <div class="columns">
+          <div class="column content">
+            <figure class="image is-256x256 is-marginless">
+              <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
+            </figure>
+            <div>
+              <br>
+              <h3 class="has-text-white has-font-roboto-slab">
+                Contact
+              </h3>
+              <p>
+                {{ myPhoneNum }}
+              </p>
+              <p>{{ myEmailAddr }}</p>
+              <p>{{ myLocation }}</p>
+              <h3 class="has-text-white has-font-roboto-slab ">
+                Interests
+              </h3>
+              <ul>
+                <li>Electric Guitar</li>
+                <li>Art &amp; Design</li>
+                <li> Science &amp; Tech</li>
+                <li>Yoga &amp; Meditation</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+      </aside>
     </div>
   </div>
 </template>
 
-<style>
+<script>
+export default {
+  data () {
+    return {
+      myPhoneNum: '(+44) 7969 910 258',
+      myEmailAddr: 'jabu.robbins@gmail.com',
+      myLocation: 'Poole, Dorset, UK'
+    }
+  }
+}
+</script>
+
+<style scoped>
 /* For da debug */
 .border-red {
     border: 1px solid red;
+}
+
+.sidebar {
+  min-width: 204px;
 }
 </style>
