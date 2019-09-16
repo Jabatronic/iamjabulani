@@ -66,11 +66,24 @@
               <li>2017 - Present: Freelance Web Developer</li>
             </ul>
           </li>
-          <h4>Wolverhampton University School of Art &amp; Design</h4>
+          <h4>2014 - 2017 Adventures of the Valparaiso</h4>
           <li>
             <p>
-              20??: Course Leader in Digital Arts &amp; Media (University of Wolverhampton)
+              Art based social enterprise located on an antique canal boat in Amsterdam
             </p>
+          </li>
+          <h4>2008 - 2014 Wolverhampton University School of Art &amp; Design</h4>
+          <li>
+            Course Leader in Digital Arts &amp; Media
+          </li>
+          <li>
+            Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management
+          </li>
+          <li>
+            Lecturer in Computer Games Design
+          </li>
+          <li>
+            Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management
           </li>
           <li>
             <p>
