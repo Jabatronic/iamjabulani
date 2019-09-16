@@ -1,14 +1,12 @@
 <template>
-  <div class="has-text-dark-gray">
-    <section class="hero is-fullheight-with-navbar is-bold">
-      <div class="hero-head">
-        <top-nav />
-      </div>
-      <div class="hero-body">
-        <nuxt />
-      </div>
-      <app-footer />
-    </section>
+  <div>
+    <top-nav />
+<main class="jtron-main">
+    <nuxt />
+</main>
+<footer>
+    <app-footer />
+    </footer>
   </div>
 </template>
 
@@ -85,5 +83,10 @@ $teal: teal;
 /* Nav mods */
 .hero .navbar {
     background: #fff;
+}
+
+.jtron-main {
+  margin-top: 32px;
+  width: 100vw;
 }
 </style>

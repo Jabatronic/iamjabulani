@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container is-fluid">
     <div class="columns is-fullheight">
       <!-- Personal Deets -->
       <div class="column is-10">
@@ -96,7 +96,7 @@
         </p>
       </div>
 
-      <aside class="sidebar column is-2 is-teal has-text-white is-hidden-mobile">
+      <aside class="sidebar column is-teal has-text-white is-hidden-mobile">
         <div class="columns">
           <div class="column content is-centered">
             <figure class="image">
@@ -148,7 +148,7 @@ export default {
 }
 
 .sidebar {
-  width: 200px;
+  /* width: 200px; */
 }
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar container is-fixed-top is-white" role="navigation" aria-label="main navigation">
+  <nav class="navbar jtron-top-nav is-fixed-top is-white" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <span class="jtron-logotype">MJR</span>
@@ -79,5 +79,10 @@ export default {
 <style>
   #navbarBasicExample {
     min-height: 100vh;
+  }
+
+  .jtron-top-nav {
+      box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
+
   }
 </style>
