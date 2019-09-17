@@ -1,11 +1,11 @@
 <template>
   <div>
     <top-nav />
-<main class="jtron-main">
-    <nuxt />
-</main>
-<footer>
-    <app-footer />
+    <main class="jtron-main">
+      <nuxt />
+    </main>
+    <footer>
+      <app-footer />
     </footer>
   </div>
 </template>
@@ -58,10 +58,6 @@ $teal: teal;
   color: $teal !important;
 }
 
-.jtron-logotype span.second-name {
-  // Logotype inflection
-}
-
 .j-primary {
   visibility: hidden;
 }
@@ -87,6 +83,8 @@ $teal: teal;
 
 .jtron-main {
   margin-top: 32px;
-  width: 100vw;
+  margin-left: 32px;
+  margin-right: 32px;
+  max-width: 100vw;
 }
 </style>
