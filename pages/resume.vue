@@ -1,5 +1,5 @@
 <template>
-  <div class="container is-fluid">
+  <div>
     <div class="columns is-fullheight">
       <!-- Personal Deets -->
       <div class="column is-10">
@@ -22,14 +22,14 @@
             <h4>Education</h4>
             <ul>
               <li><h5>MA Media Arts (Distinction)</h5></li>
-              <h7>Research Topics Included:</h7>
+              <p>Research Topics Included:</p>
               <ul>
                 <li>Visual Language and Semiotics</li>
                 <li>Human Computer Interaction</li>
                 <li>Interaction Design</li>
               </ul>
               <li><h5>BA(Hons) Upper Second Class - Interactive Media Communication</h5></li>
-              <h7>Modules Included:</h7>
+              <p>Modules Included:</p>
               <ul>
                 <li>HTML, JavaScript, CSS</li>
                 <li>User Centered Design</li>
@@ -52,51 +52,40 @@
             </ul>
           </div>
         </div>
-        <h2 class="title">
-          Experience
-        </h2>
-        <hr
-          class="is-teal"
-        >
+        <div class="content">
+          <h2 class="title">
+            Experience
+          </h2>
+          <hr
+            class="is-teal"
+          >
 
-        <ul>
-          <li>
-            <h4>Freelance</h4>
-            <ul>
-              <li>2017 - Present: Freelance Web Developer</li>
-            </ul>
-          </li>
-          <h4>2014 - 2017 Adventures of the Valparaiso</h4>
-          <li>
-            <p>
-              Art based social enterprise located on an antique canal boat in Amsterdam
-            </p>
-          </li>
-          <h4>2008 - 2014 Wolverhampton University School of Art &amp; Design</h4>
-          <li>
-            Course Leader in Digital Arts &amp; Media
-          </li>
-          <li>
-            Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management
-          </li>
-          <li>
-            Lecturer in Computer Games Design
-          </li>
-          <li>
-            Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management
-          </li>
-          <li>
-            <p>
-              20??: Subject Leader in Computer Games Design  (University of Wolverhampton)
-            </p>
-          </li>
-        </ul>
-        <p>
-          20??: Graduate Placement (Arkwright Consulting)
-        </p>
+          <h4 class="title is-size-4">
+            <span class="has-text-teal">2017 - Present:</span> Freelance Web Developer
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
+          <h4 class="title is-size-4">
+            <span class="has-text-teal">2014 - 2017:</span> Adventures of the Valparaiso
+          </h4>
+          <p>
+            Art based social enterprise located on an antique canal boat in Amsterdam
+          </p>
+          <h4 class="title is-size-4">
+            <span class="has-text-teal">2008 - 2014: </span>  Wolverhampton University School of Art &amp; Design
+          </h4>
+          <ul>
+            <li>Course Leader in Digital Arts &amp; Media</li>
+            <li>Lecturer in Computer Games Design</li>
+            <li>Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management</li>
+          </ul>
+          <h4 class="title is-size-4">
+            <span class="has-text-teal">2004 - 2006:</span> Arkwright Consulting
+          </h4>
+          <p>Graduate Placement</p>
+        </div>
       </div>
 
-      <aside class="sidebar column is-teal has-text-white is-hidden-mobile">
+      <div class="sidebar column is-teal has-text-white is-hidden-mobile">
         <div class="columns">
           <div class="column content is-centered">
             <figure class="image">
@@ -124,7 +113,7 @@
             </div>
           </div>
         </div>
-      </aside>
+      </div>
     </div>
   </div>
 </template>
@@ -146,9 +135,4 @@ export default {
 .border-red {
     border: 1px solid red;
 }
-
-.sidebar {
-  /* width: 200px; */
-}
-
 </style>
