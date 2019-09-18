@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container is-desktop">
     <top-nav />
     <main class="jtron-main">
       <nuxt />
