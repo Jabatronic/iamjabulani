@@ -29,6 +29,14 @@ export default {
   ** Global CSS
   */
   css: ['~/assets/scss/main.scss'],
+
+  /*
+  ** Make sass variables available globally
+  */
+  styleResources: {
+    scss: ['~/assets/scss/main.scss']
+  },
+
   /*
   ** Plugins to load before mounting the App
   */
@@ -47,7 +55,9 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
     // '@nuxtjs/bulma',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // Doc: https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources'
   ],
   /*
   ** Build configuration

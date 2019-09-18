@@ -1,4 +1,4 @@
-@import 'bulma/sass/utilities/_all.sass';
+@import '~bulma/sass/utilities/_all.sass';
 
 /****************************************
  * Variables here
@@ -8,5 +8,5 @@
 
 /****************************************/
 
-@import '~bulma';
+@import '~bulma/';
 @import './partials/layout-helpers';
