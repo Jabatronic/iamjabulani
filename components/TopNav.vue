@@ -83,12 +83,12 @@ export default {
 }
 </script>
 
-<style>
-  #navbarBasicExample {
-    min-height: 100vh;
-  }
+<style lang="scss">
+#navbarBasicExample {
+  min-height: 100vh;
+}
 
-  .jtron-top-nav {
-      box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
-  }
+.jtron-top-nav {
+    box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
+}
 </style>
