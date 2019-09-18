@@ -1,10 +1,10 @@
 <template>
   <nav class="navbar jtron-top-nav is-fixed-top is-white" role="navigation" aria-label="main navigation">
+    <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://bulma.io">
         <span class="jtron-logotype">MJR</span>
       </a>
-
       <a
         role="button"
         class="navbar-burger burger"
@@ -19,7 +19,6 @@
         <span aria-hidden="true" />
       </a>
     </div>
-
     <div id="navbarMainTop" class="navbar-menu" :class="{'is-active': isMenuOpen}">
       <div class="navbar-start">
         <nuxt-link to="/" class="navbar-item">
@@ -63,6 +62,8 @@
         </div>
       </div>
     </div>
+    </div>
+    <!-- end div -->
   </nav>
 </template>
 
@@ -83,6 +84,5 @@ export default {
 
   .jtron-top-nav {
       box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
-
   }
 </style>
