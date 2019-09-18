@@ -1,67 +1,67 @@
 <template>
   <nav class="navbar jtron-top-nav is-fixed-top is-white" role="navigation" aria-label="main navigation">
     <div class="container">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <span class="jtron-logotype">MJR</span>
-      </a>
-      <a
-        role="button"
-        class="navbar-burger burger"
-        :class="{'is-active': isMenuOpen}"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navbarBasicExample"
-        @click="isMenuOpen = !isMenuOpen"
-      >
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-      </a>
-    </div>
-    <div id="navbarMainTop" class="navbar-menu" :class="{'is-active': isMenuOpen}">
-      <div class="navbar-start">
-        <nuxt-link to="/" class="navbar-item">
-          Home
-        </nuxt-link>
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <span class="jtron-logotype">MJR</span>
+        </a>
+        <a
+          role="button"
+          class="navbar-burger burger"
+          :class="{'is-active': isMenuOpen}"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+          @click="isMenuOpen = !isMenuOpen"
+        >
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+        </a>
+      </div>
+      <div id="navbarMainTop" class="navbar-menu" :class="{'is-active': isMenuOpen}">
+        <div class="navbar-start">
+          <nuxt-link to="/" class="navbar-item">
+            Home
+          </nuxt-link>
 
-        <nuxt-link to="resume" class="navbar-item">
-          Résumé
-        </nuxt-link>
+          <nuxt-link to="resume" class="navbar-item">
+            Résumé
+          </nuxt-link>
 
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
-          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More
+            </a>
 
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              About
-            </a>
-            <a class="navbar-item">
-              Jobs
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Report an issue
-            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Jobs
+              </a>
+              <a class="navbar-item">
+                Contact
+              </a>
+              <hr class="navbar-divider">
+              <a class="navbar-item">
+                Report an issue
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-teal has-text-white">
+                Client Log in
+              </a>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-teal has-text-white">
-              Client Log in
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
     </div>
     <!-- end div -->
   </nav>
@@ -69,9 +69,15 @@
 
 <script>
 export default {
+  name: 'TopNav',
   data () {
     return {
       isMenuOpen: false
+    }
+  },
+  watch: {
+    $route (to, from) {
+      this.isMenuOpen = false
     }
   }
 }
