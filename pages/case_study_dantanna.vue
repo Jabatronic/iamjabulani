@@ -5,6 +5,7 @@
         <h1 class="title is-2 jtron-logotype">
           Case Study: Dantanna Beatz
         </h1>
+        <p class="is-hidden-desktop"><nuxt-link to="/">Open Gallery</nuxt-link></p>
         <div>
           <!-- Start Introduction -->
           <h3>Overview</h3>
@@ -42,6 +43,36 @@
         <!-- End Skills Used -->
 
         <!-- Start Thumbnail Gallery -->
+
+        <div class="columns is-multiline">
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+          <div class="column is-one-third">
+            <div class="thumb-gallery"><img src="placeholder.jpg" alt=""></div>
+          </div>
+        </div>
 
         <!-- End Thumbnail Gallery -->
 
@@ -114,3 +145,9 @@
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.thumb-gallery {
+  background: $teal;
+}
+</style>
