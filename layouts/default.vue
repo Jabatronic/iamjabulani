@@ -83,8 +83,12 @@ $teal: teal;
 
 .jtron-main {
   margin-top: 32px;
-  margin-left: 32px;
-  margin-right: 32px;
+  @include until($desktop) {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
   max-width: 100vw;
+  max-width: 100%;
 }
 </style>
