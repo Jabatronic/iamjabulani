@@ -41,6 +41,9 @@ body {
 /* Colours */
 $teal: teal;
 
+/* Fonts */
+$title-font:  "Roboto Slab", serif;
+
 .has-text-teal {
   color: $teal;
 }
@@ -50,11 +53,11 @@ $teal: teal;
 }
 
 .has-font-roboto-slab {
-  font-family: "Roboto Slab", serif;
+  font-family: $title-font;
 }
 
 .jtron-logotype {
-  font-family: "Roboto Slab", serif;
+  font-family: $title-font;
   color: $teal !important;
 }
 
