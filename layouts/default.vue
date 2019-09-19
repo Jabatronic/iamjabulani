@@ -33,16 +33,18 @@ export default {
 // * * * * * * * * { background-color: rgba(0,255,0,.2); }
 // * * * * * * * * * { background-color: rgba(0,0,255,.2); }
 
-html,
-body {
-  font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 /* Colours */
 $teal: teal;
 
 /* Fonts */
 $title-font:  "Roboto Slab", serif;
+$body-font: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+/* Generic Classes */
+html,
+body {
+  font-family: $body-font;
+}
 
 .has-text-teal {
   color: $teal;
