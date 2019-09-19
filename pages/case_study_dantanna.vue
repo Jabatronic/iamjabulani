@@ -6,8 +6,7 @@
           Case Study: Dantanna Beatz
         </h1>
         <div>
-          <p>Dantanna Beatz is a music productin company speciliseing in live performance Hip Hop. They approached me to create a website that conveyed the "non-serious" party atmosphere they aimed to produce at their live gigs. They alos needed to be able to update elements of the site themselves.</p>
-          <p>I recommended a WordPress site with some custom animations.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!</p>
         </div>
       </div>
       <div class="column is-5">
