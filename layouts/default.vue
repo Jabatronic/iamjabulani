@@ -33,13 +33,6 @@ export default {
 // * * * * * * * * { background-color: rgba(0,255,0,.2); }
 // * * * * * * * * * { background-color: rgba(0,0,255,.2); }
 
-/* Colours */
-$teal: teal;
-
-/* Fonts */
-$title-font:  "Roboto Slab", serif;
-$body-font: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-
 /* Generic Classes */
 html,
 body {
@@ -51,7 +44,7 @@ body {
 }
 
 .is-teal {
-  background: $teal;
+  background: $teal !important;
 }
 
 .has-font-roboto-slab {
@@ -68,7 +61,7 @@ body {
 }
 
 /* Folio Tiles */
-.folio-tile {
+.folio-tile.box {
   padding: 0;
   overflow: hidden;
 }
