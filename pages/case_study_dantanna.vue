@@ -5,11 +5,7 @@
         <h1 class="title is-2 jtron-logotype">
           Case Study: Dantanna Beatz
         </h1>
-        <p class="is-hidden-desktop">
-          <nuxt-link to="/">
-            Open Gallery
-          </nuxt-link>
-        </p>
+
         <div>
           <!-- Start Introduction -->
           <h3>Overview</h3>
