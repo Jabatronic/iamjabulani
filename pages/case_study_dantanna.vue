@@ -28,15 +28,19 @@
           <h3>Process / What I did</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
           <!-- End Process -->
+
           <!-- Start Conclusion -->
           <h3>Conclusion</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!
           </p>
           <!-- End Conclusion -->
+
+          <!-- Start Image(s) -->
           <div>
             <img src="~assets/images/dantanna_full-page_full-size.png" alt="">
           </div>
+          <!-- End image(s) -->
         </div>
       </div>
       <div class="column is-3">
@@ -46,7 +50,7 @@
 
         <!-- End Skills Used -->
 
-        <!-- Start Thumbnail Gallery -->
+        <!-- Start Thumbnail Gallery
 
         <div class="columns is-multiline">
           <div class="column is-one-third">
@@ -96,7 +100,7 @@
           </div>
         </div>
 
-        <!-- End Thumbnail Gallery -->
+         End Thumbnail Gallery -->
 
         <div class="columns">
           <div class="column">
