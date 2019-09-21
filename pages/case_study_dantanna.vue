@@ -14,31 +14,31 @@
           <!-- Start Introduction -->
           <h3>Overview</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!</p>
-          <div>
-            <div class="columns">
-              <div class="column is-half">
-                <h3>Roles &amp; Responsibilities</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi, culpa, impedit voluptatum corporis tenetur eius quia commodi esse reiciendis reprehenderit nobis eaque doloribus, quo est rerum eligendi unde dolorem.</p>
-              </div>
 
-              <div class="column is-half">
-                <h3>Scope &amp; Constraints</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A molestiae ratione illum! Doloremque repellat consectetur aliquam porro in nam beatae cum repudiandae labore. Totam recusandae illum odio expedita ipsam nihil!</p>
-              </div>
+          <div class="columns">
+            <div class="column is-half">
+              <h3>Roles &amp; Responsibilities</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi, culpa, impedit voluptatum corporis tenetur eius quia commodi esse reiciendis reprehenderit nobis eaque doloribus, quo est rerum eligendi unde dolorem.</p>
+            </div>
+
+            <div class="column is-half">
+              <h3>Scope &amp; Constraints</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A molestiae ratione illum! Doloremque repellat consectetur aliquam porro in nam beatae cum repudiandae labore. Totam recusandae illum odio expedita ipsam nihil!</p>
             </div>
           </div>
+
           <!-- End Introduction -->
 
           <!-- Start Process -->
-          <div>
-            <h3>Process / What I did</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
-            <!-- End Process -->
-            <h3>Conclusion</h3>
-            <p class="pb-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!
-            </p>
-          </div>
+
+          <h3>Process / What I did</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
+          <!-- End Process -->
+          <h3>Conclusion</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!
+          </p>
+
           <div>
             <img src="~assets/images/dantanna_full-page_full-size.png" alt="">
           </div>
