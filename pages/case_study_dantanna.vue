@@ -13,8 +13,13 @@
 
           <div class="columns">
             <div class="column is-half">
-              <h3>Roles &amp; Responsibilities</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam excepturi, culpa, impedit voluptatum corporis tenetur eius quia commodi esse reiciendis reprehenderit nobis eaque doloribus, quo est rerum eligendi unde dolorem.</p>
+              <h3>Skills Used</h3>
+              <ul>
+                <li>PHP, HTML, JavaScript, CSS, Apache</li>
+                <li>GSAP (Javascript) Animation</li>
+                <li>Wordpress (including rudimentary plugin development)</li>
+                <li>Photoshop</li>
+              </ul>
             </div>
 
             <div class="column is-half">
