@@ -68,7 +68,10 @@
             <span class="has-text-teal">2014 - 2017:</span> Adventures of the Valparaiso
           </h4>
           <p>
-            Art based social enterprise located on an antique canal boat in Amsterdam
+            Head of web communications and lead web developer for an art based social enterprise located on an antique canal boat in Amsterdam.
+            <ul>
+              <li>Wordpress , PHP, CSS, JavaScript, Apache</li>
+            </ul>
           </p>
           <h4 class="title is-size-4">
             <span class="has-text-teal">2008 - 2014: </span>  Wolverhampton University School of Art &amp; Design
@@ -76,12 +79,15 @@
           <ul>
             <li>Course Leader in Digital Arts &amp; Media</li>
             <li>Lecturer in Computer Games Design</li>
-            <li>Subject Leader in: Digital Image Manipulation, Interactivity Design, Project Management</li>
+            <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, , Gameplay &amp; Game Mechanics, Project Management</li>
           </ul>
           <h4 class="title is-size-4">
             <span class="has-text-teal">2004 - 2006:</span> Arkwright Consulting
           </h4>
-          <p>Graduate Placement</p>
+          <p>Web Designer/Developer - Graduate Placement</p>
+          <ul>
+            <li>OS Commerce, PHP, JavaScript, CSS, Apache</li>
+          </ul>
         </div>
       </div>
 
