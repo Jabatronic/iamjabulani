@@ -44,64 +44,6 @@
         </div>
       </div>
       <div class="column is-3">
-        <!-- MAIN CONTENT WILL LIVE HERE -->
-
-        <!-- Start Skills Used -->
-
-        <!-- End Skills Used -->
-
-        <!-- Start Thumbnail Gallery
-
-        <div class="columns is-multiline">
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-          <div class="column is-one-third">
-            <div class="thumb-gallery">
-              <img src="placeholder.jpg" alt="">
-            </div>
-          </div>
-        </div>
-
-         End Thumbnail Gallery -->
-
         <div class="columns">
           <div class="column">
             <h2 class="has-text-grey-lighter ">
