@@ -14,7 +14,7 @@
           <!-- Start Introduction -->
           <h3>Overview</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!</p>
-          <div class="is-small">
+          <div>
             <div class="columns">
               <div class="column is-half">
                 <h3>Roles &amp; Responsibilities</h3>
@@ -25,18 +25,22 @@
                 <h3>Scope &amp; Constraints</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A molestiae ratione illum! Doloremque repellat consectetur aliquam porro in nam beatae cum repudiandae labore. Totam recusandae illum odio expedita ipsam nihil!</p>
               </div>
-
             </div>
           </div>
           <!-- End Introduction -->
 
           <!-- Start Process -->
-          <div class="is-small">
-          <h3>Process / What I did</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
-          <!-- End Process -->
-          <h3>Conclusion</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
+          <div>
+            <h3>Process / What I did</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
+            <!-- End Process -->
+            <h3>Conclusion</h3>
+            <p class="pb-20">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!
+            </p>
+          </div>
+          <div>
+            <img src="~assets/images/dantanna_full-page_full-size.png" alt="">
           </div>
           <!-- Start Conclusion -->
 
