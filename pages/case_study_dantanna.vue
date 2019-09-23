@@ -53,7 +53,7 @@
       <div class="column is-3">
         <div class="columns">
           <div class="column">
-            <h2 class="has-text-grey-lighter ">
+            <h2 class="has-text-grey-lighter">
               Recent Works
             </h2>
             <hr>
