@@ -9,7 +9,9 @@
         <div>
           <!-- Start Introduction -->
           <h3>Overview</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!</p>
+          <p class="pb-20">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!
+          </p>
 
           <div class="columns">
             <div class="column is-half">
