@@ -10,7 +10,9 @@
           Dantanna Beatz
         </p>
         <div class="image folio-tile box">
-          <img src="~/assets/images/dantanna_frontpage_folio.jpg" alt>
+          <nuxt-link to="case_study_dantanna">
+            <img src="~/assets/images/dantanna_frontpage_folio.jpg" alt>
+          </nuxt-link>
         </div>
       </div>
     </div>
