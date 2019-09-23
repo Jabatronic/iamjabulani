@@ -59,12 +59,23 @@
       </div>
       <div class="column is-3">
         <!-- Start Sidebar -->
-
+        <recent-works />
         <!-- End Sidebar -->
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import RecentWorks from '~/components/sidebar/RecentWorks.vue'
+
+export default {
+  name: 'CaseStudy',
+  components: {
+    RecentWorks
+  }
+}
+</script>
 
 <style lang="scss">
 .thumb-gallery {
