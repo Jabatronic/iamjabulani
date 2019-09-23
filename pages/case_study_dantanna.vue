@@ -26,10 +26,17 @@
 
             <div class="column is-half">
               <h3>Scope &amp; Constraints</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A molestiae ratione illum! Doloremque repellat consectetur aliquam porro in nam beatae cum repudiandae labore. Totam recusandae illum odio expedita ipsam nihil!</p>
+              <p>Dantanna needed to be able to make simple content updates to the site by non-developer-editors. Budget was also a constraint at this early stage of their development.</p>
             </div>
           </div>
           <!-- End Introduction -->
+
+          <!-- Start Brief -->
+          <h3>The Brief</h3>
+          <p class="pb-20">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!
+          </p>
+          <!-- End Brief -->
 
           <!-- Start Process -->
           <h3>Process / What I did</h3>
