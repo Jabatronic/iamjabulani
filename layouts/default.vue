@@ -56,10 +56,6 @@ body {
   color: $teal !important;
 }
 
-.j-primary {
-  visibility: hidden;
-}
-
 /* Folio Tiles */
 .folio-tile.box {
   padding: 0;
