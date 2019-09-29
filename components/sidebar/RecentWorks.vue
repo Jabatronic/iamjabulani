@@ -2,11 +2,11 @@
   <div>
     <div class="columns">
       <div class="column">
-        <h2 class="has-text-grey-light">
+        <h2 class="has-text-grey">
           Recent Works
         </h2>
         <hr>
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           Dantanna Beatz
         </p>
         <div class="image folio-tile box">
@@ -18,7 +18,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           First Wealth
         </p>
         <div class="image folio-tile box">
@@ -28,7 +28,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           The Ice Chef
         </p>
         <div class="image folio-tile box">
@@ -38,7 +38,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           EDAS
         </p>
         <div class="image folio-tile box">
@@ -48,7 +48,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           The Little Big Programme
         </p>
         <div class="image folio-tile box">
@@ -58,7 +58,7 @@
     </div>
     <div class="columns">
       <div class="column">
-        <p class="menu-label">
+        <p class="menu-label has-text-grey-dark">
           The Big Programme
         </p>
         <div class="image folio-tile box">
@@ -70,7 +70,5 @@
 </template>
 
 <style lang="scss">
-.menu-label {
-  color: $teal;
-}
+
 </style>
