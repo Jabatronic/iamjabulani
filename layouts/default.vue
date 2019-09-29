@@ -40,7 +40,7 @@ body {
 }
 
 .has-text-teal {
-  color: $teal;
+  color: $teal !important;
 }
 
 .is-teal {
