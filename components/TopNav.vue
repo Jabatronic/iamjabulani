@@ -54,11 +54,11 @@
 
         <div class="navbar-end">
           <div class="navbar-item">
-            <div class="buttons">
+            <!-- <div class="buttons">
               <a class="button is-teal has-text-white">
                 Client Log in
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
