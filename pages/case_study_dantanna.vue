@@ -10,7 +10,7 @@
           <!-- Start Introduction -->
           <h3>Overview</h3>
           <p class="pb-20">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!
+            Dantanna Beatz is a music production startup specialising in full-band live hip-hop. Their performances are raucous, frenetic, and unapologetically “DIY” in aesthetic. They required a website to back up their already active social media presence with a communication media where they had more control over visual and audio elements.
           </p>
 
           <div class="columns">
