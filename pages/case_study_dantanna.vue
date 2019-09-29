@@ -31,25 +31,6 @@
           </div>
           <!-- End Introduction -->
 
-          <!-- Start Brief -->
-          <h3>The Brief</h3>
-          <p class="pb-20">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reprehenderit, facere doloribus rem, commodi aperiam eius consequuntur dolorem mollitia repellendus quod sequi ab quam vitae quo soluta qui labore possimus!
-          </p>
-          <!-- End Brief -->
-
-          <!-- Start Process -->
-          <h3>Process / What I did</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!</p>
-          <!-- End Process -->
-
-          <!-- Start Conclusion -->
-          <h3>Conclusion</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque, eius explicabo earum blanditiis delectus ipsa sunt numquam culpa ex, at accusantium quibusdam, ducimus saepe? Optio nesciunt nulla fuga non!
-          </p>
-          <!-- End Conclusion -->
-
           <!-- Start Image(s) -->
           <div>
             <img src="~assets/images/dantanna_full-page_full-size.png" alt="">
