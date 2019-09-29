@@ -15,6 +15,11 @@
 
           <div class="columns">
             <div class="column is-half">
+              <h3>The Solution</h3>
+              <p>A onepage, mobile friendly site, backed by a Wordpress CMS. Bright colours with a DIY aesthetic and a lively JavaScript animation in the hero section on loading.</p>
+            </div>
+
+            <div class="column is-half">
               <h3>Skills Used</h3>
               <ul>
                 <li>PHP, HTML, JavaScript, CSS, Apache</li>
@@ -22,11 +27,6 @@
                 <li>Wordpress (including rudimentary plugin development)</li>
                 <li>Photoshop</li>
               </ul>
-            </div>
-
-            <div class="column is-half">
-              <h3>Scope &amp; Constraints</h3>
-              <p>Dantanna needed to be able to make simple content updates to the site by non-developer-editors. Budget was also a constraint at this early stage of their development.</p>
             </div>
           </div>
           <!-- End Introduction -->
