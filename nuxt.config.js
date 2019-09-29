@@ -61,6 +61,11 @@ export default {
     // https://github.com/geeogi/nuxt-responsive-loader
     'nuxt-responsive-loader'
   ],
+  // Specify responsiveLoader options
+  responsiveLoader: {
+    quality: 65,
+    adapter: require('responsive-loader/sharp')
+  },
   /*
   ** Build configuration
   */
