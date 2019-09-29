@@ -57,7 +57,9 @@ export default {
     // '@nuxtjs/bulma',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/style-resources-module
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    // https://github.com/geeogi/nuxt-responsive-loader
+    'nuxt-responsive-loader'
   ],
   /*
   ** Build configuration
