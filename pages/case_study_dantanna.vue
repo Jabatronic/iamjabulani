@@ -23,7 +23,7 @@
               <h3>Skills Used</h3>
               <ul>
                 <li>PHP, HTML, JavaScript, CSS, Apache</li>
-                <li>GSAP (Javascript) Animation</li>
+                <li>GSAP (JavaScript) Animation</li>
                 <li>Wordpress (including rudimentary plugin development)</li>
                 <li>Photoshop</li>
               </ul>
@@ -33,7 +33,7 @@
 
           <!-- Start Image(s) -->
           <div>
-            <img src="~assets/images/dantanna_full-page_full-size.png" alt="">
+            <img :srcset="require('~/assets/images/dantanna_full-page_full-size.png').srcSet" alt="">
           </div>
           <!-- End image(s) -->
         </div>
