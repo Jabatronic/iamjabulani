@@ -2,7 +2,7 @@
   <div>
     <div class="columns">
       <div class="column">
-        <h2 class="has-text-grey-lighter">
+        <h2 class="has-text-grey-light">
           Recent Works
         </h2>
         <hr>
@@ -68,3 +68,9 @@
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.menu-label {
+  color: $teal;
+}
+</style>
