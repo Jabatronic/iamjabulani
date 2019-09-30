@@ -63,6 +63,8 @@ export default {
   ],
   // Specify responsiveLoader options
   responsiveLoader: {
+    sizes: [300, 700, 1000],
+    // quality: 75,
     adapter: require('responsive-loader/sharp')
   },
   /*
