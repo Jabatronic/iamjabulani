@@ -33,7 +33,10 @@
 
           <!-- Start Image(s) -->
           <div>
-            <img :srcset="require('~/assets/images/dantanna_full-page_full-size.png').srcSet" alt="">
+            <!-- <img :srcset="require('~/assets/images/dantanna_full-page_full-size.png').srcSet" alt=""> -->
+            <j-image
+              :img-url="require('~/assets/images/dantanna_full-page_full-size.png')"
+            />
           </div>
           <!-- End image(s) -->
         </div>
@@ -49,11 +52,13 @@
 
 <script>
 import RecentWorks from '~/components/sidebar/RecentWorks.vue'
+import JImage from '~/components/JImage'
 
 export default {
   name: 'CaseStudy',
   components: {
-    RecentWorks
+    RecentWorks,
+    JImage
   }
 }
 </script>
