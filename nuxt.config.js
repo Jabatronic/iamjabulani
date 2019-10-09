@@ -58,14 +58,10 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
-    // https://github.com/geeogi/nuxt-responsive-loader
-    'nuxt-responsive-loader'
+    '@bazzite/nuxt-optimized-images'
   ],
-  // Specify responsiveLoader options
-  responsiveLoader: {
-    sizes: [300, 700, 1000],
-    // quality: 75,
-    adapter: require('responsive-loader/sharp')
+  optimizedImages: {
+    optimizeImages: true
   },
   /*
   ** Build configuration
