@@ -33,9 +33,13 @@
 
           <!-- Start Image(s) -->
           <div>
-            <!-- <img :srcset="require('~/assets/images/dantanna_full-page_full-size.png').srcSet" alt=""> -->
             <j-image
-              :img-url="require('~/assets/images/dantanna_full-page_full-size.png')"
+              :img-url=" {
+                webp: require('~/assets/images/dantanna_full-page_full-size.png?webp'),
+                fallback: require('~/assets/images/dantanna_full-page_full-size.png'),
+                source: require('~/assets/images/dantanna_full-page_full-size.png'),
+                alt: 'The DantannaBeatz Homepage'
+              }"
             />
           </div>
           <!-- End image(s) -->
