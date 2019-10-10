@@ -61,7 +61,14 @@ export default {
     '@bazzite/nuxt-optimized-images'
   ],
   optimizedImages: {
-    optimizeImages: true
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+    defaultImageLoader: 'responsive-loader',
+    responsive: {
+      sizes: [1000, 700, 300],
+      placeholder: true
+      // quality: 75
+    }
   },
   /*
   ** Build configuration
