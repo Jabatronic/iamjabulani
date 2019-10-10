@@ -5,7 +5,14 @@
         <h1 class="title is-2 jtron-logotype">
           Case Study: Dantanna Beatz
         </h1>
-
+        <j-image
+          :img-url=" {
+            webp: require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?webp'),
+            fallback: require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg'),
+            source: require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg'),
+            alt: 'The DantannaBeatz Homepage'
+          }"
+        />
         <div>
           <!-- Start Introduction -->
           <h3>Overview</h3>
@@ -67,8 +74,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.thumb-gallery {
-  background: $teal;
+<style lang="scss" scoped>
+img {
+  border-radius: 20px;
 }
 </style>
