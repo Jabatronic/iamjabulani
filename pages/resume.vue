@@ -15,7 +15,7 @@
         <hr class="is-teal">
         <div class="content">
           <h3>Career Objective</h3>
-          <p>To gain experience with forward thinking digital agencies and develop my use of modern development techniques.</p>
+          <p>To gain experience in an agency environment using bleeding edge technologies, and work flows</p>
         </div>
         <div class="columns content">
           <div class="column is-6">
@@ -68,7 +68,7 @@
             <span class="has-text-teal">2014 - 2017:</span> Adventures of the Valparaiso
           </h4>
           <p>
-            Head of web communications and lead web developer for an art based social enterprise located on an antique canal boat in Amsterdam.
+            Head of web communications and lead web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
             <ul>
               <li>Wordpress , PHP, CSS, JavaScript, Apache</li>
             </ul>
@@ -80,6 +80,13 @@
             <li>Course Leader in Digital Arts &amp; Media</li>
             <li>Lecturer in Computer Games Design</li>
             <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, , Gameplay &amp; Game Mechanics, Project Management</li>
+          </ul>
+          <h4 class="title is-size-4">
+            <span class="has-text-teal">2006 - 2008:</span> Freelance Web Developer
+          </h4>
+          <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which led to my role as a full-time lecturer (see above)</p>
+          <ul>
+            <li>OS Commerce, PHP, JavaScript, CSS, Apache</li>
           </ul>
           <h4 class="title is-size-4">
             <span class="has-text-teal">2004 - 2006:</span> Arkwright Consulting
