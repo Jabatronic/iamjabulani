@@ -22,7 +22,9 @@
           First Wealth
         </p>
         <div class="image folio-tile box">
-          <img src="~/assets/images/first_wealth_frontpage_folio.jpg" alt>
+          <nuxt-link to="case_study_first_wealth">
+            <img src="~/assets/images/first_wealth_frontpage_folio.jpg" alt>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -32,7 +34,9 @@
           The Ice Chef
         </p>
         <div class="image folio-tile box">
-          <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
+          <nuxt-link to="case_study_ice_chef">
+            <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -42,7 +46,9 @@
           EDAS
         </p>
         <div class="image folio-tile box">
-          <img src="~/assets/images/edas_frontpage_folio.jpg" alt>
+          <nuxt-link to="case_study_edas">
+            <img src="~/assets/images/edas_frontpage_folio.jpg" alt>
+          </nuxt-link>
         </div>
       </div>
     </div>
@@ -52,17 +58,9 @@
           The Little Big Programme
         </p>
         <div class="image folio-tile box">
-          <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
-        </div>
-      </div>
-    </div>
-    <div class="columns">
-      <div class="column">
-        <p class="menu-label has-text-grey-dark">
-          The Big Programme
-        </p>
-        <div class="image folio-tile box">
-          <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
+          <nuxt-link to="case_study_little_big_programme">
+            <img src="~/assets/images/the_ice_chef_frontpage_folio.jpg" alt>
+          </nuxt-link>
         </div>
       </div>
     </div>
