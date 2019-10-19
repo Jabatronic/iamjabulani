@@ -4,7 +4,7 @@
       <div class="tabs is-centered">
         <ul>
           <li>
-            <a>Lets Work Together</a>
+            <a>Contact Me!</a>
           </li>
         </ul>
       </div>
