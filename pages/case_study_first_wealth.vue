@@ -7,25 +7,25 @@
         </h1>
         <h3>Overview</h3>
         <p>
-          Fist Wealth are a personal financial management service. Their, branding speaks a clear message of understated sophistication coupled with knowledge and reliability.
+          First Wealth are a personal financial management service. Their branding speaks a clear message of understated sophistication coupled with knowledge and reliability.
         </p>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/first_wealth/the_team.jpg').src" :srcSet="require('~/assets/images/case_study/first_wealth/the_team.jpg').srcSet">
         </figure>
         <p>I was contracted to custom design a section of their website dedicated to their career development programme.</p>
 
         <h3>What I did</h3>
         <p>I built a custom Wordpress template that integrated with their existing (custom built) Wordpress site, and utilised Advanced Custom Fields to implement content management functionality specifically for that area of the site.</p>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/first_wealth/top_section.png').src" :srcSet="require('~/assets/images/case_study/first_wealth/top_section.png').srcSet">
         </figure>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/first_wealth/top_section.png').src" :srcSet="require('~/assets/images/case_study/first_wealth/top_section.png').srcSet">
         </figure>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/first_wealth/second_section.png').src" :srcSet="require('~/assets/images/case_study/first_wealth/second_section.png').srcSet">
         </figure>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/first_wealth/third_section.png').src" :srcSet="require('~/assets/images/case_study/first_wealth/third_section.png').srcSet">
         </figure>
 
