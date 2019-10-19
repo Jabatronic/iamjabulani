@@ -12,7 +12,7 @@
         <h3>What I did</h3>
         <p>I worked as website manager, taking care of general maintenance, monitoring performance, designing and implementing new elements and articles for the site, as well as liaising with the the hosting company and graphic design agency.</p>
         <p>I did this a as a pro-bono job for one day per week as I felt strongly about their mission</p>
-        <figure>
+        <figure class="box">
           <img :src="require('~/assets/images/case_study/edas/home_page.png').src" :srcSet="require('~/assets/images/case_study/edas/home_page.png').srcSet">
         </figure>
         <!-- MORE INFO HERE -->
