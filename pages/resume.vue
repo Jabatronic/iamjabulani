@@ -70,7 +70,7 @@
           <p>
             Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
             <ul>
-              <li>Wordpress , PHP, CSS, JavaScript, Apache</li>
+              <li>Wordpress, PHP, CSS, JavaScript, Apache</li>
             </ul>
           </p>
           <h4 class="title is-size-4">
