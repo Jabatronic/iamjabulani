@@ -68,7 +68,7 @@
             <span class="has-text-teal">2014 - 2017:</span> Adventures of the Valparaiso
           </h4>
           <p>
-            Head of web communications and lead web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
+            Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
             <ul>
               <li>Wordpress , PHP, CSS, JavaScript, Apache</li>
             </ul>
@@ -76,17 +76,25 @@
           <h4 class="title is-size-4">
             <span class="has-text-teal">2008 - 2014: </span>  Wolverhampton University School of Art &amp; Design
           </h4>
+
           <ul>
             <li>Course Leader in Digital Arts &amp; Media</li>
             <li>Lecturer in Computer Games Design</li>
-            <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, , Gameplay &amp; Game Mechanics, Project Management</li>
+            <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, Gameplay &amp; Game Mechanics, Project Management</li>
           </ul>
+        <h5 class="is-size-6 pl-10">Special Achievements</h5>
+          <ul>
+            <li>Rising Star Award</li>
+            <li>Successful KTP bid writing bringing in £150, 000 for the department</li>
+            <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory</li>
+          </ul>
+
           <h4 class="title is-size-4">
             <span class="has-text-teal">2006 - 2008:</span> Freelance Web Developer
           </h4>
-          <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which led to my role as a full-time lecturer (see above)</p>
+          <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer (see above)</p>
           <ul>
-            <li>OS Commerce, PHP, JavaScript, CSS, Apache</li>
+            <li>PHP, JavaScript, CSS, Apache</li>
           </ul>
           <h4 class="title is-size-4">
             <span class="has-text-teal">2004 - 2006:</span> Arkwright Consulting
@@ -102,7 +110,7 @@
         <div class="columns">
           <div class="column content is-centered">
             <figure class="image">
-              <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="">
+              <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="Portrait image of M Jabulani Robbins">
             </figure>
             <div>
               <br>
