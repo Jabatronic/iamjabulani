@@ -92,7 +92,7 @@
           <h4 class="title is-size-4">
             <span class="has-text-teal">2006 - 2008:</span> Freelance Web Developer
           </h4>
-          <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer (see above)</p>
+          <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer</p>
           <ul>
             <li>PHP, JavaScript, CSS, Apache</li>
           </ul>
