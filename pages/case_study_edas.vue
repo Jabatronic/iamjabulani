@@ -10,8 +10,8 @@
           EDAS provides support to adults and young people affected by alcohol, illicit substances and over the counter or prescribed medication misuse across Dorset.
         </p>
         <h3>What I did</h3>
-        <p>I worked as website manager, taking care of general maintenance, monitoring performance, designing and implementing new elements and articles for the site, as well as liaising with the the hosting company and graphic design agency.</p>
-        <p>I did this a as a pro-bono job for one day per week as I felt strongly about their mission</p>
+        <p>I worked as website manager, taking care of general maintenance, security, monitoring performance, designing and implementing new elements, and writing articles for the site. In addition to this I was responsible for liaising with the the hosting company and graphic design agency that held the main contract for the site.</p>
+        <p>I did this as a voluntary role for one day per week as a way of making a contribution to my local community.</p>
         <figure class="box">
           <img :src="require('~/assets/images/case_study/edas/home_page.png').src" :srcSet="require('~/assets/images/case_study/edas/home_page.png').srcSet">
         </figure>
