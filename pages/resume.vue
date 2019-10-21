@@ -56,10 +56,7 @@
           <h2 class="title">
             Experience
           </h2>
-          <hr
-            class="is-teal"
-          >
-
+          <hr class="is-teal">
           <h4 class="title is-size-4">
             <span class="has-text-teal">2017 - Present:</span> Freelance Web Developer
           </h4>
@@ -82,7 +79,9 @@
             <li>Lecturer in Computer Games Design</li>
             <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, Gameplay &amp; Game Mechanics, Project Management</li>
           </ul>
-        <h5 class="is-size-6 pl-10">Special Achievements</h5>
+          <h5 class="is-size-6 pl-10">
+            Special Achievements
+          </h5>
           <ul>
             <li>Rising Star Award</li>
             <li>Successful KTP bid writing bringing in £150, 000 for the department</li>
@@ -105,24 +104,15 @@
           </ul>
         </div>
       </div>
-
       <div class="sidebar column is-teal has-text-white is-hidden-mobile">
         <div class="columns">
-          <div class="column content is-centered">
+          <div class="column is-centered has-text-centered">
             <figure class="image">
               <img class="is-rounded" src="~/assets/images/jabulani_robbins.jpg" alt="Portrait image of M Jabulani Robbins">
             </figure>
             <div>
               <br>
-              <h3 class="has-text-white has-font-roboto-slab">
-                Contact
-              </h3>
-              <p>
-                {{ myPhoneNum }}
-              </p>
-              <p>{{ myEmailAddr }}</p>
-              <p>{{ myLocation }}</p>
-              <h3 class="has-text-white has-font-roboto-slab ">
+              <h3 class="title has-text-white has-font-roboto-slab">
                 Interests
               </h3>
               <ul>
