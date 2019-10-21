@@ -60,6 +60,7 @@ export default {
   margin-left: 0;
   margin-right: 0;
 }
+
 img {
   border-radius: 3px;
 }
