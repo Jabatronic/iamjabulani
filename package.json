@@ -28,6 +28,7 @@
     "sass-loader": "^7.3.1",
     "sharp": "^0.23.1",
     "sqip-loader": "^0.2.0",
+    "typeface-roboto-slab": "0.0.72",
     "webp-loader": "^0.5.0"
   },
   "devDependencies": {

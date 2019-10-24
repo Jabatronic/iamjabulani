@@ -12,8 +12,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab&display=swap' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab&display=swap' }
 
     ],
     bodyAttrs: {
@@ -58,7 +58,8 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
-    '@bazzite/nuxt-optimized-images'
+    '@bazzite/nuxt-optimized-images',
+    '~/modules/typefaces'
   ],
   optimizedImages: {
     optimizeImages: true,
