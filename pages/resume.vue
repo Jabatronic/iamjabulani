@@ -3,7 +3,7 @@
     <div class="columns">
       <!-- New Layout -->
       <div class="column">
-        <h1 class="title is-uppercase has-font-roboto-slab">
+        <h1 class="title is-uppercase has-font-roboto-slab has-text-teal">
           M Jabulani Robbins
         </h1>
 
@@ -30,21 +30,21 @@
             Experience
           </h2>
           <div class="item">
-            <h4 class="title is-size-4">
+            <h3 class="title is-size-4">
               Freelance Web Developer
               <date class="date">
                 2017 - Present
               </date>
-            </h4>
+            </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
           </div>
           <div class="item">
-            <h4 class="title is-size-4">
+            <h3 class="title is-size-4">
               Adventures of the Valparaiso
               <date class="date">
                 2014 - 2017
               </date>
-            </h4>
+            </h3>
             <p>
               Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
               <ul>
@@ -53,12 +53,12 @@
             </p>
           </div>
           <div class="item">
-            <h4 class="title is-size-4">
+            <h3 class="title is-size-4">
               Wolverhampton University School of Art &amp; Design
               <date class="date">
                 2008 - 2014
               </date>
-            </h4>
+            </h3>
             <p>
               Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
               <ul>
@@ -69,7 +69,35 @@
         </div>
       </div>
       <div class="column">
-        Right Col
+        <!-- Right Column -->
+        <div class="projects">
+          <h2 class="cv-heading underline title">
+            Projects
+          </h2>
+          <div class="item">
+            <h3 class="title is-size-4">
+              Lorem Impsum #1
+              <date class="date">
+                ???? - ????
+              </date>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
+          </div>
+          <div class="item">
+            <h3 class="title is-size-4">
+              Lorem Impsum #2
+              <date class="date">
+                ???? - ????
+              </date>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="cv-heading underline title">
+            Skills
+          </h2>
+        </div>
       </div>
     </div>
 
@@ -103,14 +131,14 @@
                 Experience
               </h2>
 
-              <h4 class="title is-size-4">
+              <h3 class="title is-size-4">
                 Freelance Web Developer
                 <span class="has-text-teal">2017 - Present</span>
-              </h4>
+              </h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
-              <h4 class="title is-size-4">
+              <h3 class="title is-size-4">
                 Adventures of the Valparaiso
-              </h4>
+              </h3>
               <div class="cv-date is-size-7">
                 2014 - 2017
               </div>
@@ -120,9 +148,9 @@
                   <li>Wordpress, PHP, CSS, JavaScript, Apache</li>
                 </ul>
               </p>
-              <h4 class="title is-size-4">
+              <h3 class="title is-size-4">
                 <span class="has-text-teal">2008 - 2014: </span>  Wolverhampton University School of Art &amp; Design
-              </h4>
+              </h3>
 
               <ul>
                 <li>Course Leader in Digital Arts &amp; Media</li>
@@ -138,22 +166,22 @@
                 <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory</li>
               </ul>
 
-              <h4 class="title is-size-4">
+              <h3 class="title is-size-4">
                 <span class="has-text-teal">2006 - 2008:</span> Freelance Web Developer
-              </h4>
+              </h3>
               <p>Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer</p>
               <ul>
                 <li>PHP, JavaScript, CSS, Apache</li>
               </ul>
-              <h4 class="title is-size-4">
+              <h3 class="title is-size-4">
                 <span class="has-text-teal">2004 - 2006:</span> Arkwright Consulting
-              </h4>
+              </h3>
               <p>Web Designer/Developer - Graduate Placement</p>
               <ul>
                 <li>OS Commerce, PHP, JavaScript, CSS, Apache</li>
               </ul>
             </div>
-            <h4>Education</h4>
+            <h3>Education</h3>
             <ul>
               <li><h5>MA Media Arts (Distinction)</h5></li>
               <p>Research Topics Included:</p>
@@ -172,13 +200,13 @@
             </ul>
           </div>
           <div class="column is-5">
-            <h4>Skills</h4>
+            <h3>Skills</h3>
             <p>
               HTML5, CSS3, JavaScript, jQuery, VueJs, PHP, Content Management Systems (Wordpress), PHP MVC Frameworks (Laravel),
               Modern build tools (Gulp, webpack, sass)
               Exemplary written and verbal communication skills
             </p>
-            <h4>Other Certificates</h4>
+            <h3>Other Certificates</h3>
             <ul>
               <li>Level 3 Diploma in Applied Therapeutic Skills</li>
               <li>Theater for conflict resolution</li>
@@ -224,34 +252,39 @@ export default {
 </script>
 
 <style lang="scss">
-/* For da debug */
-.border-red {
-    border: 1px solid red;
+.title:not(h1) {
+  font-family: 'Roboto';
 }
-
 .cv-heading.underline {
   border-bottom: 1px solid $teal;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  max-width: 40rem;
 }
+
 .cv-heading.underline:after {
   content: "";
   display: block;
   position: relative;
-  top: 16px;
+  top: 4px;
   width: 30px;
-  height: 5px;
+  height: 3px;
   background: $teal;
 }
 
-.summary, .experience, .skills {
-  margin-bottom: 1.5rem;
+.summary, .experience, .projects, .skills {
+  margin-bottom: 1.7rem;
+    & .cv-heading {
+      font-family: 'Roboto'
+    }
 }
 
-.experience {
+.experience, .projects {
   & .date {
     display: block;
     font-size: 1rem;
     font-weight: 400;
+    font-family: 'Raleway';
+    color: $teal;
     margin-top: 0.5rem;
   }
 
