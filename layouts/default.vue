@@ -34,9 +34,9 @@ export default {
 // * * * * * * * * * { background-color: rgba(0,0,255,.2); }
 
 /* Generic Classes */
-html,
-body {
-  font-family: $body-font;
+p {
+  font-family: 'Raleway';
+  max-width: 30rem;
 }
 
 .has-text-teal {
