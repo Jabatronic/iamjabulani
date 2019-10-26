@@ -29,6 +29,7 @@
     "sharp": "^0.23.1",
     "sqip-loader": "^0.2.0",
     "typeface-raleway": "^0.0.75",
+    "typeface-roboto": "^0.0.75",
     "typeface-roboto-slab": "0.0.72",
     "webp-loader": "^0.5.0"
   },
