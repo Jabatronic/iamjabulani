@@ -63,7 +63,7 @@ export default {
   ],
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'responsive-loader',
     responsive: {
       sizes: [1000, 700, 300],
