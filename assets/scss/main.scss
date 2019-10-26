@@ -4,10 +4,10 @@
  * Variables here
 /****************************************/
 
-//...
+@import 'variables';
 
 /****************************************/
 
 @import '~bulma/';
-@import './partials/layout-helpers';
-@import '/partials/mjr-vars';
+@import './layout-helpers';
+@import '/my-variables';
