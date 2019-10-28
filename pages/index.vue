@@ -1,47 +1,48 @@
 <template>
-  <div class="container content">
-    <div class="columns">
-      <div class="column is-7">
-        <figure class="image is-128x128 is-marginless">
-          <img class=" image is-rounded" src="~/assets/images/jabulani_robbins.jpg">
-        </figure>
-        <h1 class="title is-2 jtron-logotype">
-          <span class="first-name">M Jabulani</span>
-          <span class="second-name">Robbins</span>
-          <span class="subtitle is-block">Web Development Portfolio &amp; Résumé</span>
-        </h1>
-        <div>
-          <p>
-            I am a web developer/designer with ability, knowledge, and experience across the
-            <a href="#">full-stack</a> but weighted towards the
-            <a href="#">front-end</a>.
-          </p>
-          <p>
-            <a href="#">HTML5</a>,
-            <a href="#">CSS3</a>, and
-            <a href="#">JavaScript</a> are part of my everyday vocabulary and custom
-            <a href="#">Wordpress</a> sites make up a large part of my <a href="#">commercial
-              experience</a>.
-          </p>
-          <p />
+  <section class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-2">
+            <figure class="image container is-128x128">
+              <img
+                class="is-rounded"
+                :src="require('~/assets/images/jabulani_robbins.jpg').src"
+                :srcSet="require('~/assets/images/jabulani_robbins.jpg').srcSet"
+              >
+            </figure>
+          </div>
+          <div class="column is-5">
+            <h1 class="title is-size-2">
+              <span class="has-text-teal has-font-roboto-slab">Jabulani Robbins</span>
+            </h1>
+            <h2 class="subtitle">
+              <b>Web Development Portfolio &amp; Resume</b>
+            </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus dicta voluptatibus, omnis fuga velit itaque, nihil nemo laboriosam, odit voluptas fugiat dignissimos commodi hic quod? Ullam alias rerum error. Ducimus?</p>
+          </div>
         </div>
       </div>
-      <div class="column is-5">
-        <!-- Start Sidebar Widgets-->
-        <recent-works />
-        <!-- End Sidebar Widgets -->
-      </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import RecentWorks from '~/components/sidebar/RecentWorks.vue'
+// import RecentWorks from '~/components/sidebar/RecentWorks.vue'
 
 export default {
   name: 'Index',
   components: {
-    RecentWorks
+    // RecentWorks
   }
 }
 </script>
+
+<style lang="scss">
+  // div {
+  //   border: 1px solid red;
+  // }
+  p.intro-text {
+    width: 100%;
+  }
+</style>
