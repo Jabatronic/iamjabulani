@@ -4,7 +4,7 @@
     <main class="jtron-main">
       <nuxt />
     </main>
-    <footer>
+    <footer class="sticky-footer">
       <app-footer />
     </footer>
   </div>
@@ -22,6 +22,11 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+footer.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
 </style>
