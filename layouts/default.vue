@@ -21,3 +21,11 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+p {
+    font-family: 'Roboto';
+    max-width: 40rem;
+    font-size: 1.2rem;
+  }
+</style>
