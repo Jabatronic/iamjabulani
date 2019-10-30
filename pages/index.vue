@@ -56,4 +56,11 @@ export default {
   img.is-me {
     border: 1px solid $grey-lighter;
   }
+
+  .hero-body {
+  // Align top in mobile view
+  @include mobile {
+    align-content:flex-start !important;
+  }
+}
 </style>
