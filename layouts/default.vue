@@ -21,12 +21,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-footer.sticky-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #fff;
-}
-</style>
