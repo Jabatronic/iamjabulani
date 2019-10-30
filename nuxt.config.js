@@ -28,7 +28,11 @@ export default {
   /*
   ** Global CSS
   */
-  css: ['~/assets/scss/main.scss'],
+  css: [
+    '~/assets/scss/main.scss'
+    // '~/assets/main.css'
+    // 'aos/dist/aos.css'
+  ],
 
   /*
   ** Make sass variables available globally
@@ -40,8 +44,7 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-  ],
+  plugins: [{ src: '@/plugins/aos', ssr: false }],
   /*
   ** Nuxt.js dev-modules
   */
