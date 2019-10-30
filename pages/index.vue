@@ -41,20 +41,14 @@
 </template>
 
 <script>
-// import RecentWorks from '~/components/sidebar/RecentWorks.vue'
-
 export default {
   name: 'Index',
   components: {
-    // RecentWorks
   }
 }
 </script>
 
 <style lang="scss">
-  // div {
-  //   border: 1px solid red;
-  // }
   p.intro-text {
     width: 100%;
   }
