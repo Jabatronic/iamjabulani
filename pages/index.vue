@@ -9,12 +9,13 @@
               has-text-centered has-text-teal
               "
           >
-            I am<br><span class="has-font-roboto-slab">Jabulani Robbins</span>
+            <span class="has-font-roboto-slab">I am<br>Jabulani Robbins</span>
           </div>
           <div class="column is-2-desktop is-2-tablet">
             <figure
               data-aos="zoom-in"
-              data-aos-duration="400"
+              data-aos-duration="800"
+              data-aos-easing="ease-in-out-back"
               class="image container is-128x128"
             >
               <img
@@ -33,21 +34,24 @@
                 <h1 class="title is-size-2 has-text-teal has-font-roboto-slab is-hidden-mobile">
                   <span>I am Jabulani Robbins</span>
                 </h1>
-                <h2 class="subtitle has-text-centered-mobile">
-                  <b>Web Developer</b>
+                <h2 class="title is-size-4 has-text-centered-mobile">
+                  <b>Creative Web Developer &amp; Critical Thinker</b>
                 </h2>
-                <div class="mb-50">
-                  <hr class="is-teal">
+                <hr class="is-teal">
+                <div class="mb-30">
                   <!--
                     ToDo: Remove this really crappy way to make a responsive margin!! :/
                     -->
                 </div>
               </div>
-              <p class="intro-text">
-                I've been working with web technologies since ????
-                I love all things Science &amp; Tech. All things, Art &amp; Design.
-                Check out some of the projects I've worked on.
-              </p>
+              <div class="content">
+                <p class="intro-text">
+                  I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!</p>
+
+                <p>
+                  Needless to say, things have evolved somewhat since then and I am ❤️ing modern web development.
+                </p>
+              </div>
             </div>
           </div>
         </div>
