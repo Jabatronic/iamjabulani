@@ -2,7 +2,7 @@
   <section class="hero is-fullheight-with-navbar">
     <div class="hero-body">
       <div class="container">
-        <div class="columns is-centered">
+        <div class="columns">
           <div
             class="
               is-hidden-tablet title is-size-3
