@@ -1,8 +1,8 @@
 <template>
-  <nav class="navbar jtron-top-nav is-fixed-top is-white" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top jtron-top-nav is-white" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/">
           <span class="jtron-logotype">MJR</span>
         </a>
         <a
