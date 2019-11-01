@@ -46,7 +46,8 @@
               </div>
               <div class="content">
                 <p class="intro-text">
-                  I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!</p>
+                  I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!
+                </p>
 
                 <p>
                   Needless to say, things have evolved somewhat since then and I am ❤️ing modern web development.
