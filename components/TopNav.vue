@@ -25,6 +25,10 @@
             Home
           </nuxt-link>
 
+          <nuxt-link to="portfolio" class="navbar-item">
+            Portfolio
+          </nuxt-link>
+
           <nuxt-link to="resume" class="navbar-item">
             Résumé
           </nuxt-link>
