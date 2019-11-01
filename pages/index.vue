@@ -50,7 +50,11 @@
                 </p>
 
                 <p>
-                  Needless to say, things have evolved somewhat since then and I am ❤️ing modern web development.
+                  Needless to say, things have evolved somewhat since then and I am love being a Sass(y), Webpack(ing), Javascript(aculous), web developing warlock...Or something like that... Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
+                    some of my work
+                  </nuxt-link> OR, if you want to get serious, take a squint at <nuxt-link to="resume">
+                    résumé
+                  </nuxt-link>.
                 </p>
               </div>
             </div>
