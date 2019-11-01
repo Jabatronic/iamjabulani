@@ -56,16 +56,72 @@
             <h3 class="title is-size-4">
               Wolverhampton University School of Art &amp; Design
               <date class="date">
-                2008 - 2014
+                2006 - 2012
               </date>
             </h3>
-            <p>
-              Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
+            <div class="content">
               <ul>
-                <li>Wordpress, PHP, CSS, JavaScript, Apache</li>
+                <li>Course Leader in Digital Arts &amp; Media</li>
+                <li>Lecturer in Computer Games Design</li>
+                <li>Subject Leader in: Digital Image Manipulation, Design for Interaction, Gameplay &amp; Game Mechanics, Project Management</li>
               </ul>
-            </p>
+              <h5 class="is-size-6 pl-10">
+                Special Achievements
+              </h5>
+              <ul>
+                <li>Rising Star Award</li>
+                <li>Successful KTP (Knowledge Transfer Partnership) bid writing bringing in £150, 000 for the department</li>
+                <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory</li>
+              </ul>
+            </div>
           </div>
+          <!-- Start Item -->
+          <div class="item">
+            <h3 class="title is-size-4">
+              Freelance Web Developer
+              <date class="date">
+                2004 - 2006
+              </date>
+            </h3>
+            <div class="content">
+              <p>
+                Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer
+              </p>
+            </div>
+          </div>
+          <!-- End Item -->
+          <!-- Start Item -->
+          <div class="item">
+            <h3 class="title is-size-4">
+              Arkwright Consulting Limited (Senior Project Manager)
+              <date class="date">
+                Sept 2004 - Sept 2005
+              </date>
+            </h3>
+            <div class="content">
+              <ul>
+                <li>Web design</li>
+                <li>Programming</li>
+                <li>Account Management</li>
+                <li>Technical Sales</li>
+                <li>Business Networking</li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Item -->
+          <!-- Start Item -->
+          <div class="item">
+            <h3 class="title is-size-4">
+              TITLE HERE
+              <date class="date">
+                ???? - ????
+              </date>
+            </h3>
+            <div class="content">
+              CONTENT HERE
+            </div>
+          </div>
+          <!-- End Item -->
         </div>
       </div>
       <div class="column">
@@ -155,5 +211,9 @@ export default {
   & .item {
     margin-bottom: 2rem;
   }
+}
+
+footer {
+  display: none !important;
 }
 </style>
