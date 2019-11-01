@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss">
-p {
+p, ul, li {
     font-family: 'Roboto';
     max-width: 40rem;
     font-size: 1.2rem;
