@@ -22,7 +22,7 @@
             Summary
           </h2>
           <p>
-            To gain experience in an agency environment using bleeding edge technologies, and work flows
+            I am a frontend developer with solid knowledge and experience of the full-stack.
           </p>
         </div>
         <div class="experience">
@@ -31,30 +31,51 @@
           </h2>
           <div class="item">
             <h3 class="title is-size-4">
-              Freelance Web Developer
+              Freelance - <span class="has-text-weight-normal"><i>Web Developer</i></span>
               <date class="date">
                 2017 - Present
               </date>
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
+            <div class="content">
+              <p>
+                Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design which ultimately led to my role as a full-time lecturer
+              </p>
+            </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Adventures of the Valparaiso
+              Adventures of the Valparaiso - <span class="has-text-weight-normal"><i>Lead Developer</i></span>
               <date class="date">
-                2014 - 2017
+                2015 - 2017
               </date>
             </h3>
-            <p>
-              Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly on site, partly remote.
-              <ul>
-                <li>Wordpress, PHP, CSS, JavaScript, Apache</li>
-              </ul>
-            </p>
+            <div class="content">
+              <p>
+                Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly onboard, partly remote.
+                <ul>
+                  <li>Wordpress, PHP, CSS, JavaScript, NGINX</li>
+                  <li>Remote working (Video Conferencing, messaging, email)</li>
+                  <li>Cooking, cleaning, boat maintenance</li>
+                </ul>
+              </p>
+            </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Wolverhampton University School of Art &amp; Design
+              Dantanna Beatz - <span class="has-text-weight-normal"><i>Creative Director / Musical Collaborator</i></span>
+              <date class="date">
+                2012 - 2015
+              </date>
+            </h3>
+            <div class="content">
+              <p>
+                Music production and live performance project. I was responsible for conceptualising and producing print, video, and web based media as well as co-producing music and performing on some pieces (guitar, vocals).
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <h3 class="title is-size-4">
+              Wolverhampton University School of Art &amp; Design - <span class="has-text-weight-normal"><i>Lecturer</i></span>
               <date class="date">
                 2006 - 2012
               </date>
@@ -72,13 +93,14 @@
                 <li>Rising Star Award</li>
                 <li>Successful KTP (Knowledge Transfer Partnership) bid writing bringing in £150, 000 for the department</li>
                 <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory</li>
+                <li>Artist &amp; Speaker at ISEA Symposuim 2009</li>
               </ul>
             </div>
           </div>
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Freelance, <i>Web Developer</i>
+              Freelance - <span class="has-text-weight-normal"><i>Web Developer</i></span>
               <date class="date">
                 2004 - 2006
               </date>
@@ -93,7 +115,7 @@
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Arkwright Consulting Limited, <i>Senior Project Manager</i>
+              Arkwright Consulting Limited, - <span class="has-text-weight-normal"><i>Senior Project Manager</i></span>
               <date class="date">
                 Sept 2004 - Sept 2005
               </date>
