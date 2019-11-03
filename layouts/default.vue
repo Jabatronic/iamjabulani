@@ -23,7 +23,7 @@ export default {
 <style lang="scss">
 p, ul, li {
     font-family: 'Roboto';
-    // max-width: 40rem;
+    max-width: 40rem;
     font-size: 1.2rem;
 }
 </style>
