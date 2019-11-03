@@ -29,7 +29,6 @@
             <div class="column is-6-desktop">
               <div
                 data-aos="fade-up"
-                data-aos-delay="400"
               >
                 <div>
                   <h1 class="title is-size-2 has-text-teal has-font-roboto-slab is-hidden-mobile">
@@ -57,7 +56,8 @@
                 <p class="intro-text" data-aos="fade-up">
                   Web Developing Warlock <span class="is-size-3">🧙</span>
                   ...Or something like that...
-                </p><p>
+                </p>
+                <p class="intro-text" data-aos="fade-up">
                   Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
                     some of my work
                   </nuxt-link> OR, if you want to get serious, take a squint at <nuxt-link to="resume">
