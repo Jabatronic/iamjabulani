@@ -78,7 +78,7 @@
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Freelance Web Developer
+              Freelance, <i>Web Developer</i>
               <date class="date">
                 2004 - 2006
               </date>
@@ -93,7 +93,7 @@
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Arkwright Consulting Limited (Senior Project Manager)
+              Arkwright Consulting Limited, <i>Senior Project Manager</i>
               <date class="date">
                 Sept 2004 - Sept 2005
               </date>
