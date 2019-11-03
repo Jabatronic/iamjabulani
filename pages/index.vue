@@ -26,7 +26,7 @@
                 >
               </figure>
             </div>
-            <div class="column is-5-desktop is-7-tablet">
+            <div class="column is-6-desktop">
               <div
                 data-aos="fade-up"
                 data-aos-delay="400"
@@ -36,7 +36,7 @@
                     <span>I am Jabulani Robbins</span>
                   </h1>
                   <h2 class="title is-size-4 has-text-centered-mobile">
-                    <b>Creative Web Developer &amp; Critical Thinker</b>
+                    <b>Creative Web Developer, Critical Thinker, Afronaut</b>
                   </h2>
                   <hr class="is-teal">
                   <div class="mb-30">
@@ -47,12 +47,18 @@
                 </div>
               </div>
               <div class="content">
-                <p class="intro-text">
+                <p class="intro-text" data-aos="fade-up">
                   I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!
                 </p>
 
-                <p>
-                  Needless to say, things have evolved somewhat since then and I am love being a Sass(y), Webpack(ing), Javascript(aculous), web developing warlock...Or something like that... Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
+                <p data-aos="fade-up">
+                  Needless to say, things have evolved somewhat since then and I am love being a
+                </p>
+                <p data-aos="fade-up">
+                  Sass(y), Webpack(ing), Javascript(aculous), Web Developing Warlock <span class="is-size-3">🧙</span>
+                </p>
+                <p data-aos="fade-up">
+                  ...Or something like that... Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
                     some of my work
                   </nuxt-link> OR, if you want to get serious, take a squint at <nuxt-link to="resume">
                     résumé
