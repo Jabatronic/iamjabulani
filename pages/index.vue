@@ -51,14 +51,14 @@
                   I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!
                 </p>
 
-                <p data-aos="fade-up">
-                  Needless to say, things have evolved somewhat since then and I am love being a
+                <p class="intro-text" data-aos="fade-up">
+                  Needless to say, things have evolved somewhat since then and I am loving being a Sass(y), Webpack(ing), Javascript(aculous),
                 </p>
-                <p data-aos="fade-up">
-                  Sass(y), Webpack(ing), Javascript(aculous), Web Developing Warlock <span class="is-size-3">🧙</span>
-                </p>
-                <p data-aos="fade-up">
-                  ...Or something like that... Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
+                <p class="intro-text" data-aos="fade-up">
+                  Web Developing Warlock <span class="is-size-3">🧙</span>
+                  ...Or something like that...
+                </p><p>
+                  Anyway, you get the picture. So feel the️️️️ ❤️❤️❤️ and check out <nuxt-link to="portfolio">
                     some of my work
                   </nuxt-link> OR, if you want to get serious, take a squint at <nuxt-link to="resume">
                     résumé
