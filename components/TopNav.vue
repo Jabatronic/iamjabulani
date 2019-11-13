@@ -2,9 +2,9 @@
   <nav class="navbar is-fixed-top jtron-top-nav is-white" role="navigation" aria-label="main navigation">
     <div class="container">
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
+        <nuxt-link class="navbar-item" to="/">
           <span class="jtron-logotype">MJR</span>
-        </a>
+        </nuxt-link>
         <a
           role="button"
           class="navbar-burger burger"
