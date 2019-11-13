@@ -1,14 +1,37 @@
-@import '~bulma/sass/utilities/_all.sass';
+@charset "utf-8";
 
-/****************************************
- * Variables here
-/****************************************/
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
-@import 'variables';
+// Set your brand colors
+$teal: #008080;
 
-/****************************************/
+/* Fonts */
+$roboto-slab: "Roboto Slab", serif;
+$title-font:  $roboto-slab;
+$body-font: "Roboto", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-@import '~bulma/';
+// Update Bulma's global variables
+// $family-sans-serif: "Nunito", sans-serif;
+$primary: $teal;
+
+// Update some of Bulma's component variables
+
+// Import all of Bulma
+@import "~bulma/bulma.sass";
+
+/*
+ * TODO:
+ * Import only what's needed e.g.
+ * @import "~bulma/sass/utilities/_all.sass";
+ * @import "~bulma/sass/base/_all.sass";
+ * @import "~bulma/sass/elements/button.sass";
+ **/
+
+
+
+
+// Import my extras
 @import './layout-helpers';
-@import './my-variables';
+// Custom classes
 @import './my-styles.scss';
