@@ -131,19 +131,6 @@
             </div>
           </div>
           <!-- End Item -->
-          <!-- Start Item -->
-          <div class="item">
-            <h3 class="title is-size-4">
-              TITLE HERE
-              <date class="date">
-                ???? - ????
-              </date>
-            </h3>
-            <div class="content">
-              CONTENT HERE
-            </div>
-          </div>
-          <!-- End Item -->
         </div>
       </div>
       <div class="column">
@@ -154,27 +141,58 @@
           </h2>
           <div class="item">
             <h3 class="title is-size-4">
-              Lorem Impsum #1
+              Prosperity Health, <span class="has-text-weight-normal"><i>Custom Wordpress Site built on Genesis Framework</i></span>
               <date class="date">
-                ???? - ????
+                2018 - 2019
               </date>
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Lorem Impsum #2
+              The Little Big Programme, <span class="has-text-weight-normal"><i>Bespoke web app, built on Laravel. </i></span>
               <date class="date">
                 ???? - ????
               </date>
             </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel eaque magni porro quasi dolor explicabo nemo, natus vitae recusandae nam perspiciatis eius est earum sed totam ad distinctio voluptatibus.</p>
+            <p>An amazing and challenging experience for me. I learnt Laravel framework for this project and delivered a working prototype which has since been adopoted by the organisation.</p>
+          </div>
+          <div class="item">
+            <h3 class="title is-size-4">
+              The Big Programme, <span class="has-text-weight-normal"><i>Early prototypt</i></span>
+              <date class="date">
+                ???? - ????
+              </date>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. I est earum sed totam ad distinctio voluptatibus.</p>
+          </div>
+          <div class="item">
+            <h3 class="title is-size-4">
+              J-Grain, <span class="has-text-weight-normal"><i>Granular Synthesiser</i></span>
+              <date class="date">
+                ???? - ????
+              </date>
+            </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
         <div class="skills">
           <h2 class="cv-heading underline title">
             Skills
           </h2>
+          <!-- Skills Content Here -->
+        </div>
+        <div class="education">
+          <h2 class="cv-heading underline title">
+            Awards &amp; Education
+          </h2>
+        </div>
+        <div class="interests">
+          <h2 class="cv-heading underline title">
+            Interests
+          </h2>
+          <div class="content">
+            <p>Hacker Culture, Hacker Art, Open Source Culture, Arduino, Music (playing &amp; listening), Electric Guitars, Yoga &amp; Meditation, Self Improvement, Life Hacking, Productivity Techniques, Art, Science, Technology, Philosophy, Food (cooking &amp; eating), Film, Human Psychology</p>
+          </div>
         </div>
       </div>
     </div>
@@ -213,7 +231,7 @@ export default {
   background: $teal;
 }
 
-.summary, .experience, .projects, .skills {
+.summary, .experience, .projects, .skills, .education, .interests {
   margin-bottom: 1.7rem;
     & .cv-heading {
       font-family: 'Roboto'
@@ -238,4 +256,5 @@ export default {
 footer {
   display: none !important;
 }
+
 </style>
