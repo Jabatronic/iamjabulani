@@ -77,7 +77,7 @@
 </template>
 
 <script>
-import ThePortfolio from '~/components/ThePortfolio.vue'
+import ThePortfolio from '~/components/portfolio/ThePortfolio.vue'
 export default {
   name: 'Index',
   components: {
@@ -94,5 +94,4 @@ export default {
   img.is-me {
     border: 1px solid $grey-lighter;
   }
-
 </style>

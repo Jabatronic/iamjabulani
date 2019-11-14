@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ThePortfolio from '~/components/ThePortfolio.vue'
+import ThePortfolio from '~/components/portfolio/ThePortfolio.vue'
 export default {
   components: {
     ThePortfolio
