@@ -1,7 +1,7 @@
 <template>
   <article
     class="tile is-child notification is-primary is-folio-thumbnail"
-    :style="{ height: `${thumbImage.height}.px` }"
+    :style="{ minHeight: `${thumbImage.height}.px` }"
   >
     <div
       class="bg-image is-overlay"
