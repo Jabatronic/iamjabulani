@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification is-danger">
+        <article class="tile is-child notification is-primary">
           <p class="title">
             Wide tile
           </p>
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-success">
+      <article class="tile is-child notification is-primary">
         <div class="content">
           <p class="title">
             Tall tile
