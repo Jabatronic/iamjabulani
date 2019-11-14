@@ -9,10 +9,10 @@
     />
     <div class="is-overlay folio-thumbnail-details">
       <p class="title">
-        Middle tile
+        {{itemTitle}}
       </p>
       <p class="subtitle">
-        With an image
+        {{itemInfo}}
       </p>
     </div>
   </article>
@@ -24,6 +24,14 @@ export default {
     thumbImage: {
       type: String,
       default: '~/assets/images/placeholder.png'
+    },
+    itemTitle: {
+      type: String,
+      default: 'Item Title'
+    },
+    itemInfo: {
+      type: String,
+      default: '{ Item info }'
     }
   }
 }
