@@ -41,6 +41,7 @@ export default {
 /* Folio Tiles */
 .tile .is-folio-thumbnail {
   overflow: hidden;
+  cursor: pointer;
 
   & .bg-image {
     opacity: 1;
