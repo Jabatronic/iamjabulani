@@ -29,7 +29,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 /* Folio Tiles */
 .tile .is-folio-thumbnail {
   overflow: hidden;
