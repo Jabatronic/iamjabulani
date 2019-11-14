@@ -9,10 +9,10 @@
     />
     <div class="is-overlay folio-thumbnail-details">
       <p class="title">
-        {{itemTitle}}
+        {{ itemTitle }}
       </p>
       <p class="subtitle">
-        {{itemInfo}}
+        {{ itemInfo }}
       </p>
     </div>
   </article>

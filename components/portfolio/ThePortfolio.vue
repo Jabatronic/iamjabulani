@@ -15,7 +15,11 @@
       </div>
     </div>
     <div class="tile is-parent">
-      <portfolio-article :thumb-image="img5" />
+      <portfolio-article
+        :thumb-image="img5"
+        item-title="The Little Big Programme"
+        item-info="Laravel, PHP, HTML5, CSS3"
+      />
     </div>
   </div>
 </template>
