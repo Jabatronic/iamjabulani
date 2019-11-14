@@ -24,6 +24,9 @@ import PortfolioArticle from '~/components/portfolio/PortfolioArticle.vue'
 
 const firstWealthImg = require('~/assets/images/case_study/first_wealth/the_team.jpg?size=368')
 const dantannaImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
+const iceChefImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=500')
+const prosperityImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
+const littleBigProgImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
 
 export default {
   components: {
@@ -32,7 +35,10 @@ export default {
   data () {
     return {
       img1: firstWealthImg,
-      img2: dantannaImg
+      img2: dantannaImg,
+      img3: iceChefImg,
+      img4: prosperityImg,
+      img5: littleBigProgImg
     }
   }
 
