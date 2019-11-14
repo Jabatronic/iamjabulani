@@ -3,7 +3,7 @@
     <div class="tile is-vertical is-8">
       <div class="tile">
         <div class="tile is-parent is-vertical">
-          <article class="tile is-child notification is-primary">
+          <article class="tile is-child notification is-primary is-folio-thumbnail">
             <p class="title">
               Vertical...xxxx
             </p>
@@ -11,7 +11,7 @@
               Top tile
             </p>
           </article>
-          <article class="tile is-child notification is-primary">
+          <article class="tile is-child notification is-primary is-folio-thumbnail">
             <p class="title">
               ...tiles
             </p>
@@ -21,7 +21,7 @@
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child notification is-primary" style="background: url(https://bulma.io/images/placeholders/640x480.png) center/100%">
+          <article class="tile is-child notification is-primary is-folio-thumbnail" style="background-image: url(https://bulma.io/images/placeholders/640x480.png)">
             <p class="title">
               Middle tile
             </p>
@@ -35,7 +35,7 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification is-primary">
+        <article class="tile is-child notification is-primary is-folio-thumbnail">
           <p class="title">
             Wide tile
           </p>
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="tile is-parent">
-      <article class="tile is-child notification is-primary">
+      <article class="tile is-child notification is-primary is-folio-thumbnail">
         <div class="content">
           <p class="title">
             Tall tile
@@ -76,16 +76,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// for da debug
+/* Folio Tiles */
+.tile .is-folio-thumbnail {
+  background-size: 100%;
+  background-position: center;
+  transition: all 0.6s;
 
-.tile {
-  // height: 30rem;
-}
-
-  /* Folio Tiles */
-article {
-  // padding: 0;
-  overflow: hidden;
+  &:hover {
+    background-size: 120%;
+  }
 }
 
 article img {
