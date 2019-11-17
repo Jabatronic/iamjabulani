@@ -26,11 +26,11 @@
 <script>
 import PortfolioArticle from '~/components/portfolio/PortfolioArticle.vue'
 
-const firstWealthImg = require('~/assets/images/case_study/first_wealth/the_team.jpg?size=368')
-const dantannaImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
-const iceChefImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=500')
-const prosperityImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
-const littleBigProgImg = require('~/assets/images/case_study/dantanna/dantanna_sections_overview.jpg?size=368')
+const dantannaImg = require('~/assets/images/dantanna_beatz_front.jpg?size=368')
+const firstWealthImg = require('~/assets/images/first_wealth_front.png?size=368')
+const prosperityImg = require('~/assets/images/prosperity_health_front.jpg?size=368')
+const littleBigProgImg = require('~/assets/images/the_little_big_programme_front.png?size=368')
+const iceChefImg = require('~/assets/images/the_ice_chef_front.png?size=368')
 
 export default {
   components: {
@@ -40,9 +40,9 @@ export default {
     return {
       img1: firstWealthImg,
       img2: dantannaImg,
-      img3: iceChefImg,
-      img4: prosperityImg,
-      img5: littleBigProgImg
+      img3: prosperityImg,
+      img4: littleBigProgImg,
+      img5: iceChefImg
     }
   }
 
