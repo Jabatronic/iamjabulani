@@ -38,12 +38,19 @@ export default {
 </script>
 
 <style lang="scss">
-/* Folio Tiles */
+/**
+ * TODO:
+ * refactor this hot mess!
+ */
+
 .tile .is-folio-thumbnail {
   overflow: hidden;
   cursor: pointer;
 
   & .bg-image {
+    @include mobile {
+      opacity: .4;
+    }
     opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,7 +72,11 @@ export default {
     padding: 20px;
     border-radius: $radius;
     margin: 0 important;
+    @include mobile {
+      opacity: 1;
+    }
     opacity: 0;
+
     transition: all .6s;
 
     & .title {
