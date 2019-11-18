@@ -13,7 +13,7 @@
       <p class="title">
         {{ itemTitle }}
       </p>
-      <p class="subtitle">
+      <p class="subtitle is-size-6 has-text-weight-light">
         {{ itemInfo }}
       </p>
     </div>
@@ -82,6 +82,8 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 1rem;
     width: 100%;
     height: 100%;
     padding: 20px;
@@ -101,13 +103,11 @@ export default {
         border-radius: .5rem;
         margin: 1rem;
         margin-bottom: 2rem;
-        // font-size: 1.5rem;
         padding: 1rem .5rem;
         transition: all .07s ease;
         width: auto;
         color: white;
         background: rgba(0,0,0,0.3);
-        // text-shadow: 0 0 .5rem black;
       }
     }
   }
