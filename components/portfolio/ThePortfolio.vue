@@ -3,7 +3,12 @@
     <div class="tile is-vertical is-8">
       <div class="tile">
         <div class="tile is-parent is-vertical">
-          <portfolio-article :thumb-image="img1" />
+          <portfolio-article
+            :thumb-image="img1"
+            link-to="case_study_first_wealth"
+            item-title="The Little Big Programme"
+            item-info="Laravel, HTML5, Bootstrap, Javascript(Animation, jquery) CSS3"
+          />
           <portfolio-article :thumb-image="img2" />
         </div>
         <div class="tile is-parent">
@@ -26,10 +31,10 @@
 <script>
 import PortfolioArticle from '~/components/portfolio/PortfolioArticle.vue'
 
-const dantannaImg = require('~/assets/images/dantanna_beatz_front.jpg?size=368')
 const firstWealthImg = require('~/assets/images/first_wealth_front.png?size=368')
+const dantannaImg = require('~/assets/images/dantanna_beatz_front.jpg?size=760')
 const prosperityImg = require('~/assets/images/prosperity_health_front.jpg?size=600')
-const littleBigProgImg = require('~/assets/images/the_little_big_programme_front.png?size=760')
+const littleBigProgImg = require('~/assets/images/the_little_big_programme_front.jpg?size=760')
 const iceChefImg = require('~/assets/images/the_ice_chef_front.png?size=500')
 
 export default {
