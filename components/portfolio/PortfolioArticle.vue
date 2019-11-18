@@ -1,5 +1,7 @@
 <template>
-  <article
+  <nuxt-link
+    tag="article"
+    :to="linkTo"
     class="tile is-child notification is-primary is-folio-thumbnail"
     :style="{ minHeight: `${articleHeight}` }"
   >
@@ -15,19 +17,23 @@
         {{ itemInfo }}
       </p>
     </div>
-  </article>
+  </nuxt-link>
 </template>
 <script>
 export default {
   name: 'PortfolioArticle',
   props: {
+    linkTo: {
+      type: String,
+      default: '/'
+    },
     articleHeight: {
       type: String,
       default: '150px'
     },
     thumbImage: {
-      type: String,
-      default: '~/assets/images/placeholder.png'
+      type: Object,
+      default: require('~/assets/images/placeholder.png')
     },
     itemTitle: {
       type: String,
@@ -35,7 +41,12 @@ export default {
     },
     itemInfo: {
       type: String,
-      default: '{ Item info }'
+      default: 'Item info'
+    }
+  },
+  methods: {
+    goToRoute (link) {
+      this.$router.push(link)
     }
   }
 }
@@ -80,12 +91,24 @@ export default {
       opacity: 1;
     }
     opacity: 0;
-
     transition: all .6s;
 
     & .title {
       font-family: $roboto-slab;
       text-align: center;
+      @include mobile {
+        border: .2rem solid $primary;
+        border-radius: .5rem;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        // font-size: 1.5rem;
+        padding: 1rem .5rem;
+        transition: all .07s ease;
+        width: auto;
+        color: white;
+        background: rgba(0,0,0,0.3);
+        // text-shadow: 0 0 .5rem black;
+      }
     }
   }
 
