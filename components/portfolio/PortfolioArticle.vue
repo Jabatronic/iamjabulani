@@ -1,7 +1,7 @@
 <template>
   <article
     class="tile is-child notification is-primary is-folio-thumbnail"
-    :style="{ minHeight: `${thumbImage.height}.px` }"
+    :style="{ minHeight: `${articleHeight}` }"
   >
     <div
       class="bg-image is-overlay"
@@ -21,6 +21,10 @@
 export default {
   name: 'PortfolioArticle',
   props: {
+    articleHeight: {
+      type: String,
+      default: '150px'
+    },
     thumbImage: {
       type: String,
       default: '~/assets/images/placeholder.png'
@@ -59,7 +63,7 @@ export default {
     padding: 20px;
   }
   &:hover .bg-image {
-    opacity: .4;
+    opacity: .3;
   }
 
   & .folio-thumbnail-details {
