@@ -6,24 +6,40 @@
           <portfolio-article
             :thumb-image="img1"
             link-to="case_study_first_wealth"
-            item-title="The Little Big Programme"
-            item-info="Laravel, HTML5, Bootstrap, Javascript(Animation, jquery) CSS3"
+            item-title="First Wealth"
+            item-info="Wordpress, Advanced Custom Fields, HTML5, CSS3 (Sass)"
           />
-          <portfolio-article :thumb-image="img2" />
+          <portfolio-article
+            :thumb-image="img2"
+            link-to="case_study_dantanna"
+            item-title="First Wealth"
+            item-info="Wordpress, HTML5, CSS3, Javascript Animation (GSAP), Graphic design (Photoshop)"
+          />
         </div>
         <div class="tile is-parent">
-          <portfolio-article :thumb-image="img3" />
+          <portfolio-article
+            :thumb-image="img3"
+            link-to="case_study_prosperity"
+            item-title="Prosperity Vegan Coffee &amp; CBD Lounge"
+            item-info="Wordpress (Genesis), HTML5, CSS3, Javascript, Adobe XD"
+          />
         </div>
       </div>
       <div class="tile is-parent">
-        <portfolio-article :thumb-image="img4" />
+        <portfolio-article
+          :thumb-image="img4"
+          link-to="case_study_the_little_big_programme"
+          item-title="The Little Big Programme"
+          item-info="Laravel, HTML5, Bootstrap, Javascript(Animation, jquery) CSS3"
+        />
       </div>
     </div>
     <div class="tile is-parent">
       <portfolio-article
         :thumb-image="img5"
-        item-title="The Little Big Programme"
-        item-info="Laravel, PHP, HTML5, CSS3"
+        link-to="case_study_the_ice_chef"
+        item-title="The Ice Chef"
+        item-info="Wordpress (Genesis), HTML5, CSS3"
       />
     </div>
   </div>
@@ -35,7 +51,7 @@ const firstWealthImg = require('~/assets/images/first_wealth_front.png?size=368'
 const dantannaImg = require('~/assets/images/dantanna_beatz_front.jpg?size=760')
 const prosperityImg = require('~/assets/images/prosperity_health_front.jpg?size=600')
 const littleBigProgImg = require('~/assets/images/the_little_big_programme_front.jpg?size=760')
-const iceChefImg = require('~/assets/images/the_ice_chef_front.png?size=500')
+const iceChefImg = require('~/assets/images/the_ice_chef_front.jpg?size=500')
 
 export default {
   components: {
