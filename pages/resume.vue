@@ -32,9 +32,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Freelance - <span class="has-text-weight-normal"><i>Web Developer</i></span>
-              <date class="date">
+              <span class="date">
                 2017 - Present
-              </date>
+              </span>
             </h3>
             <div class="content">
               <p>
@@ -45,9 +45,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Adventures of the Valparaiso - <span class="has-text-weight-normal"><i>Lead Developer</i></span>
-              <date class="date">
+              <span class="date">
                 2015 - 2017
-              </date>
+              </span>
             </h3>
             <div class="content">
               <p>
@@ -63,9 +63,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Dantanna Beatz - <span class="has-text-weight-normal"><i>Creative Director / Musical Collaborator</i></span>
-              <date class="date">
+              <span class="date">
                 2012 - 2015
-              </date>
+              </span>
             </h3>
             <div class="content">
               <p>
@@ -76,9 +76,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Wolverhampton University School of Art &amp; Design - <span class="has-text-weight-normal"><i>Lecturer</i></span>
-              <date class="date">
+              <span class="date">
                 2006 - 2012
-              </date>
+              </span>
             </h3>
             <div class="content">
               <ul>
@@ -101,9 +101,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Freelance - <span class="has-text-weight-normal"><i>Web Developer</i></span>
-              <date class="date">
+              <span class="date">
                 2004 - 2006
-              </date>
+              </span>
             </h3>
             <div class="content">
               <p>
@@ -116,9 +116,9 @@
           <div class="item">
             <h3 class="title is-size-4">
               Arkwright Consulting Limited, - <span class="has-text-weight-normal"><i>Senior Project Manager</i></span>
-              <date class="date">
+              <span class="date">
                 Sept 2004 - Sept 2005
-              </date>
+              </span>
             </h3>
             <div class="content">
               <ul>
@@ -142,35 +142,35 @@
           <div class="item">
             <h3 class="title is-size-4">
               Prosperity Health, <span class="has-text-weight-normal"><i>Custom Wordpress Site built on Genesis Framework</i></span>
-              <date class="date">
+              <span class="date">
                 2018 - 2019
-              </date>
+              </span>
             </h3>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
               The Little Big Programme, <span class="has-text-weight-normal"><i>Bespoke web app, built on Laravel. </i></span>
-              <date class="date">
+              <span class="date">
                 ???? - ????
-              </date>
+              </span>
             </h3>
             <p>An amazing and challenging experience for me. I learnt Laravel framework for this project and delivered a working prototype which has since been adopoted by the organisation.</p>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
               The Big Programme, <span class="has-text-weight-normal"><i>Early prototypt</i></span>
-              <date class="date">
+              <span class="date">
                 ???? - ????
-              </date>
+              </span>
             </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. I est earum sed totam ad distinctio voluptatibus.</p>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
               J-Grain, <span class="has-text-weight-normal"><i>Granular Synthesiser</i></span>
-              <date class="date">
+              <span class="date">
                 ???? - ????
-              </date>
+              </span>
             </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
