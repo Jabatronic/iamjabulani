@@ -96,7 +96,7 @@ export default {
     transition: all .6s;
 
     & .title {
-      font-family: $roboto-slab;
+      font-family: $title-font;
       text-align: center;
       @include mobile {
         border: .2rem solid $primary;
