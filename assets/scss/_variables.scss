@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-@import '~bulma/sass/utilities/_all.sass';
-
 /* Colours */
 $teal: #008080;
 $primary: $teal;
@@ -12,4 +10,4 @@ $roboto-slab: "Roboto Slab", serif;
 $title-font:  $roboto-slab;
 $body-font: "Roboto", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
-
+@import '~bulma/sass/utilities/_all.sass';
