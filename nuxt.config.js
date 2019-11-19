@@ -30,15 +30,13 @@ export default {
   */
   css: [
     '~/assets/scss/main.scss'
-    // '~/assets/main.css'
-    // 'aos/dist/aos.css'
   ],
 
   /*
   ** Make sass variables available globally
   */
   styleResources: {
-    scss: ['~/assets/scss/main.scss']
+    scss: ['~/assets/scss/_variables.scss']
   },
 
   /*
@@ -48,7 +46,7 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  devModules: [
+  buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
   ],
