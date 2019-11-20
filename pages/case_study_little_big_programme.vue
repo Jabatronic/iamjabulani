@@ -25,7 +25,7 @@
       </div>
       <div class="column is-3">
         <!-- Start Sidebar -->
-        <recent-works />
+        <the-sidebar />
         <!-- End Sidebar -->
       </div>
     </div>
@@ -33,12 +33,12 @@
 </template>
 
 <script>
-import RecentWorks from '~/components/sidebar/RecentWorks.vue'
+import TheSidebar from '~/components/sidebar/TheSidebar.vue'
 
 export default {
   name: 'CaseStudyLittleProg',
   components: {
-    RecentWorks
+    TheSidebar
   }
 }
 </script>

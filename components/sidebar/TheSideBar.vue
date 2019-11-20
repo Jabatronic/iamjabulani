@@ -3,8 +3,9 @@
     <div class="columns">
       <div class="column">
         <h2 class="has-text-grey">
-          Recent Works
+          Skills Used
         </h2>
+        <!-- Skills component -->
         <hr>
         <p class="menu-label has-text-grey-dark">
           Dantanna Beatz
