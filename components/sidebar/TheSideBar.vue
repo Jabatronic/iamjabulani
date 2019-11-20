@@ -2,10 +2,21 @@
   <div>
     <div class="columns">
       <div class="column">
-        <h2 class="has-text-grey">
+        <h2 class="has-text-grey title is-size-6">
           Skills Used
         </h2>
-        <!-- Skills component -->
+        <!-- Skills -->
+        <div>
+          <ul class="is-size-6">
+            <li
+              v-for="(item, index) in skills"
+              :key="index"
+              class="is-size-6"
+            >
+              {{ item }}
+            </li>
+          </ul>
+        </div>
         <hr>
         <p class="menu-label has-text-grey-dark">
           Dantanna Beatz
@@ -67,6 +78,17 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  props: {
+    skills: {
+      type: Array,
+      default: () => ['no skills listed!']
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 
