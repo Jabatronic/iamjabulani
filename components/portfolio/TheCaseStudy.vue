@@ -12,7 +12,7 @@
         </figure>
         <h3>Overview</h3>
 
-        <p class="is-size-5">
+        <p class="is-size-6">
           <slot name="overview">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a quam saepe soluta repellendus blanditiis modi eius ipsum vel. Sit magnam dolorum nesciunt expedita dignissimos, molestias nihil alias cupiditate! Reiciendis?
           </slot>
@@ -23,26 +23,28 @@
             <img src="https://via.placeholder.com/960x474?text=Folio+Image+1" alt="">
           </slot>
         </figure>
-        <h3>What I Did</h3>
+        <h3>Solution</h3>
         <div class="columns">
           <div class="column">
             <p>
-              <slot name="what-i-did">
+              <slot name="solution">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed vel similique? Commodi eveniet ipsam explicabo neque voluptas, debitis quod accusantium voluptatum rem autem consectetur perferendis labore iste quia modi.
               </slot>
             </p>
           </div>
           <div class="column">
-            <!-- skills component -->
-            <ul>
-              <li
-                v-for="(item, index) in skills"
-                :key="index"
-                class="is-size-6"
-              >
-                {{ item }}
-              </li>
-            </ul>
+            <div class="skills-component">
+              <!-- skills component -->
+              <ul>
+                <li
+                  v-for="(item, index) in skills"
+                  :key="index"
+                  class="is-size-6"
+                >
+                  {{ item }}
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
