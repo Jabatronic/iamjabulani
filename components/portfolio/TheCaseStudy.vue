@@ -34,6 +34,15 @@
           </div>
           <div class="column">
             <!-- skills component -->
+            <ul>
+              <li
+                v-for="(item, index) in skills"
+                :key="index"
+                class="is-size-6"
+              >
+                {{ item }}
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -52,14 +61,11 @@
             <!-- Any other relevant images -->
           </slot>
         </div>
-
-        <h3>Skills Used</h3>
-        <ul>
-          <li>PHP, HTML, JavaScript, CSS, Apache</li>
-          <li>GSAP (JavaScript) Animation</li>
-          <li>Wordpress (including rudimentary plugin development)</li>
-          <li>Photoshop</li>
-        </ul>
+        <!--
+          TODO:
+          A final item??
+          Call to action, arrows to next and previous project, etc
+         -->
       </div>
     </div>
   </div>
@@ -70,22 +76,15 @@ export default {
   name: 'CaseStudy',
   components: {},
   props: {
-
-  },
-  data () {
-    return {
-      skills: [
-        'PHP, HTML, JavaScript, CSS, Apache',
-        'GSAP (JavaScript) Animation',
-        'Wordpress (including rudimentary plugin development)',
-        'Photoshop'
-      ]
+    skills: {
+      type: Array,
+      default: () => ['Add skills here!']
     }
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .content figure {
   margin-left: 0;
   margin-right: 0;
