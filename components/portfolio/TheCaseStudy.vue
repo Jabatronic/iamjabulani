@@ -1,35 +1,26 @@
 <template>
-  <div class="container content">
+  <div class="container content case-study-page">
     <div class="columns is-centered">
       <div class="column is-9">
         <h1 class="title is-2 jtron-logotype has-text-centered">
-          Case Study: <slot name="heading" />
+          Case Study: {{ heading }}
         </h1>
         <figure class="box">
-          <slot name="header-image">
-            <img src="https://via.placeholder.com/960x474" alt="">
-          </slot>
+          <img :src="headerImage" alt>
         </figure>
         <h3>Overview</h3>
-
-        <p class="is-size-6">
-          <slot name="overview">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a quam saepe soluta repellendus blanditiis modi eius ipsum vel. Sit magnam dolorum nesciunt expedita dignissimos, molestias nihil alias cupiditate! Reiciendis?
-          </slot>
+        <p>
+          {{ overview }}
         </p>
 
         <figure class="box">
-          <slot name="folio-image-1">
-            <img src="https://via.placeholder.com/960x474?text=Folio+Image+1" alt="">
-          </slot>
+          <img :src="folioImage1" alt>
         </figure>
         <h3>Solution</h3>
         <div class="columns">
           <div class="column">
             <p>
-              <slot name="solution">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro sed vel similique? Commodi eveniet ipsam explicabo neque voluptas, debitis quod accusantium voluptatum rem autem consectetur perferendis labore iste quia modi.
-              </slot>
+              {{ solution }}
             </p>
           </div>
           <div class="column">
@@ -49,19 +40,15 @@
         </div>
 
         <figure class="box">
-          <slot name="folio-image-desktop">
-            <img src="https://via.placeholder.com/960x474?text=Desktop+Mockup" alt="">
-          </slot>
+          <img :src="folioImageDesktop" alt>
         </figure>
         <figure class="box">
           <slot name="folio-image-mobile">
-            <img src="https://via.placeholder.com/960x474?text=Mobile+Mockup" alt="">
+            <img :src="folioImageMobile" alt>
           </slot>
         </figure>
-        <div class="folio-image-other">
-          <slot name="folio-image-other">
+        <div class="folio-image-other" v-html="folioOther">
             <!-- Any other relevant images -->
-          </slot>
         </div>
         <!--
           TODO:
@@ -75,18 +62,61 @@
 
 <script>
 export default {
-  name: 'CaseStudy',
+  name: 'TheCaseStudy',
   components: {},
   props: {
+    heading: {
+      type: String,
+      default: 'Heading goes here'
+    },
+    headerImage: {
+      type: String,
+      default: 'https://via.placeholder.com/960x474?text=Company+Image'
+    },
+    overview: {
+      type: String,
+      default: 'Overview goes here'
+    },
+    folioImage1: {
+      type: String,
+      default: 'https://via.placeholder.com/960x474?text=Folio+Image+1'
+    },
+    solution: {
+      type: String,
+      default: 'Solution goes here'
+    },
     skills: {
       type: Array,
-      default: () => ['Add skills here!']
+      default: () => ['Skills go here', 'Skills go here', 'Skills go here']
+    },
+    folioImageDesktop: {
+      type: String,
+      default: 'https://via.placeholder.com/960x474?text=Desktop+Mockup'
+    },
+    folioImageMobile: {
+      type: String,
+      default: 'https://via.placeholder.com/960x474?text=Mobile+Mockup'
+    },
+    folioOther: {
+      type: String,
+      default: `
+        <h4>Other relevant content 
+        (images, calls-to-action, page navigation, testimonials)
+        can go here.</h4>
+        <img src="https://via.placeholder.com/150x150?" alt>
+        <img src="https://via.placeholder.com/150x150?" alt>
+        <img src="https://via.placeholder.com/150x150?" alt>
+      `
     }
   }
 }
 </script>
 
 <style lang="scss">
+.case-study-page {
+  // ...
+}
+
 .content figure {
   margin-left: 0;
   margin-right: 0;
