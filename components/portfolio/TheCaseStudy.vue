@@ -1,5 +1,5 @@
 <template>
-  <div class="container content">
+  <div class="container content case-study">
     <div class="columns is-centered">
       <div class="column is-9">
         <h1 class="title is-2 jtron-logotype has-text-centered">
@@ -11,7 +11,6 @@
           </slot>
         </figure>
         <h3>Overview</h3>
-
         <p class="is-size-6">
           <slot name="overview">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a quam saepe soluta repellendus blanditiis modi eius ipsum vel. Sit magnam dolorum nesciunt expedita dignissimos, molestias nihil alias cupiditate! Reiciendis?
@@ -87,6 +86,11 @@ export default {
 </script>
 
 <style lang="scss">
+.case-study {
+  & .li, p {
+    font-size: 1rem;
+  }
+}
 .content figure {
   margin-left: 0;
   margin-right: 0;
@@ -94,5 +98,18 @@ export default {
 
 img {
   border-radius: 3px;
+}
+
+div.skills-component {
+  border-left: 3px solid $primary;
+
+  & ul {
+    margin-top: 0;
+  }
+
+  & ul > li {
+    list-style-type: square;
+    color: $primary;
+  }
 }
 </style>
