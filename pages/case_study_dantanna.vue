@@ -15,7 +15,7 @@
       <template slot="folio-image-1">
         <!-- Brief overview of the client, brand, product, etc -->
       </template>
-      <template slot="what-i-did">
+      <template slot="solution">
         <!-- Outline of how the brief was addressed -->
       </template>
       <template slot="folio-image-desktop">
