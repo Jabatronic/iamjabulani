@@ -37,7 +37,7 @@
       </div>
       <div class="column is-3">
         <!-- Start Sidebar -->
-        <the-sidebar />
+        <the-sidebar :skills="skills" />
         <!-- End Sidebar -->
       </div>
     </div>
@@ -51,6 +51,16 @@ export default {
   name: 'CaseStudy',
   components: {
     TheSidebar
+  },
+  data () {
+    return {
+      skills: [
+        'PHP, HTML, JavaScript, CSS, Apache',
+        'GSAP (JavaScript) Animation',
+        'Wordpress (including rudimentary plugin development)',
+        'Photoshop'
+      ]
+    }
   }
 }
 </script>
