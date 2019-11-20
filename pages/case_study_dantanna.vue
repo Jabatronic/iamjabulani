@@ -1,37 +1,17 @@
 <template>
   <div>
-    <the-case-study
-      :skills="skills"
-    >
-      <template slot="heading">
-        DantannaBeatz
-      </template>
-      <template slot="header-image">
-        <!-- Image goes here -->
-      </template>
-      <template slot="overview">
-        <!-- Brief overview of the client, brand, product, etc -->
-      </template>
-      <template slot="folio-image-1">
-        <!-- Brief overview of the client, brand, product, etc -->
-      </template>
-      <template slot="solution">
-        <!-- Outline of how the brief was addressed -->
-      </template>
-      <template slot="folio-image-desktop">
-        <!-- Desktop Mockup -->
-      </template>
-      <template slot="folio-image-mobile">
-        <!-- Mobile mockup -->
-      </template>
-      <template slot="folio-image-other">
-        <!--
-              Any other relevant images
-              possible formats:
-              <picture>, <figure>, <img>, etc
-        -->
-      </template>
-    </the-case-study>
+    <the-case-study />
+    <!-- <the-case-study
+      heading="Testing"
+      headerImage=""
+      overview=""
+      folio-image-1=""
+      solution=""
+      skills=""
+      folioImageDesktop=""
+      folioImageMobile=""
+      folioImageOther=""
+    /> -->
   </div>
 </template>
 
@@ -42,7 +22,7 @@ export default {
     TheCaseStudy
   },
   computed: {
-    skills () {
+    caseData () {
       return [
         'PHP, HTML, JavaScript, CSS, Apache',
         'GSAP (JavaScript) Animation',
