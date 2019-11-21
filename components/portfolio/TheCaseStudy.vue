@@ -155,7 +155,6 @@ export default {
 
 <style lang="scss">
 .case-study {
-<<<<<<< HEAD
   & li, p, h3 {
     font-size: 1rem;
     font-family: $body-font;
@@ -165,7 +164,6 @@ export default {
     margin: 0;
     width: 100%;
   }
-=======
   & .li, p {
     font-size: 1rem;
   }
@@ -173,7 +171,7 @@ export default {
 .content figure {
   margin-left: 0;
   margin-right: 0;
->>>>>>> dev
+
 }
 
 img {
@@ -196,7 +194,6 @@ div.skills-component {
   }
 }
 
-=======
   border-left: 3px solid $primary;
 
   & ul {
@@ -208,5 +205,5 @@ div.skills-component {
     color: $primary;
   }
 }
->>>>>>> dev
+
 </style>
