@@ -19,7 +19,7 @@
         <div class="tile is-parent">
           <portfolio-article
             :thumb-image="img3"
-            link-to="case_study_prosperity"
+            link-to="case_study_prosperity_health"
             item-title="Prosperity Vegan Coffee &amp; CBD Lounge"
             item-info="Wordpress (Genesis), HTML5, CSS3, Javascript, Adobe XD"
           />
@@ -28,7 +28,7 @@
       <div class="tile is-parent">
         <portfolio-article
           :thumb-image="img4"
-          link-to="case_study_the_little_big_programme"
+          link-to="case_study_little_big_programme"
           item-title="The Little Big Programme"
           item-info="Laravel, HTML5, Bootstrap, Javascript(Animation, jquery) CSS3"
         />
@@ -37,7 +37,7 @@
     <div class="tile is-parent">
       <portfolio-article
         :thumb-image="img5"
-        link-to="case_study_the_ice_chef"
+        link-to="case_study_ice_chef"
         item-title="The Ice Chef"
         item-info="Wordpress (Genesis), HTML5, CSS3"
       />
