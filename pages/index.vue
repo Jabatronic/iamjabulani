@@ -1,9 +1,9 @@
 <template>
   <div>
-    <section class="hero is-fullheight-with-navbar">
+    <section class="hero">
       <div class="hero-body">
         <div class="container">
-          <div class="columns">
+          <div class="columns is-centered">
             <div
               class="
                 is-hidden-tablet title is-size-3
@@ -45,7 +45,7 @@
                   </div>
                 </div>
               </div>
-              <div class="content">
+              <!-- <div class="content">
                 <p class="intro-text" data-aos="fade-up">
                   I made my first website in 2000. Back in the days when table-based layouts, slices, and keyword stuffing was the norm!
                 </p>
@@ -64,7 +64,7 @@
                     résumé
                   </nuxt-link>.
                 </p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
