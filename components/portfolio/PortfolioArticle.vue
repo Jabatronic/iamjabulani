@@ -62,13 +62,10 @@ export default {
     overflow: hidden;
     cursor: pointer;
     @include mobile {
-      height: 15rem;
+      min-height: 15rem !important;
     }
 
   & .bg-image {
-    @include mobile {
-      opacity: .4;
-    }
     opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +90,7 @@ export default {
     border-radius: $radius;
     margin: 0 important;
     @include mobile {
-      opacity: 1;
+      opacity: 0;
     }
     opacity: 0;
     transition: all .6s;
