@@ -1,5 +1,4 @@
 <template>
-<<<<<<< HEAD
   <div class="container case-study">
     <div class="columns is-centered">
       <div class="column is-9">
@@ -16,34 +15,6 @@
             <h3 class="is-size-5">
               Overview
             </h3>
-=======
-  <div class="container content case-study">
-    <div class="columns is-centered">
-      <div class="column is-9">
-        <h1 class="title is-2 jtron-logotype has-text-centered">
-          Case Study: <slot name="heading" />
-        </h1>
-        <figure class="box">
-          <slot name="header-image">
-            <img src="https://via.placeholder.com/960x474" alt="">
-          </slot>
-        </figure>
-        <h3>Overview</h3>
-        <p class="is-size-6">
-          <slot name="overview">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, a quam saepe soluta repellendus blanditiis modi eius ipsum vel. Sit magnam dolorum nesciunt expedita dignissimos, molestias nihil alias cupiditate! Reiciendis?
-          </slot>
-        </p>
-
-        <figure class="box">
-          <slot name="folio-image-1">
-            <img src="https://via.placeholder.com/960x474?text=Folio+Image+1" alt="">
-          </slot>
-        </figure>
-        <h3>Solution</h3>
-        <div class="columns">
-          <div class="column">
->>>>>>> dev
             <p>
               {{ overview }}
             </p>
@@ -179,7 +150,6 @@ img {
 }
 
 div.skills-component {
-<<<<<<< HEAD
   border-left: .01rem solid $primary;
   & ul {
   margin-top: 0;
@@ -192,9 +162,6 @@ div.skills-component {
     border-left: none;
     padding-top: 10px;
   }
-}
-
-  border-left: 3px solid $primary;
 
   & ul {
     margin-top: 0;
