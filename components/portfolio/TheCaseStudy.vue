@@ -1,52 +1,66 @@
 <template>
-  <div class="container content case-study">
+  <div class="container case-study">
     <div class="columns is-centered">
       <div class="column is-9">
-        <h1 class="title is-2 jtron-logotype has-text-centered">
-          Case Study: {{ heading }}
-        </h1>
-        <figure class="box">
-          <img :src="headerImage" alt>
-        </figure>
-
-        <h3>Overview</h3>
-        <p>
-          {{ overview }}
-        </p>
-
-        <figure class="box">
-          <img :src="folioImage1" alt>
-        </figure>
-
-        <h3>Solution</h3>
-        <div class="columns">
-          <div class="column">
+        <div id="CaseStudyHeader">
+          <h1 class="title is-2 jtron-logotype has-text-centered">
+            Case Study: {{ heading }}
+          </h1>
+          <figure class="folio-image">
+            <img :src="headerImage" alt>
+          </figure>
+        </div>
+        <div id="CaseStudyOverview">
+          <div class="mb-20 mt-20">
+            <h3 class="is-size-5">
+              Overview
+            </h3>
             <p>
-              {{ solution }}
+              {{ overview }}
             </p>
           </div>
-          <div class="column">
-            <div class="skills-component">
-              <ul>
-                <li
-                  v-for="(item, index) in skills"
-                  :key="index"
-                >
-                  {{ item }}
-                </li>
-              </ul>
+          <figure class="folio-image is-boxed">
+            <img :src="folioImage1" alt>
+          </figure>
+        </div>
+        <div id="CaseStudySolution" class="mb-20 mt-20">
+          <div class="columns">
+            <div class="column is-two-thirds">
+              <h3 class="is-size-5">
+                Solution
+              </h3>
+              <p>
+                {{ solution }}
+              </p>
+            </div>
+            <div class="column">
+              <div class="skills-component content">
+                <ul>
+                  <li
+                    v-for="(item, index) in skills"
+                    :key="index"
+                  >
+                    {{ item }}
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-
-        <figure class="box">
-          <img :src="folioImageDesktop" alt>
-        </figure>
-        <figure class="box">
-          <img :src="folioImageMobile" alt>
-        </figure>
-        <div class="folio-image-other" v-html="folioOther">
-          <!-- Any other relevant images -->
+        <div id="CaseStudyImage1" class="mb-20 mt-20">
+          <figure class="folio-image">
+            <img :src="folioImageDesktop" alt>
+          </figure>
+          <figure class="folio-image">
+            <img :src="folioImageMobile" alt>
+          </figure>
+          <div class="folio-image-other mb-20 mt-20">
+            <!-- Any other relevant images -->
+            <h4>{{ folioOther.title }}</h4>
+            <img :src="folioOther.image" alt>
+            <img :src="folioOther.image" alt>
+            <img :src="folioOther.image" alt>
+          </div>
         </div>
         <!--
           TODO:
@@ -96,15 +110,15 @@ export default {
       default: 'https://via.placeholder.com/960x474?text=Mobile+Mockup'
     },
     folioOther: {
-      type: String,
-      default: `
-        <h4>Other relevant content 
-        (images, calls-to-action, page navigation, testimonials)
-        can go here.</h4>
-        <img src="https://via.placeholder.com/150x150?" alt>
-        <img src="https://via.placeholder.com/150x150?" alt>
-        <img src="https://via.placeholder.com/150x150?" alt>
-      `
+      type: Object,
+      default: () => {
+        return {
+          title: `Other relevant content 
+            (images, calls-to-action, page navigation, testimonials) 
+            can go here.`,
+          image: 'https://via.placeholder.com/150x150?'
+        }
+      }
     }
   }
 }
@@ -112,13 +126,15 @@ export default {
 
 <style lang="scss">
 .case-study {
-  & li, p {
+  & li, p, h3 {
     font-size: 1rem;
+    font-family: $body-font;
   }
-}
-.content figure {
-  margin-left: 0;
-  margin-right: 0;
+  & .folio-image {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 img {
@@ -126,15 +142,18 @@ img {
 }
 
 div.skills-component {
-  border-left: 3px solid $primary;
-
+  border-left: .01rem solid $primary;
   & ul {
-    margin-top: 0;
-  }
-
-  & ul li {
-    list-style-type: square;
-    color: $primary;
+  margin-top: 0;
+  & li {
+  list-style-type: disc;
   }
 }
+  @include mobile {
+    border-top: .01rem solid $primary;
+    border-left: none;
+    padding-top: 10px;
+  }
+}
+
 </style>
