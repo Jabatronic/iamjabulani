@@ -10,7 +10,7 @@
       :style="{ backgroundImage: `url(${thumbImage.src})`}"
     />
     <div class="is-overlay folio-thumbnail-details">
-      <p class="title">
+      <p class="title is-size-4-mobile">
         {{ itemTitle }}
       </p>
       <p class="subtitle is-size-6 has-text-weight-light">
@@ -59,8 +59,11 @@ export default {
  */
 
 .tile .is-folio-thumbnail {
-  overflow: hidden;
-  cursor: pointer;
+    overflow: hidden;
+    cursor: pointer;
+    @include mobile {
+      height: 15rem;
+    }
 
   & .bg-image {
     @include mobile {
@@ -99,7 +102,7 @@ export default {
       font-family: $title-font;
       text-align: center;
       @include mobile {
-        border: .2rem solid $primary;
+        border: .2rem solid lighten($primary, 10%);
         border-radius: .5rem;
         margin: 1rem;
         margin-bottom: 2rem;
@@ -107,7 +110,8 @@ export default {
         transition: all .07s ease;
         width: auto;
         color: white;
-        background: rgba(0,0,0,0.3);
+        // background: rgba(0,0,0,0.3);
+        background: rgba($primary, .7);
       }
     }
   }
