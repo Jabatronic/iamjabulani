@@ -12,7 +12,7 @@
           <portfolio-article
             :thumb-image="img2"
             link-to="case_study_dantanna"
-            item-title="First Wealth"
+            item-title="Dantanna Beatz"
             item-info="Wordpress, HTML5, CSS3, Javascript Animation (GSAP), Graphic design (Photoshop)"
           />
         </div>
