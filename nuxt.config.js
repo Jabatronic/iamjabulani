@@ -66,6 +66,7 @@ export default {
     optimizeImages: true,
     optimizeImagesInDev: true,
     defaultImageLoader: 'responsive-loader',
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     responsive: {
       sizes: [1000, 700, 300],
       placeholder: true
