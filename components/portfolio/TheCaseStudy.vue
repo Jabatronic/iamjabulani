@@ -1,5 +1,5 @@
 <template>
-  <div class="container case-study">
+  <div class="case-study">
     <div class="columns is-centered">
       <div class="column is-9">
         <div id="CaseStudyHeader">
@@ -7,12 +7,12 @@
             Case Study: {{ heading }}
           </h1>
           <figure class="folio-image">
-            <img :src="headerImage" alt>
+            <img :src="headerImage" type="image/webp" alt>
           </figure>
         </div>
         <div id="CaseStudyOverview">
           <div class="mb-20 mt-20">
-            <h3 class="is-size-5">
+            <h3>
               Overview
             </h3>
             <p>
@@ -20,13 +20,13 @@
             </p>
           </div>
           <figure class="folio-image is-boxed">
-            <img :src="folioImage1" alt>
+            <img :src="folioImage" alt>
           </figure>
         </div>
         <div id="CaseStudySolution" class="mb-20 mt-20">
           <div class="columns">
             <div class="column is-two-thirds">
-              <h3 class="is-size-5">
+              <h3>
                 Solution
               </h3>
               <p>
@@ -48,19 +48,12 @@
           </div>
         </div>
         <div id="CaseStudyImage1" class="mb-20 mt-20">
-          <figure class="folio-image">
+          <figure class="folio-image desktop">
             <img :src="folioImageDesktop" alt>
           </figure>
-          <figure class="folio-image">
+          <figure class="folio-image mobile">
             <img :src="folioImageMobile" alt>
           </figure>
-          <div class="folio-image-other mb-20 mt-20">
-            <!-- Any other relevant images -->
-            <h4>{{ folioOther.title }}</h4>
-            <img :src="folioOther.image" alt>
-            <img :src="folioOther.image" alt>
-            <img :src="folioOther.image" alt>
-          </div>
         </div>
         <!--
           TODO:
@@ -89,7 +82,7 @@ export default {
       type: String,
       default: 'Overview goes here'
     },
-    folioImage1: {
+    folioImage: {
       type: String,
       default: 'https://via.placeholder.com/960x474?text=Folio+Image+1'
     },
@@ -130,36 +123,44 @@ export default {
     font-size: 1rem;
     font-family: $body-font;
   }
+  & h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $primary;
+  }
   & .folio-image {
+    display: flex;
+    justify-content: center;
+    border-radius: $radius;
     padding: 0;
-    margin: 0;
+    margin: 0 0 32px 0;
     width: 100%;
+    &.desktop, &.mobile {
+      background: $primary;
+    }
   }
   & .li, p {
     font-size: 1rem;
   }
 }
-.content figure {
-  margin-left: 0;
-  margin-right: 0;
 
-}
-
-img {
-  border-radius: 3px;
-}
-
-div.skills-component {
-  border-left: .01rem solid $primary;
-  & ul {
-  margin-top: 0;
-  & li {
-  list-style-type: disc;
+  img {
+    border-radius: 3px;
   }
-}
+
+  div.skills-component {
+    border-left: .01rem solid $primary;
+
+    & ul {
+      margin-top: 0;
+
+    & li {
+      list-style-type: disc;
+    }
+  }
+
   @include mobile {
-    border-top: .01rem solid $primary;
-    border-left: none;
+    border: none;
     padding-top: 10px;
   }
 
