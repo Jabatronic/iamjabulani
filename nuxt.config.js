@@ -70,7 +70,17 @@ export default {
     responsive: {
       sizes: [1000, 700, 300],
       placeholder: true
-      // quality: 75
+    },
+    mozjpeg: {
+      quality: 85
+    },
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      quality: 85
     }
   },
   /*
