@@ -1,5 +1,5 @@
 <template>
-  <footer class="sticky-footer">
+  <footer class="sticky-footer is-hidden-desktop">
     <div class="hero-foot">
       <div class="container">
         <div class="tabs is-centered">
@@ -14,7 +14,10 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  body {
+    padding-bottom: 80px;
+  }
   // Footer mods
   footer.sticky-footer {
     position: fixed;
