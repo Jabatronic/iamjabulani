@@ -58,7 +58,7 @@
         <!--
           TODO:
           A final item??
-          Call to action, arrows to next and previous project, etc
+          e.g. Call to action, arrows to next and previous project, etc
          -->
       </div>
     </div>
