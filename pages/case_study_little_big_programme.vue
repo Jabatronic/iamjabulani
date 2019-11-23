@@ -1,17 +1,26 @@
 <template>
   <div>
-    <the-case-study />
-    <!-- <the-case-study
-      heading="Testing"
-      headerImage=""
-      overview=""
-      folio-image-1=""
-      solution=""
-      skills=""
-      folioImageDesktop=""
-      folioImageMobile=""
-      folioImageOther=""
-    /> -->
+    <the-case-study
+      heading="The Little Big Programme"
+
+      :header-image="require('~/assets/images/case_study/dantanna/dantanna-overview.jpg')"
+
+      overview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
+
+      :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
+
+      solution="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
+
+      :skills="[
+        'PHP, HTML, JavaScript, CSS, Apache',
+        'GSAP (JavaScript) Animation',
+        'Wordpress (including rudimentary plugin development)',
+        'Photoshop'
+      ]"
+
+      :folio-image-desktop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+      :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
+    />
   </div>
 </template>
 
@@ -20,16 +29,6 @@ import TheCaseStudy from '~/components/portfolio/TheCaseStudy.vue'
 export default {
   components: {
     TheCaseStudy
-  },
-  computed: {
-    caseData () {
-      return [
-        'PHP, HTML, JavaScript, CSS, Apache',
-        'GSAP (JavaScript) Animation',
-        'Wordpress (including rudimentary plugin development)',
-        'Photoshop'
-      ]
-    }
   }
 }
 </script>
