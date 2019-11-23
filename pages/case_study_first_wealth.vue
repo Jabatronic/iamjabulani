@@ -1,15 +1,9 @@
 <template>
   <div>
     <the-case-study
-      heading="First Wealth"
-
       :header-image="require('~/assets/images/case_study/dantanna/dantanna-overview.jpg')"
 
-      overview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
-
       :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
-
-      solution="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
 
       :skills="[
         'PHP, HTML, JavaScript, CSS, Apache',
@@ -19,7 +13,13 @@
       ]"
 
       :folio-image-desktop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+
       :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
+
+      heading="First Wealth"
+
+      overview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
+      solution="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
     />
   </div>
 </template>

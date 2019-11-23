@@ -1,13 +1,13 @@
 <template>
   <nuxt-link
-    tag="article"
     :to="linkTo"
-    class="tile is-child notification is-primary is-folio-thumbnail"
     :style="{ minHeight: `${articleHeight}` }"
+    tag="article"
+    class="tile is-child notification is-primary is-folio-thumbnail"
   >
     <div
-      class="bg-image is-overlay"
       :style="{ backgroundImage: `url(${thumbImage.src})`}"
+      class="bg-image is-overlay"
     />
     <div class="is-overlay folio-thumbnail-details">
       <p class="title is-size-4-mobile">
