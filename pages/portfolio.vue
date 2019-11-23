@@ -1,5 +1,11 @@
 <template>
   <div>
+    <h1 class="title is-size-2 has-text-centered is-uppercase has-text-primary has-font-roboto-slab">
+      Selected Works
+    </h1>
+    <h5 class="subtitle has-text-centered">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus! Exercitationem, blanditiis. Sint, consectetur tempora!
+    </h5>
     <the-portfolio />
   </div>
 </template>
