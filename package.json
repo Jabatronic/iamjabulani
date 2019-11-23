@@ -17,6 +17,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/style-resources": "^1.0.0",
     "aos": "^3.0.0-beta.6",
+    "file-loader": "*",
     "imagemin-gifsicle": "^6.0.1",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
@@ -32,7 +33,9 @@
     "typeface-raleway": "^0.0.75",
     "typeface-roboto": "^0.0.75",
     "typeface-roboto-slab": "0.0.72",
-    "webp-loader": "^0.5.0"
+    "webp-loader": "^0.5.0",
+    "webpack": "^4.3.0",
+    "webpack-cli": "*"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
