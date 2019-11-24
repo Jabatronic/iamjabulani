@@ -29,9 +29,7 @@
               <h3>
                 Solution
               </h3>
-              <p>
-                {{ solution }}
-              </p>
+              <div class="content" v-html="solution" />
             </div>
             <div class="column">
               <div class="skills-component content">
@@ -75,16 +73,16 @@ export default {
       default: 'Heading goes here'
     },
     headerImage: {
-      type: String,
-      default: 'https://via.placeholder.com/960x474?text=Company+Image'
+      type: Object,
+      default: require('~/assets/images/placeholders/company-image-1000x474.png')
     },
     overview: {
       type: String,
       default: 'Overview goes here'
     },
     folioImage: {
-      type: String,
-      default: 'https://via.placeholder.com/960x474?text=Folio+Image+1'
+      type: Object,
+      default: require('~/assets/images/placeholders/folio-image-01-1000x474.png')
     },
     solution: {
       type: String,
@@ -95,12 +93,12 @@ export default {
       default: () => ['Skills go here', 'Skills go here', 'Skills go here']
     },
     folioImageDesktop: {
-      type: String,
-      default: 'https://via.placeholder.com/960x474?text=Desktop+Mockup'
+      type: Object,
+      default: require('~/assets/images/placeholders/laptop-mockup-1000x474.png')
     },
     folioImageMobile: {
-      type: String,
-      default: 'https://via.placeholder.com/960x474?text=Mobile+Mockup'
+      type: Object,
+      default: require('~/assets/images/placeholders/mobile-mockup-1000x474.png')
     },
     folioOther: {
       type: Object,
