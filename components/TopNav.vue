@@ -6,20 +6,20 @@
           <span class="jtron-logotype">MJR</span>
         </nuxt-link>
         <a
+          :class="{'is-active': isMenuOpen}"
+          @click="isMenuOpen = !isMenuOpen"
           role="button"
           class="navbar-burger burger"
-          :class="{'is-active': isMenuOpen}"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
-          @click="isMenuOpen = !isMenuOpen"
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
           <span aria-hidden="true" />
         </a>
       </div>
-      <div id="navbarMainTop" class="navbar-menu" :class="{'is-active': isMenuOpen}">
+      <div id="navbarMainTop" :class="{'is-active': isMenuOpen}" class="navbar-menu">
         <div class="navbar-start">
           <nuxt-link to="/" class="navbar-item">
             Home
