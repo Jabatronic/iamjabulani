@@ -7,7 +7,7 @@
 
       :overview="`<p>Healthy body, Healthy mind. Prosperity CBD & Vegan Coffee Lounge is a plant-based alternative health startup specialising in CBD products. They are dedicated to sourcing and sharing the best products produced using the cleanest safest methods. They are even developing their own breand product range. They needed a website that would initially serve as contact/brochure site but be capable of extending to other functionality as they grow (ecommerce capability, membership system, mobile app, etc.</p>`"
 
-      :folio-image="require('~/assets/images/case_study/prosperity_health/folio-image-lounge.jpg')"
+      :folio-image="require('~/assets/images/case_study/prosperity_health/folio-image-lounge.png')"
 
       :solution="`<p>Initially I spent a good deal of time iterating designs initially using paper and later using digital wireframing and prototyping tools, a process I found very rewarding. During this time, my relationship with the company developed and continues to do so.</p>
       <p>Accomplishing our goals within a limited budget was a critical factor.</p>
@@ -19,9 +19,9 @@
         'Photoshop, Illustrator'
       ]"
 
-      :folio-image-laptop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/prosperity_health/prosperity-health-folio-image-01-laptop.png')"
 
-      :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
+      :folio-image-mobile="require('~/assets/images/case_study/prosperity_health/prosperity-health-folio-image-mobile.png?size=500')"
     />
   </div>
 </template>
