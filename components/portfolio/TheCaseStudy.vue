@@ -1,3 +1,4 @@
+/* eslint attributes-order: 0 */
 <template>
   <div class="case-study">
     <div class="columns is-centered">
@@ -6,7 +7,7 @@
           <h1 class="title is-2 jtron-logotype has-text-centered">
             Case Study: {{ heading }}
           </h1>
-          <figure class="folio-image">
+          <figure :style="{height: headerImage.height + 'px'}" class="folio-image">
             <img :src="headerImage" type="image/webp" alt>
           </figure>
         </div>
@@ -15,11 +16,12 @@
             <h3>
               Overview
             </h3>
-            <p>
-              {{ overview }}
-            </p>
+            <div
+              v-html="overview"
+              class="content"
+            />
           </div>
-          <figure class="folio-image is-boxed">
+          <figure class="folio-image">
             <img :src="folioImage" alt>
           </figure>
         </div>
@@ -29,7 +31,10 @@
               <h3>
                 Solution
               </h3>
-              <div class="content" v-html="solution" />
+              <div
+                v-html="solution"
+                class="content"
+              />
             </div>
             <div class="column">
               <div class="skills-component content">
@@ -47,7 +52,7 @@
         </div>
         <div id="CaseStudyImage1" class="mb-20 mt-20">
           <figure class="folio-image desktop">
-            <img :src="folioImageDesktop" alt>
+            <img :src="folioImageLaptop" alt>
           </figure>
           <figure class="folio-image mobile">
             <img :src="folioImageMobile" alt>
@@ -92,7 +97,7 @@ export default {
       type: Array,
       default: () => ['Skills go here', 'Skills go here', 'Skills go here']
     },
-    folioImageDesktop: {
+    folioImageLaptop: {
       type: Object,
       default: require('~/assets/images/placeholders/laptop-mockup-1000x474.png')
     },
@@ -119,7 +124,7 @@ export default {
 .case-study {
   & li, p, h3 {
     font-size: 1rem;
-    font-family: $body-font;
+    font-family: $body-family;
   }
   & h3 {
     text-transform: uppercase;

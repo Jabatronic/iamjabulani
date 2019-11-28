@@ -12,7 +12,7 @@
         'Photoshop'
       ]"
 
-      :folio-image-desktop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
 
       :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
 

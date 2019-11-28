@@ -1,26 +1,25 @@
 <template>
   <div>
     <the-case-study
-      :heading="'Prosperity Health'"
+      :heading="'Prosperity CBD & Vegan Coffee Lounge'"
 
-      :header-image="require('~/assets/images/case_study/dantanna/dantanna-overview.jpg')"
+      :header-image="require('~/assets/images/case_study/prosperity_health/prosperity-overview.jpg')"
 
-      :overview="'Healthy body, Healthy mind.'"
+      :overview="`<p>Healthy body, Healthy mind. Prosperity CBD & Vegan Coffee Lounge is a plant-based alternative health startup specialising in CBD products. They are dedicated to sourcing and sharing the best products produced using the cleanest safest methods. They are even developing their own breand product range. They needed a website that would initially serve as contact/brochure site but be capable of extending to other functionality as they grow (ecommerce capability, membership system, mobile app, etc.</p>`"
 
-      :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
+      :folio-image="require('~/assets/images/case_study/prosperity_health/folio-image-lounge.jpg')"
 
-      :solution="`<p>Initially I spent a good deal of time iterating designs in Adobe XD, a process I found very rewarding. During this time my relationship with the company and their products developed and continues to do so.</p>
-      <p>Accomplishing our goals within the budget and timeframe neccessary was a critical factor.</p>
-      <p>I started with a premium Genesis theme and made many modifications and customisations to . `"
+      :solution="`<p>Initially I spent a good deal of time iterating designs initially using paper and later using digital wireframing and prototyping tools, a process I found very rewarding. During this time, my relationship with the company developed and continues to do so.</p>
+      <p>Accomplishing our goals within a limited budget was a critical factor.</p>
+      <p>I started with a premium Genesis theme and made modifications to back and front end to achieve the desired look and feel.</p> I also implemented full ecommerce capability using Woocommerce, in preparation for the client's online product range launches`"
 
       :skills="[
+        'Wordpress, Woocommerce',
         'PHP, HTML, JavaScript, CSS, Apache',
-        'GSAP (JavaScript) Animation',
-        'Wordpress (including rudimentary plugin development)',
-        'Photoshop'
+        'Photoshop, Illustrator'
       ]"
 
-      :folio-image-desktop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
 
       :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
     />

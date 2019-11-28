@@ -8,7 +8,7 @@
 
       :folio-image="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-01.png')"
 
-      :folio-image-desktop="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-laptop.png')"
 
       :folio-image-mobile="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-mobile.png?size=500')"
 
