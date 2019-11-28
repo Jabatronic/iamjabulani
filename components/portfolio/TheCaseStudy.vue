@@ -7,7 +7,7 @@
           <h1 class="title is-2 jtron-logotype has-text-centered">
             Case Study: {{ heading }}
           </h1>
-          <figure :style="{height: headerImage.height + 'px'}" class="folio-image">
+          <figure class="folio-image">
             <img :src="headerImage" type="image/webp" alt>
           </figure>
         </div>
