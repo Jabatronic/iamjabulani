@@ -57,6 +57,12 @@
           <figure class="folio-image mobile">
             <img :src="folioImageMobile" alt>
           </figure>
+          <figure
+            v-if="folioImageExtra"
+            class="folio-image mobile"
+          >
+            <img :src="folioImageExtra" alt>
+          </figure>
         </div>
         <!--
           TODO:
@@ -104,6 +110,10 @@ export default {
     folioImageMobile: {
       type: Object,
       default: require('~/assets/images/placeholders/mobile-mockup-1000x474.png')
+    },
+    folioImageExtra: {
+      type: Object,
+      default: () => null
     },
     folioOther: {
       type: Object,
