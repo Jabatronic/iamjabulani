@@ -1,7 +1,7 @@
 <template>
   <div>
     <the-case-study
-      :heading="'The Little Big Programme'"
+      :heading="'The Little Big Programme (EDAS)'"
 
       :header-image="require('~/assets/images/case_study/little_big_programme/edas.png')"
 
