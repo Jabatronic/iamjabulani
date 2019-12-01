@@ -7,7 +7,7 @@
 
       :overview="`<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?</p>`"
 
-      :folio-image="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop.png')"
+      :folio-image="require('~/assets/images/case_study/the_ice_chef/the-ce-chef-folio-image-01.png')"
 
       :solution="`<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?</p>`"
 
@@ -17,10 +17,9 @@
         'Photoshop'
       ]"
 
-      :folio-image-laptop="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop.png')"
 
-      :folio-image-mobile="require('~/assets/images/case_study/the_ice_chef/mobile-01.png')"
-
+      :folio-image-mobile="require('~/assets/images/case_study/the_ice_chef/mobile-01.png?size=500')"
     />
   </div>
 </template>
