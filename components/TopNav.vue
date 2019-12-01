@@ -69,6 +69,7 @@ export default {
 }
 
 .jtron-top-nav {
-    box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
+    // box-shadow: 8px 2px 4px rgba(185, 183, 183, 0.2);
+    box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2);
 }
 </style>
