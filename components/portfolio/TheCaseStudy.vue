@@ -1,12 +1,30 @@
 /* eslint attributes-order: 0 */
 <template>
   <div class="case-study">
+    <!-- EXPT: HEADER -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column ">
+              <h1 class="title is-size-2 has-text-centered has-text-primary has-font-roboto-slab">
+                {{ heading }}
+              </h1>
+              <!-- <h5 class="subtitle has-text-centered">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus! Exercitationem, blanditiis. Sint, consectetur tempora!
+              </h5> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END --- EXPT: HEADER -->
     <div class="columns is-centered">
       <div class="column is-9">
         <div id="CaseStudyHeader">
-          <h1 class="title is-2 jtron-logotype has-text-centered">
+          <!-- <h1 class="title is-2 jtron-logotype has-text-centered">
             Case Study: {{ heading }}
-          </h1>
+          </h1> -->
           <figure class="folio-image">
             <img :src="headerImage" type="image/webp" alt>
           </figure>
