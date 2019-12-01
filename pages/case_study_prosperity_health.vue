@@ -5,7 +5,7 @@
 
       :header-image="require('~/assets/images/case_study/prosperity_health/prosperity-overview.jpg')"
       :overview-title="'Healthy body, Healthy mind...'"
-      :overview="`<p>Prosperity CBD & Vegan Coffee Lounge is a plant-based alternative health startup specialising in CBD products. They are dedicated to sourcing and sharing the best products produced using the cleanest safest methods. They are even developing their own breand product range. They needed a website that would initially serve as contact/brochure site but be capable of extending to other functionality as they grow (ecommerce capability, membership system, mobile app, etc.</p>`"
+      :overview="`<p>Prosperity CBD & Vegan Coffee Lounge is a plant-based alternative health startup specialising in CBD products. They are dedicated to sourcing and sharing the best products produced using the cleanest safest methods. They are even developing their own breand product range. They needed a website that would initially serve as contact/brochure site but be capable of extending to other functionality as they grow (ecommerce capability, membership system, hybrid mobile app/PWA, etc.</p>`"
 
       :folio-image="require('~/assets/images/case_study/prosperity_health/folio-image-lounge.png')"
 
