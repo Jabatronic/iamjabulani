@@ -1,25 +1,26 @@
 <template>
   <div>
     <the-case-study
-      :header-image="require('~/assets/images/case_study/dantanna/dantanna-overview.jpg')"
+      :heading="'The Ice Chef'"
 
-      :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
+      :header-image="require('~/assets/images/case_study/the_ice_chef/ice-chef-overview.jpg')"
+
+      :overview="`<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?</p>`"
+
+      :folio-image="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop.png')"
+
+      :solution="`<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?</p>`"
 
       :skills="[
         'PHP, HTML, JavaScript, CSS, Apache',
-        'GSAP (JavaScript) Animation',
-        'Wordpress (including rudimentary plugin development)',
+        'Wordpress (Genesis)',
         'Photoshop'
       ]"
 
-      :folio-image-laptop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
+      :folio-image-laptop="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop-laptop.png')"
 
-      :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
+      :folio-image-mobile="require('~/assets/images/case_study/the_ice_chef/mobile-01.png')"
 
-      heading="The Ice Chef"
-
-      overview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
-      solution="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?"
     />
   </div>
 </template>
