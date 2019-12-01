@@ -4,7 +4,7 @@
       :heading="'The Little Big Programme (EDAS)'"
 
       :header-image="require('~/assets/images/case_study/little_big_programme/edas.png')"
-
+      :overview-title="'Deliciously different...'"
       :overview="`<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis ipsam, laborum iste harum consequatur accusamus vero, quod eaque reprehenderit, illo vel nulla fugit laudantium minus atque soluta eius quas?</p>`"
 
       :folio-image="require('~/assets/images/case_study/little_big_programme/training-image.png')"

@@ -3,7 +3,7 @@
     <the-case-study
       :heading="'First Wealth'"
       :header-image="require('~/assets/images/case_study/first_wealth/first-wealth-overview.png')"
-
+      :overview-title="'Deliciously different...'"
       :overview="'First Wealth are a personal financial management service. Their branding speaks a clear message of understated sophistication coupled with knowledge and reliability. I was contracted to custom design a section of their website dedicated to their career development programme.'"
 
       :folio-image="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-01.png')"

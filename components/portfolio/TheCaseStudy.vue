@@ -14,7 +14,7 @@
         <div id="CaseStudyOverview">
           <div class="mb-20 mt-20">
             <h3>
-              Overview
+              {{ overviewTitle }}
             </h3>
             <div
               v-html="overview"
@@ -86,6 +86,10 @@ export default {
     headerImage: {
       type: Object,
       default: require('~/assets/images/placeholders/company-image-1000x474.png')
+    },
+    overviewTitle: {
+      type: String,
+      default: 'Overview title goes here'
     },
     overview: {
       type: String,
