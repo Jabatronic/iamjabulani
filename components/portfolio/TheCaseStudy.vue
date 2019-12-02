@@ -1,4 +1,3 @@
-/* eslint attributes-order: 0 */
 <template>
   <div class="case-study">
     <!-- EXPT: HEADER -->
@@ -26,7 +25,7 @@
             Case Study: {{ heading }}
           </h1> -->
           <figure class="folio-image">
-            <img :src="headerImage" type="image/webp" alt>
+            <img :src="headerImage" alt>
           </figure>
         </div>
         <div id="CaseStudyOverview">
