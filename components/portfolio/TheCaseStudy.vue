@@ -1,5 +1,5 @@
 <template>
-  <div class="case-study">
+  <div v-lazy-container="{ selector: 'img'}" class="case-study">
     <!-- EXPT: HEADER -->
     <section class="hero">
       <div class="hero-body">
@@ -21,12 +21,14 @@
     <div class="columns is-centered">
       <div class="column is-9">
         <div id="CaseStudyHeader">
-          <!-- <h1 class="title is-2 jtron-logotype has-text-centered">
-            Case Study: {{ heading }}
-          </h1> -->
-          <figure class="folio-image">
-            <img :src="headerImage" alt>
-          </figure>
+          <div class="figure-wrap">
+            <figure class="folio-image">
+              <img
+                :data-src="headerImage"
+                alt
+              >
+            </figure>
+          </div>
         </div>
         <div id="CaseStudyOverview">
           <div class="mb-20 mt-20">
@@ -38,9 +40,11 @@
               class="content"
             />
           </div>
-          <figure class="folio-image">
-            <img :src="folioImage" alt>
-          </figure>
+          <div class="figure-wrap">
+            <figure class="folio-image">
+              <img :data-src="folioImage" alt>
+            </figure>
+          </div>
         </div>
         <div id="CaseStudySolution" class="mb-20 mt-20">
           <div class="columns">
@@ -68,17 +72,21 @@
           </div>
         </div>
         <div id="CaseStudyImage1" class="mb-20 mt-20">
-          <figure class="folio-image desktop">
-            <img :src="folioImageLaptop" alt>
-          </figure>
-          <figure class="folio-image mobile">
-            <img :src="folioImageMobile" alt>
-          </figure>
+          <div class="figure-wrap has-background-primary">
+            <figure class="folio-image desktop">
+              <img :data-src="folioImageLaptop" alt>
+            </figure>
+          </div>
+          <div class="figure-wrap">
+            <figure class="folio-image mobile">
+              <img :data-src="folioImageMobile" alt>
+            </figure>
+          </div>
           <figure
             v-if="folioImageExtra"
             class="folio-image mobile"
           >
-            <img :src="folioImageExtra" alt>
+            <img :data-src="folioImageExtra" alt>
           </figure>
         </div>
         <!--
@@ -153,6 +161,14 @@ export default {
 
 <style lang="scss">
 .case-study {
+  & .figure-wrap {
+    // min-height: 400px;
+    background: #fff;
+    &.bg-primary {
+      background: $primary;
+    }
+  }
+
   & li, p, h3 {
     font-size: 1rem;
     font-family: $body-family;
@@ -169,17 +185,21 @@ export default {
     padding: 0;
     margin: 0 0 32px 0;
     width: 100%;
+    background-image: url(/loading.gif);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     &.desktop, &.mobile {
-      background: $primary;
+      background-color: $primary;
+      background-image: url(/loading-white.gif);
+      }
     }
   }
-  & .li, p {
-    font-size: 1rem;
-  }
-}
 
   img {
     border-radius: 3px;
+    &[lazy="loading"] {
+      min-height: 400px;
+    }
   }
 
   div.skills-component {
