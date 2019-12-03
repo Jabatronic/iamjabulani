@@ -9,7 +9,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Resume' }
+      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Resume' },
+      // Open Graph
+      { name: 'og:title', content: 'IAMJABULANI' },
+      { name: 'og:description', content: 'The Web Development Portfolio & Resume' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://iamjabulani.tech' },
+      { name: 'og:image', content: 'https://nuxtjs.org/meta_640.png' },
+      // Twitter Card
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@?????' },
+      { name: 'twitter:title', content: 'IAMJABULANI' },
+      { name: 'twitter:description', content: 'The Web Development Portfolio & Resume' },
+      { name: 'twitter:image', content: 'https://nuxtjs.org/meta_640.png' },
+      { name: 'twitter:image:alt', content: 'NuxtJS Logo' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
