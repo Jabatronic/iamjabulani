@@ -9,7 +9,7 @@
                 Selected Works
               </h1>
               <h5 class="subtitle has-text-centered">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus! Exercitationem, blanditiis. Sint, consectetur tempora!
+                Some projects I've had the pleasure of working on
               </h5>
             </div>
           </div>
