@@ -154,6 +154,9 @@
                 2018 &ndash; present
               </span>
             </h3>
+            <div class="content">
+              <p>Consulting on web marketing strategy. Designing and implementing custom Wordpress site with WooCommerce.</p>
+            </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
@@ -195,7 +198,11 @@
                   <li>HTML5, CSS3</li>
                   <li>Javascript, Vue.js, Nuxt.js, jQuery</li>
                   <li>PHP</li>
-                  <li>PHP</li>
+                  <li>Laravel</li>
+                  <li>Wordpress</li>
+                  <li>Sass/Scss</li>
+                  <li>Webpack</li>
+                  <li>Git</li>
                 </ul>
               </div>
             </div>
@@ -240,7 +247,7 @@
             </h3>
             <div class="content">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, fuga iste? Deleniti dicta modi recusandae laborum, vero unde adipisci expedita accusantium nesciunt quo, consectetur distinctio! Non et voluptates itaque doloribus.
+                <!-- Content -->
               </p>
             </div>
           </div>
