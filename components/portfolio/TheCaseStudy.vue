@@ -163,6 +163,7 @@ export default {
 .case-study {
   & .figure-wrap {
     background: #fff;
+    min-height: 20rem;
     &.bg-primary {
       background: $primary;
     }
@@ -171,10 +172,11 @@ export default {
   & li, p, h3 {
     font-size: 1rem;
     font-family: $body-family;
+    max-width: 40rem;
   }
   & h3 {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: $primary;
   }
   & .folio-image {
