@@ -191,6 +191,8 @@ export default {
     &.desktop, &.mobile {
       background-color: $primary;
       background-image: url(/loading-white.gif);
+      padding-top: $gap * 3;
+      padding-bottom: $gap * 3;
       }
     }
   }
