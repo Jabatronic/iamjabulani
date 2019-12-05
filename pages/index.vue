@@ -39,7 +39,9 @@
                   <h2 class="title is-size-4 has-text-centered-mobile">
                     <b>Creative Web Developer, Critical Thinker, Afronaut 🚀</b>
                   </h2>
-                  <h5 class="subtitle is-size-5 has-text-grey-dark is-italic has-text-centered-mobile">&amp; all round good egg...</h5>
+                  <h5 class="subtitle is-size-5 has-text-grey-dark is-italic has-text-centered-mobile">
+                    &amp; all round good egg...
+                  </h5>
                 </div>
               </div>
             </div>
