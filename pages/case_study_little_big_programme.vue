@@ -10,7 +10,7 @@
       :overview="`<p>EDAS are an award winning charity whose goal is to empower people through education and support. Their philosophy is an inclusive one with their course participants consisting of both people who are successfully in recovery from substance misuse and professional practitioners in the field of substance misuse. They offer a range of courses from informal uncertificated through to Masters level.</p>
       <p>EDAS developed a paper-based therapeutic tool for use with young people in addiction therapy &mdash; <i>The Little Big Programme</i> &mdash; It has page-by-page excercises that promote self-awareness and understanding of situations, behaviours, patterns, and relationships that affect, or are affected by, substance misuse. They approached me, requiring a means to have an online,  digital, fully interactive version of the excercises as part of a broader commitment to digital engagement and support strategies</p>`"
 
-      :folio-image="require('~/assets/images/case_study/little_big_programme/training-image.png')"
+      :folio-image="require('~/assets/images/case_study/little_big_programme/training-image.jpg')"
 
       :solution="`<p>I recommended building a working prtotype as a proof of concept which could then be scaled. The system should (initially, at least) look very similar to the paper-based parent to make the transition between the two as smooth as possible for participants already using the paper booklet. It would require:</p>
         <ul>

@@ -22,7 +22,7 @@
 
       :folio-image-laptop="require('~/assets/images/case_study/dantanna/dantanna-folio-image-laptop.png')"
 
-      :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=500')"
+      :folio-image-mobile="require('~/assets/images/case_study/dantanna/dantanna-folio-image-mobile.png?size=300')"
     />
   </div>
 </template>
