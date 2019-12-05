@@ -80,7 +80,7 @@ export default {
   ],
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: false,
+    optimizeImagesInDev: true,
     defaultImageLoader: 'responsive-loader',
     handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     responsive: {
