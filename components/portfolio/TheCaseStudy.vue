@@ -1,5 +1,5 @@
 <template>
-  <div v-lazy-container="{ selector: 'img'}" class="case-study">
+  <div v-lazy-container="{ selector: 'img' }" class="case-study">
     <!-- EXPT: HEADER -->
     <section class="hero">
       <div class="hero-body">
@@ -162,7 +162,6 @@ export default {
 <style lang="scss">
 .case-study {
   & .figure-wrap {
-    // min-height: 400px;
     background: #fff;
     &.bg-primary {
       background: $primary;
