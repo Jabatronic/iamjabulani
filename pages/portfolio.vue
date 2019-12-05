@@ -9,7 +9,7 @@
                 Selected Works
               </h1>
               <h5 class="subtitle has-text-centered">
-                Some projects I've had the pleasure of working on
+                Some web design &amp; development projects I've had the pleasure of working on. I'll be creating a home for my art &amp; experimental projects soon!
               </h5>
             </div>
           </div>
