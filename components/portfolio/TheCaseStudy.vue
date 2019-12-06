@@ -163,7 +163,6 @@ export default {
 .case-study {
   & .figure-wrap {
     background: #fff;
-    min-height: 20rem;
       &.bg-primary {
         background: $primary;
       }
@@ -188,16 +187,15 @@ export default {
     background-image: url(/loading.gif);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    &.desktop, &.mobile {
-      background-color: $primary;
-      background-image: url(/loading-white.gif);
-      padding: $gap;
+      &.desktop, &.mobile {
+        background-color: $primary;
+        background-image: url(/loading-white.gif);
+        padding: $gap;
+        }
       }
     }
-  }
 
   img {
-    // border-radius: 3px;
     &[lazy="loading"] {
       min-height: 400px;
     }
