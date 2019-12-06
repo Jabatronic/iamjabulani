@@ -13,10 +13,9 @@
       :folio-image-mobile="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-mobile.png?size=300')"
 
       :skills="[
-        'PHP',
-        'HTML, JavaScript, (S)CSS',
-        'Wordpress, Plugin development, Advanced Custom Fields',
-        'Adobe XD, Photoshop'
+        'PHP, HTML, JavaScript, (S)CSS, Gulp',
+        'Wordpress, Advanced Custom Fields',
+        'Photoshop'
       ]"
 
       solution="<p>I built a custom Wordpress template that integrated with their existing (custom built) Wordpress site, and utilised Advanced Custom Fields to implement content management functionality specifically for that area of the site.</p>"
