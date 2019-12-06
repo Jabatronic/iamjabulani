@@ -72,7 +72,7 @@
           </div>
         </div>
         <div id="CaseStudyImage1" class="mb-20 mt-20">
-          <div class="figure-wrap has-background-primary">
+          <div class="figure-wrap">
             <figure class="folio-image desktop">
               <img :data-src="folioImageLaptop" alt>
             </figure>
@@ -164,11 +164,10 @@ export default {
   & .figure-wrap {
     background: #fff;
     min-height: 20rem;
-    &.bg-primary {
-      background: $primary;
+      &.bg-primary {
+        background: $primary;
+      }
     }
-  }
-
   & li, p, h3 {
     font-size: 1rem;
     font-family: $body-family;
@@ -192,14 +191,13 @@ export default {
     &.desktop, &.mobile {
       background-color: $primary;
       background-image: url(/loading-white.gif);
-      padding-top: $gap * 3;
-      padding-bottom: $gap * 3;
+      padding: $gap;
       }
     }
   }
 
   img {
-    border-radius: 3px;
+    // border-radius: 3px;
     &[lazy="loading"] {
       min-height: 400px;
     }
@@ -230,5 +228,4 @@ export default {
     color: $primary;
   }
 }
-
 </style>
