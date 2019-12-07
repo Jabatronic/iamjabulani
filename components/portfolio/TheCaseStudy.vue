@@ -24,7 +24,7 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
-                :data-src="headerImage"
+                :data-src="headerImage.src"
                 alt
               >
             </figure>
@@ -42,7 +42,7 @@
           </div>
           <div class="figure-wrap">
             <figure class="folio-image">
-              <img :data-src="folioImage" alt>
+              <img :data-src="folioImage.src" alt>
             </figure>
           </div>
         </div>
@@ -74,19 +74,19 @@
         <div id="CaseStudyImage1" class="mb-20 mt-20">
           <div class="figure-wrap">
             <figure class="folio-image desktop">
-              <img :data-src="folioImageLaptop" alt>
+              <img :data-src="folioImageLaptop.src" alt>
             </figure>
           </div>
           <div class="figure-wrap">
             <figure class="folio-image mobile">
-              <img :data-src="folioImageMobile" alt>
+              <img :data-src="folioImageMobile.src" alt>
             </figure>
           </div>
           <figure
-            v-if="folioImageExtra"
+            v-if="folioImageExtra.src"
             class="folio-image mobile"
           >
-            <img :data-src="folioImageExtra" alt>
+            <img :data-src="folioImageExtra.src" alt>
           </figure>
         </div>
         <!--
