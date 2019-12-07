@@ -25,6 +25,7 @@
             <figure class="folio-image">
               <img
                 :data-src="headerImage"
+                width="100%"
                 alt
               >
             </figure>
@@ -42,7 +43,11 @@
           </div>
           <div class="figure-wrap">
             <figure class="folio-image">
-              <img :data-src="folioImage" alt>
+              <img
+                :data-src="folioImage"
+                width="100%"
+                alt
+              >
             </figure>
           </div>
         </div>
@@ -74,7 +79,11 @@
         <div id="CaseStudyImage1" class="mb-20 mt-20">
           <div class="figure-wrap">
             <figure class="folio-image desktop">
-              <img :data-src="folioImageLaptop" alt>
+              <img
+                :data-src="folioImageLaptop"
+                width="100%"
+                alt
+              >
             </figure>
           </div>
           <div class="figure-wrap">
@@ -86,7 +95,11 @@
             v-if="folioImageExtra"
             class="folio-image mobile"
           >
-            <img :data-src="folioImageExtra" alt>
+            <img
+              :data-src="folioImageExtra"
+              width="100%"
+              alt
+            >
           </figure>
         </div>
         <!--
@@ -183,7 +196,6 @@ export default {
     border-radius: $radius;
     padding: 0;
     margin: 0 0 32px 0;
-    width: 100%;
     background-image: url(/loading.gif);
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -198,9 +210,6 @@ export default {
   img {
     // width: auto;
     height: auto !important;
-    &[lazy="loading"] {
-      // min-height: 400px;
-    }
   }
 
   div.skills-component {
