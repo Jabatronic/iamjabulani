@@ -25,7 +25,7 @@
             <figure class="folio-image">
               <img
                 :data-src="headerImage.src"
-                width="100%"
+                style="max-width: 100%; height: auto"
                 alt
               >
             </figure>
@@ -199,6 +199,7 @@ export default {
     background-image: url(/loading.gif);
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    height: max-content;
       &.desktop, &.mobile {
         background-color: $primary;
         background-image: url(/loading-white.gif);
@@ -209,7 +210,7 @@ export default {
 
   img {
     // width: auto;
-    height: auto !important;
+    // height: auto !important;
   }
 
   div.skills-component {
