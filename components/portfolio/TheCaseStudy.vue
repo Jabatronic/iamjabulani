@@ -196,10 +196,10 @@ export default {
     }
 
   img {
-    width: auto;
-    height: auto;
+    // width: auto;
+    // height: auto;
     &[lazy="loading"] {
-      min-height: 400px;
+      // min-height: 400px;
     }
   }
 
