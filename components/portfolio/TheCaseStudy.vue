@@ -7,7 +7,7 @@
           <div class="columns is-centered">
             <div class="column ">
               <h1 class="title is-size-2 has-text-centered has-text-primary has-font-roboto-slab">
-                {{ heading }} xxx
+                {{ heading }} xxxx
               </h1>
               <!-- <h5 class="subtitle has-text-centered">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus! Exercitationem, blanditiis. Sint, consectetur tempora!
