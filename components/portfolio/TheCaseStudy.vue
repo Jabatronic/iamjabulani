@@ -25,7 +25,6 @@
             <figure class="folio-image">
               <img
                 :src="headerImage.src"
-                style="max-width: 100%; height: auto"
                 alt
               >
             </figure>
@@ -213,6 +212,7 @@ export default {
     display: block;
     width: auto;
     height: auto !important;
+    margin: 0 auto;
   }
 
   div.skills-component {
