@@ -83,7 +83,7 @@
             </figure>
           </div>
           <figure
-            v-if="folioImageExtra.src"
+            v-if="folioImageExtra"
             class="folio-image mobile"
           >
             <img :data-src="folioImageExtra.src" alt>
