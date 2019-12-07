@@ -1,5 +1,5 @@
 <template>
-  <div v-lazy-container="{ selector: 'img' }" class="case-study">
+  <div class="case-study">
     <!-- EXPT: HEADER -->
     <section class="hero">
       <div class="hero-body">
@@ -24,7 +24,7 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
-                :data-src="headerImage.src"
+                :src="headerImage.src"
                 style="max-width: 100%; height: auto"
                 alt
               >
@@ -44,7 +44,7 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
-                :data-src="folioImage.src"
+                :src="folioImage.src"
                 width="100%"
                 alt
               >
@@ -80,7 +80,7 @@
           <div class="figure-wrap">
             <figure class="folio-image desktop">
               <img
-                :data-src="folioImageLaptop.src"
+                :src="folioImageLaptop.src"
                 width="100%"
                 alt
               >
@@ -88,7 +88,7 @@
           </div>
           <div class="figure-wrap">
             <figure class="folio-image mobile">
-              <img :data-src="folioImageMobile.src" alt>
+              <img :src="folioImageMobile.src" alt>
             </figure>
           </div>
           <figure
@@ -96,7 +96,7 @@
             class="folio-image mobile"
           >
             <img
-              :data-src="folioImageExtra.src"
+              :src="folioImageExtra.src"
               width="100%"
               alt
             >
