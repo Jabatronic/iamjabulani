@@ -191,8 +191,9 @@ export default {
     color: $primary;
   }
   & .folio-image {
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
+    display: block;
     border-radius: $radius;
     padding: 0;
     margin: 0 0 32px 0;
