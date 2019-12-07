@@ -197,7 +197,7 @@ export default {
 
   img {
     // width: auto;
-    // height: auto;
+    height: auto !important;
     &[lazy="loading"] {
       // min-height: 400px;
     }
