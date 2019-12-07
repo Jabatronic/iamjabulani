@@ -209,9 +209,9 @@ export default {
     }
 
   img {
-    // width: auto;
-    // height: auto !important;
-    // ...
+    display: block;
+    width: auto;
+    height: auto !important;
   }
 
   div.skills-component {
