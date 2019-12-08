@@ -48,9 +48,8 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
-                :srcSet="folioImage.srcSet"
-                :src="folioImage.src"
-                width="100%"
+                :data-srcset="folioImage.srcSet"
+                v-lazy="folioImage.src"
                 alt
               >
             </figure>
@@ -85,9 +84,8 @@
           <div class="figure-wrap">
             <figure class="folio-image desktop">
               <img
-                :srcSet="folioImageLaptop.srcSet"
-                :src="folioImageLaptop.src"
-                width="100%"
+                :data-srcset="folioImageLaptop.srcSet"
+                v-lazy="folioImageLaptop.src"
                 alt
               >
             </figure>
@@ -95,7 +93,8 @@
           <div class="figure-wrap">
             <figure class="folio-image mobile">
               <img
-                :src="folioImageMobile.src"
+                :data-srcset="folioImageMobile.srcSet"
+                v-lazy="folioImageMobile.src"
                 alt
               >
             </figure>
@@ -105,9 +104,8 @@
             class="folio-image mobile"
           >
             <img
-              :srcSet="folioImageExtra.srcSet"
-              :src="folioImageExtra.src"
-              width="100%"
+              :data-srcset="folioImageExtra.srcSet"
+              v-lazy="folioImageExtra.src"
               alt
             >
           </figure>
