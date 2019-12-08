@@ -22,11 +22,11 @@
                 class="image container is-128x128"
               >
                 <img
-                  :src="require('~/assets/images/jabulani_robbins.jpg').src"
-                  :srcSet="require('~/assets/images/jabulani_robbins.jpg').srcSet"
-                  class="is-rounded is-me"
+                  :src="require('~/assets/images/jabulani_robbins_2.jpg').src"
+                  class=""
                 >
               </figure>
+              <br>
             </div>
             <div class="column is-6-desktop">
               <div
