@@ -37,8 +37,8 @@
                     <span>I am Jabulani Robbins</span>
                   </h1>
 
-                  <h2 class="title is-size-4 has-text-centered-mobile">
-                    <b>Creative Web Developer, Critical Thinker, Afronaut</b>
+                  <h2 class="subtitle is-size-4 has-text-centered-mobile">
+                    <b>Creative Web Developer, Critical Thinker, Afronaut...</b>
                     <img
                       :src="require('~/assets/images/rocket-trans.png').src"
                       class="my-rocket"
