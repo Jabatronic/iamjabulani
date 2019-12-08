@@ -21,7 +21,10 @@
     <div class="columns is-centered">
       <div class="column is-9">
         <div id="CaseStudyHeader">
-          <div class="figure-wrap">
+          <div
+            v-lazy-container="{ selector: 'img' }"
+            class="figure-wrap"
+          >
             <figure class="folio-image">
               <img
                 :srcSet="headerImage.srcSet"
