@@ -84,7 +84,7 @@ export default {
     defaultImageLoader: 'responsive-loader',
     handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     responsive: {
-      sizes: [1000, 700, 300],
+      sizes: [1000, 750, 500, 330, 200],
       placeholder: true
     },
     mozjpeg: {
