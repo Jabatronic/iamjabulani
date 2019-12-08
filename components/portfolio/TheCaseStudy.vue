@@ -22,13 +22,14 @@
       <div class="column is-9">
         <div id="CaseStudyHeader">
           <div
-            v-lazy-container="{ selector: 'img' }"
             class="figure-wrap"
           >
-            <figure class="folio-image">
+            <figure
+              class="folio-image"
+            >
               <img
-                :srcSet="headerImage.srcSet"
-                :src="headerImage.src"
+                :data-srcset="headerImage.srcSet"
+                v-lazy="headerImage.src"
                 alt
               >
             </figure>
@@ -223,6 +224,10 @@ export default {
     width: auto;
     height: auto !important;
     margin: 0 auto;
+      &[lazy=loading] {
+        // ...
+        min-height: calc(30vh);
+      }
   }
 
   div.skills-component {
