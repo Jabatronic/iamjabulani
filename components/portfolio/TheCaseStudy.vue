@@ -24,6 +24,7 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
+                :srcSet="headerImage.srcSet"
                 :src="headerImage.src"
                 alt
               >
@@ -43,6 +44,7 @@
           <div class="figure-wrap">
             <figure class="folio-image">
               <img
+                :srcSet="folioImage.srcSet"
                 :src="folioImage.src"
                 width="100%"
                 alt
@@ -79,6 +81,7 @@
           <div class="figure-wrap">
             <figure class="folio-image desktop">
               <img
+                :srcSet="folioImageLaptop.srcSet"
                 :src="folioImageLaptop.src"
                 width="100%"
                 alt
@@ -87,7 +90,10 @@
           </div>
           <div class="figure-wrap">
             <figure class="folio-image mobile">
-              <img :src="folioImageMobile.src" alt>
+              <img
+                :src="folioImageMobile.src"
+                alt
+              >
             </figure>
           </div>
           <figure
@@ -95,6 +101,7 @@
             class="folio-image mobile"
           >
             <img
+              :srcSet="folioImageExtra.srcSet"
               :src="folioImageExtra.src"
               width="100%"
               alt
