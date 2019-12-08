@@ -36,12 +36,23 @@
                   <h1 class="title is-size-2 has-text-teal has-font-roboto-slab is-hidden-mobile">
                     <span>I am Jabulani Robbins</span>
                   </h1>
+
                   <h2 class="title is-size-4 has-text-centered-mobile">
-                    <b>Creative Web Developer, Critical Thinker, Afronaut 🚀</b>
+                    <b>Creative Web Developer, Critical Thinker, Afronaut</b>
+                    <img
+                      :src="require('~/assets/images/rocket-trans.png').src"
+                      class="my-rocket"
+                    >
                   </h2>
-                  <h5 class="subtitle is-size-5 has-text-grey-dark is-italic has-text-centered-mobile">
-                    &amp; all round good egg...
-                  </h5>
+                  <div
+                    data-aos="zoom-in"
+                    data-aos-delay="800"
+                    data-aos-easing="ease-in-out-back"
+                  >
+                    <h5 class="subtitle is-size-5 has-text-grey-dark is-italic has-text-centered-mobile">
+                      &amp; all round good egg...
+                    </h5>
+                  </div>
                 </div>
               </div>
             </div>
@@ -72,5 +83,11 @@ export default {
 
   img.is-me {
     border: 1px solid $grey-lighter;
+  }
+
+  .my-rocket {
+    display: inline-block;
+    position: relative;
+    top: .7rem;
   }
 </style>
