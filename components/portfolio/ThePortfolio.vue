@@ -48,7 +48,7 @@
 import PortfolioArticle from '~/components/portfolio/PortfolioArticle.vue'
 
 const firstWealthImg = require('~/assets/images/first_wealth_front.png?size=760')
-const dantannaImg = require('~/assets/images/dantanna_beatz_front.jpg?size=760')
+const dantannaImg = require('~/assets/images/dantanna_beatz_front.png?size=760')
 const prosperityImg = require('~/assets/images/prosperity_health_front.jpg?size=600')
 const littleBigProgImg = require('~/assets/images/the_little_big_programme_front.jpg?size=760')
 const iceChefImg = require('~/assets/images/the_ice_chef_front.jpg?size=500')
