@@ -3,8 +3,8 @@
     <the-case-study
       :heading="'First Wealth'"
       :header-image="require('~/assets/images/case_study/first_wealth/first-wealth-overview.jpg')"
-      :overview-title="'A wealth of knowledge in money management...'"
-      :overview="'<p>First Wealth are a personal financial management service. Their branding speaks a clear message of understated sophistication coupled with knowledge and reliability. I was contracted to custom design a section of their website dedicated to their career development programme.</p>'"
+      :overview-title="'A wealth of knowledge in financial management...'"
+      :overview="'<p>First Wealth are a personal financial planning service. Their branding speaks a clear message of understated sophistication coupled with knowledge and reliability. I was contracted to custom design a section of their website dedicated to their career development programme.</p>'"
 
       :folio-image="require('~/assets/images/case_study/first_wealth/first-wealth-folio-image-01.jpg')"
 
