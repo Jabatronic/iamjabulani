@@ -88,7 +88,7 @@ export default {
       placeholder: true
     },
     mozjpeg: {
-      quality: 85
+      quality: 60
     },
     optipng: false,
     pngquant: {
