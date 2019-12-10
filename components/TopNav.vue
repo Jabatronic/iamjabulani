@@ -32,6 +32,13 @@
           <nuxt-link to="resume" class="navbar-item">
             Résumé
           </nuxt-link>
+
+          <nuxt-link
+            to="/"
+            class="navbar-item"
+          >
+            Make Contact
+          </nuxt-link>
         </div>
 
         <div class="navbar-end">
