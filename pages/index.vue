@@ -60,7 +60,10 @@
         </div>
       </div>
     </section>
-    <section>
+    <section
+      data-aos="fade-up"
+      data-aos-easing="ease-out-back"
+    >
       <the-portfolio />
     </section>
   </div>
