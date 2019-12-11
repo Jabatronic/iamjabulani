@@ -33,12 +33,12 @@
             Résumé
           </nuxt-link>
 
-          <nuxt-link
+          <!-- <nuxt-link
             to="/"
             class="navbar-item"
           >
             Make Contact
-          </nuxt-link>
+          </nuxt-link> -->
         </div>
 
         <div class="navbar-end">
