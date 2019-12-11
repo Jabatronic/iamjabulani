@@ -2,12 +2,13 @@
   <footer class="footer">
     <div class="has-text-centered">
       <p>
-        <strong><a href="mailto://jabu.robbins@gmail.com" target="blank">Jabulani Robbins</a></strong>
-        <ul>
-          <li>jabu.robbins@gmail.com</li>
-          <li>+44 7969 910 258</li>
-        </ul>
+        <strong>Created by </strong>Jabulani Robbins 2019<br>
+        <strong>Using </strong>Vue, Nuxt, Bulma, HTML5, CSS3, Sass, Love &amp; dedication
       </p>
+      <ul>
+        <li><a href="mailto://jabu.robbins@gmail.com" target="blank">jabu.robbins@gmail.com</a></li>
+        <li>+44 7969 910 258</li>
+      </ul>
     </div>
   </footer>
 </template>
