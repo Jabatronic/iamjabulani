@@ -9,7 +9,7 @@
 
       :folio-image="require('~/assets/images/case_study/prosperity_health/folio-image-lounge.jpg')"
 
-      :solution="`<p>Initially I spent a good deal of time iterating designs initially using paper and later using digital wireframing and prototyping tools, a process I found very rewarding. During this time, my relationship with the company developed and continues to do so.</p>
+      :solution="`<p>Initially I spent a good deal of time iterating designs, starting on paper and later using digital wireframing and prototyping tools. This was a process I found very rewarding. During this time, my relationship with the company developed and continues to do so.</p>
       <p>Accomplishing our goals within a limited budget was a critical factor.</p>
       <p>I started with a premium Genesis theme and made modifications to back and front end to achieve the desired look and feel.</p> I also implemented full ecommerce capability using Woocommerce, in preparation for the client's online product range launches`"
 
