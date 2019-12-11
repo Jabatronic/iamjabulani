@@ -323,8 +323,4 @@ export default {
   }
 }
 
-footer {
-  display: none !important;
-}
-
 </style>
