@@ -54,10 +54,10 @@
                     data-aos-delay="800"
                     data-aos-easing="ease-in-out-back"
                   >
-                    I created this website as a place to place to showcase projects I've enjoyed working on.
-                    Take a look at some of them below. I'm available for projects at the moment so <nuxt-link to="resume">
+                    I use web technologies to make things. I love learning and problem solving and I'd like to think I'm pretty good with people too. I'm available for work at the moment so browse some of my projects below (more to come soon!) or <nuxt-link to="resume">
                       check out my résumé
-                    </nuxt-link> and <a href="mailto://jabu.robbins@gmail.com" target="blank">get in touch!</a>
+                    </nuxt-link> and
+                    <a href="mailto://jabu.robbins@gmail.com" target="blank">get in touch!</a>
                   </p>
                 </div>
               </div>
