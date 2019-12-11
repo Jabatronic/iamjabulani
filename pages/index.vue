@@ -49,7 +49,7 @@
                     </span>
                   </h2>
                   <p
-                    class="has-text-weight-normal is-italic"
+                    class="has-text-weight-normal is-italic has-text-centered-mobile"
                     data-aos="zoom-in"
                     data-aos-delay="800"
                     data-aos-easing="ease-in-out-back"
