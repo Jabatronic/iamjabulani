@@ -36,23 +36,26 @@
                   <h1 class="title is-size-2 has-text-teal has-font-roboto-slab is-hidden-mobile">
                     <span>I am Jabulani Robbins</span>
                   </h1>
-
-                  <h2 class="subtitle is-size-4 has-text-centered-mobile">
-                    <b>Creative Web Developer, Critical Thinker, Afronaut...</b>
+                  <h2 class="subtitle is-size-5 has-text-weight-bold has-text-centered-mobile">
+                    Creative Web Developer, Critical Thinker, Afronaut...
                     <img
                       :src="require('~/assets/images/rocket-trans.png').src"
                       class="my-rocket"
+                    ><br>
+                    <span
+                      class="is-size-5 is-italic has-text-centered-mobile"
                     >
+                      + all round good egg...
+                    </span>
                   </h2>
-                  <div
+                  <p
+                    class="has-text-weight-normal is-italic"
                     data-aos="zoom-in"
                     data-aos-delay="800"
                     data-aos-easing="ease-in-out-back"
                   >
-                    <h5 class="subtitle is-size-5 has-text-grey-dark is-italic has-text-centered-mobile">
-                      &amp; all round good egg...
-                    </h5>
-                  </div>
+                    I created this website as a place to place to showcase projects I've enjoyed working on. Take a look at some of them below.
+                  </p>
                 </div>
               </div>
             </div>
