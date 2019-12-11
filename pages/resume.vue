@@ -4,7 +4,7 @@
       <!-- New Layout -->
       <div class="column">
         <h1 class="title is-uppercase has-font-roboto-slab has-text-teal">
-          M Jabulani Robbins
+          Jabulani Robbins
         </h1>
 
         <p>
@@ -267,11 +267,20 @@
 
 <script>
 export default {
+  name: 'Resume',
   data () {
     return {
       myPhoneNum: '(+44) 7969 910 258',
       myEmailAddr: 'jabu.robbins@gmail.com',
       myLocation: 'Poole, Dorset, UK'
+    }
+  },
+  head () {
+    return {
+      title: 'Résumé - Web development & Design - Jabulani Robbins',
+      bodyAttrs: {
+        id: 'ResumePage'
+      }
     }
   }
 }
@@ -323,4 +332,8 @@ export default {
   }
 }
 
+// Hide footer on this page only by page ID
+#ResumePage .footer {
+  display: none;
+}
 </style>
