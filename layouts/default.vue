@@ -1,10 +1,13 @@
 <template>
-  <div class="container is-desktop">
+  <div>
     <top-nav />
-    <main class="jtron-main">
-      <nuxt />
-    </main>
-    <the-footer />
+      <div class="container is-desktop">
+        <main class="jtron-main">
+          <nuxt />
+        </main>
+      </div>
+      <the-footer />
+
   </div>
 </template>
 
@@ -19,7 +22,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-//...
-</style>
