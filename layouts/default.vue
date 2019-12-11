@@ -1,13 +1,12 @@
 <template>
   <div>
     <top-nav />
-      <div class="container is-desktop">
-        <main class="jtron-main">
-          <nuxt />
-        </main>
-      </div>
-      <the-footer />
-
+    <div class="container is-desktop">
+      <main class="jtron-main">
+        <nuxt />
+      </main>
+    </div>
+    <the-footer />
   </div>
 </template>
 
