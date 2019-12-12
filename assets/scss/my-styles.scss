@@ -63,7 +63,7 @@ body {
     opacity: 1;
   }
 }
-img[lazy='loaded'] {
+[lazy='loaded'] {
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-name: fadeIn;
