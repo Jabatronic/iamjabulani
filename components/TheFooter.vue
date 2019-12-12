@@ -3,7 +3,7 @@
     <div class="has-text-centered">
       <p>
         <strong>Created by </strong>Jabulani Robbins 2019<br>
-        <strong>Using </strong>Vue, Nuxt, Bulma, HTML5, CSS3, Sass, Love &amp; dedication
+        <strong>Using </strong>Vue, Nuxt, Bulma, HTML5, CSS3, Sass, Green Tea &amp; Dedication
       </p>
       <ul>
         <li><a href="mailto://jabu.robbins@gmail.com" target="blank">jabu.robbins@gmail.com</a></li>
