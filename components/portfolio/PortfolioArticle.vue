@@ -70,7 +70,7 @@ export default {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 0.6s;
+    transition: opacity 0.6s;
     padding: 20px;
   }
   &:hover .bg-image {
