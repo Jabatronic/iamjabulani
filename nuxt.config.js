@@ -81,7 +81,6 @@ export default {
   ],
   purgeCSS: {
     // your settings here
-    // whitelist: ['body.has-navbar-fixed-top']
   },
   optimizedImages: {
     optimizeImages: true,
