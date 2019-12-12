@@ -76,8 +76,8 @@ export default {
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
     '@bazzite/nuxt-optimized-images',
-    '~/modules/typefaces',
-    'nuxt-purgecss'
+    '~/modules/typefaces'
+    // 'nuxt-purgecss'
   ],
   purgeCSS: {
     // your settings here
@@ -107,7 +107,7 @@ export default {
   ** Build configuration
   */
   build: {
-    extractCSS: true,
+    // extractCSS: true,
     postcss: {
       preset: {
         features: {
