@@ -76,8 +76,13 @@ export default {
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
     '@bazzite/nuxt-optimized-images',
-    '~/modules/typefaces'
+    '~/modules/typefaces',
+    'nuxt-purgecss'
   ],
+  purgeCSS: {
+    // your settings here
+    // whitelist: ['body.has-navbar-fixed-top']
+  },
   optimizedImages: {
     optimizeImages: true,
     optimizeImagesInDev: true,
@@ -103,6 +108,7 @@ export default {
   ** Build configuration
   */
   build: {
+    extractCSS: true,
     postcss: {
       preset: {
         features: {
