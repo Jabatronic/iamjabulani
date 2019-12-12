@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar is-fixed-top jtron-top-nav is-white" role="navigation" aria-label="main navigation">
-    <div class="container">
+    <div
+      class="container"
+    >
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
           <span class="jtron-logotype">MJR</span>
@@ -19,7 +21,7 @@
           <span aria-hidden="true" />
         </a>
       </div>
-      <div id="navbarMainTop" :class="{'is-active': isMenuOpen}" class="navbar-menu">
+      <div id="navbarMainTop" @click="isMenuOpen = false" :class="{'is-active': isMenuOpen}" class="navbar-menu">
         <div class="navbar-start">
           <nuxt-link to="/" class="navbar-item">
             Home
