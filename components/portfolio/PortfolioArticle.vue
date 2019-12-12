@@ -6,7 +6,7 @@
     class="tile is-child notification is-primary is-folio-thumbnail"
   >
     <div
-      :style="{ backgroundImage: `url(${thumbImage.src})`}"
+      v-lazy:background-image="thumbImage.src"
       class="bg-image is-overlay"
     />
     <div class="is-overlay folio-thumbnail-details">
