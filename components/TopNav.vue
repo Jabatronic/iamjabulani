@@ -21,7 +21,12 @@
           <span aria-hidden="true" />
         </a>
       </div>
-      <div id="navbarMainTop" @click="isMenuOpen = false" :class="{'is-active': isMenuOpen}" class="navbar-menu">
+      <div
+        id="navbarMainTop"
+        @click="isMenuOpen = false"
+        :class="{'is-active': isMenuOpen}"
+        class="navbar-menu"
+      >
         <div class="navbar-start">
           <nuxt-link to="/" class="navbar-item">
             Home
