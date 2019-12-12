@@ -8,4 +8,9 @@ $title-font:  "Roboto Slab", Georgia, serif;
 $body-family: "Roboto", "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
 
-@import '~bulma/sass/utilities/_all.sass';
+// @import '~bulma/sass/utilities/_all.sass';
+@import '~bulma/sass/utilities/functions.sass';
+@import '~bulma/sass/utilities/initial-variables.sass';
+@import '~bulma/sass/utilities/derived-variables.sass';
+@import '~bulma/sass/utilities/controls.sass';
+@import '~bulma/sass/utilities/mixins.sass';
