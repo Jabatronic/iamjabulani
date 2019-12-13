@@ -19,7 +19,7 @@
                 data-aos="zoom-in-right"
                 data-aos-duration="800"
                 data-aos-easing="ease-in-out-back"
-                class="image container is-128x128"
+                class="image container is-128x128 has-text-centered-mobile"
               >
                 <img
                   :src="require('~/assets/images/jabulani_robbins_2.jpg').src"
