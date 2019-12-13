@@ -88,6 +88,7 @@ export default {
     height: 100%;
     padding: 20px;
     border-radius: $radius;
+    background:rgba($primary, .7);
     margin: 0 important;
     @include mobile {
       opacity: 0;
