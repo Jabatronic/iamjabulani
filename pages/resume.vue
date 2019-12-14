@@ -99,7 +99,7 @@
                 <li>Rising Star Award.</li>
                 <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150, 000 for the department.</li>
                 <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory.</li>
-                <li>Artist &amp; Speaker at ISEA Symposuim, Singapore (2009).</li>
+                <li>Artist &amp; Speaker at ISEA Symposium, Singapore (2009).</li>
               </ul>
             </div>
           </div>
