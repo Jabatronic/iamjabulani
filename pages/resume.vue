@@ -39,7 +39,7 @@
             <div class="content">
               <ul>
                 <li>Creating designs from scratch, wireframing, mockups using Adobe  Photoshop and XD.</li>
-                <li>Developing web apps and PWAs using Vue and Nuxt.js.</li>
+                <li>Learning to develop web apps and PWAs using Vue and Nuxt.js.</li>
                 <li>Installing and configuring Wordpress and Wordpress plugins.</li>
                 <li>Modifying Wordpress themes.</li>
                 <li>Fixing issues with existing sites, primarily Wordpress.</li>
@@ -155,7 +155,7 @@
               </span>
             </h3>
             <div class="content">
-              <p>Consulting on web marketing strategy. Designing and implementing custom Wordpress site with WooCommerce.</p>
+              <p>Consulting on web marketing strategy. Designing and implementing a custom Wordpress site with WooCommerce.</p>
             </div>
           </div>
           <div class="item">
@@ -169,7 +169,7 @@
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              3 Days (Shots fired) <span class="has-text-weight-normal"><i>&mdash; A coffee table book for the post-truth era &mdash; Personal project</i></span>
+              3 Days (Shots fired) <span class="has-text-weight-normal"><br><i>&mdash; A coffee table book for the post-truth era &mdash; Personal project</i></span>
               <span class="date">
                 2017
               </span>
@@ -238,7 +238,7 @@
           <div class="item">
             <h3 class="title is-size-4">
               University of Wolverhampton
-              <span class="has-text-weight-normal">&mdash;
+              <span class="has-text-weight-normal"><br>&mdash;
                 <i>BA(Hons) 2.1 in Interactive Media</i>
               </span>
               <span class="date">

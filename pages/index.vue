@@ -45,7 +45,7 @@
                     <span
                       class="is-size-5 is-italic has-text-centered-mobile"
                     >
-                      + all round good egg...
+                      + all-round good egg...
                     </span>
                   </h2>
                   <p

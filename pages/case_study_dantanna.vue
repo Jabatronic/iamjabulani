@@ -11,7 +11,7 @@
 
       :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
 
-      :solution="`<p>I built a onepage, mobile friendly site, backed by a Wordpress CMS. Bright colours with a DIY aesthetic and a lively JavaScript animation in the hero section on loading.</p>`"
+      :solution="`<p>I built a one-page, mobile-friendly site, backed by a Wordpress CMS. Bright colours with a DIY aesthetic and a lively JavaScript animation in the hero section on loading.</p>`"
 
       :skills="[
         'PHP, HTML, JavaScript, CSS, Apache',
