@@ -278,6 +278,9 @@ export default {
   head () {
     return {
       title: 'Résumé - Web development & Design - Jabulani Robbins',
+      link: [
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway&text=0123456789&display=swap' }
+      ],
       bodyAttrs: {
         id: 'ResumePage'
       }
