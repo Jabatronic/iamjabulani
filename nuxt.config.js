@@ -26,6 +26,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preload', href: 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:600&display=swap', as: 'style' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:600&display=swap' }
     ],
     bodyAttrs: {
