@@ -25,9 +25,8 @@ export default {
       { name: 'twitter:image:alt', content: 'NuxtJS Logo' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto&display=swap' }
-
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:600&display=swap' }
     ],
     bodyAttrs: {
       class: ['has-navbar-fixed-top']
@@ -75,12 +74,12 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
-    '@bazzite/nuxt-optimized-images',
-    '~/modules/typefaces'
+    '@bazzite/nuxt-optimized-images'
+    // '~/modules/typefaces'
   ],
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'responsive-loader',
     handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     responsive: {
