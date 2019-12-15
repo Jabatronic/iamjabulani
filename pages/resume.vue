@@ -279,7 +279,8 @@ export default {
     return {
       title: 'Résumé - Web development & Design - Jabulani Robbins',
       link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway&text=0123456789&display=swap' }
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css?family=Raleway&display=swap', as: 'style' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway&display=swap' }
       ],
       bodyAttrs: {
         id: 'ResumePage'
