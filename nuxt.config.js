@@ -26,8 +26,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preload', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap', as: 'style' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap' }
+      { rel: 'preload', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap', as: 'style' },
+      { rel: 'stylesheet', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap' }
     ],
     bodyAttrs: {
       class: ['has-navbar-fixed-top']
@@ -52,6 +52,41 @@ export default {
     scss: ['~/assets/scss/_variables.scss']
   },
 
+  /*
+  ** PWA Options
+  */
+  pwa: {
+    workbox: {
+      /* workbox options */
+      config: {
+        debug: true
+      },
+      runtimeCaching: [
+        {
+          urlPattern: 'https://fonts.(?:googleapis|gstatic).com/(.*)',
+          handler: 'cacheFirst',
+          cacheableResponse: {
+            statuses: [0, 200]
+          },
+          strategyOptions: {
+            cacheName: 'google-fonts',
+            cacheExpiration: {
+              maxEntries: 30
+            }
+          }
+        }
+      ]
+    }
+  },
+  /*
+  ** Overwrite's generated manifest values
+  */
+  manifest: {
+    name: 'I AM JABULANI - The Portfolio & Resume',
+    short_name: 'I AM JABULANI',
+    lang: 'en',
+    display: 'standalone'
+  },
   /*
   ** Plugins to load before mounting the App
   */
