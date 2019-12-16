@@ -51,7 +51,7 @@
                   <p
                     class="has-text-weight-normal is-italic has-text-centered-mobile"
                     data-aos="zoom-in"
-                    data-aos-delay="800"
+                    data-aos-delay="400"
                     data-aos-easing="ease-in-out-back"
                   >
                     I use web technologies to make things. I love learning and problem solving and I'd like to think I'm pretty good with people too. I'm available for work at the moment so browse some of my projects below (more to come soon!) or <nuxt-link to="resume">
