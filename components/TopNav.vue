@@ -66,9 +66,7 @@ export default {
   name: 'TopNav',
   head () {
     return {
-      link: [
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto+Slab:400&text=MJR&display=swap' }
-      ]
+      // ...
     }
   },
   data () {
