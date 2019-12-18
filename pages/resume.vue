@@ -22,7 +22,7 @@
             Summary
           </h2>
           <p>
-            An enthusiastic and creative web developer with 4 years of recent experience working as a freelancer. I have experience working with both front-end and back-end technologies and thrive on learning new things. Looking to gain agency experience with a forward-thinking organisation.
+            An enthusiastic and creative web developer with 4 years of recent experience working as a freelancer. I have demonstrable skills working with both front-end and back-end technologies and thrive on learning new things. Looking to gain experience with a forward-thinking digital agency or brand management company.
           </p>
         </div>
         <div class="experience">
@@ -31,14 +31,17 @@
           </h2>
           <div class="item">
             <h3 class="title is-size-4">
-              Freelance <span class="has-text-weight-normal"> &mdash;  <i>Web Developer</i></span>
+              Web Developer
+            </h3>
+            <h4 class="subtitle">
+              <i>Freelance</i>
               <span class="date">
                 2017 &ndash; Present
               </span>
-            </h3>
+            </h4>
             <div class="content">
               <ul>
-                <li>Creating designs from scratch, wireframing, mockups using Adobe  Photoshop and XD.</li>
+                <li>Creating designs from scratch, wireframing, mockups using Adobe Photoshop and XD.</li>
                 <li>Learning to develop web apps and PWAs using Vue and Nuxt.js.</li>
                 <li>Installing and configuring Wordpress and Wordpress plugins.</li>
                 <li>Modifying Wordpress themes.</li>
@@ -49,43 +52,52 @@
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Adventures of the Valparaiso <span class="has-text-weight-normal">&mdash; <i>Lead Developer</i></span>
+              Developer/Designer/Content Manager
+            </h3>
+            <h4 class="subtitle">
+              <i>Adventures of the Valparaiso</i>
               <span class="date">
                 2015 &ndash; 2017
               </span>
-            </h3>
+            </h4>
             <div class="content">
               <p>
                 Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly onboard, partly remote.
                 <ul>
-                  <li>Wordpress, PHP, CSS, JavaScript, WAMP.</li>
                   <li>Modifying and fixing the existing website.</li>
+                  <li>Wordpress, PHP, CSS, JavaScript, WAMP.</li>
                   <li>Graphics work (Photoshop).</li>
-                  <li>Remote working (Video Conferencing, messaging, email).</li>
+                  <li>Remote working (Skype, messaging, email).</li>
                 </ul>
               </p>
             </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Dantanna Beatz <span class="has-text-weight-normal">&mdash;<i>Creative Director / Musical Collaborator</i></span>
+              Creative Director / Collaborator
+            </h3>
+            <h4 class="subtitle">
+              <i>Dantanna Beatz</i>
               <span class="date">
                 2012 &ndash; 2015
               </span>
-            </h3>
+            </h4>
             <div class="content">
               <p>
-                Music production and live performance project. I was responsible for conceptualising and producing print, video, and web-based media as well as co-producing music and performing on some pieces.
+                Music production and live performance project. I was responsible for conceptualising and producing print, video, and web-based media as well as collaborating and performing on some music pieces.
               </p>
             </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Wolverhampton University School of Art &amp; Design <span class="has-text-weight-normal">&mdash; <i>Lecturer</i></span>
+              University Lecturer
+            </h3>
+            <h4 class="subtitle">
+              <i>Wolverhampton University School of Art &amp; Design </i>
               <span class="date">
                 2006 &ndash; 2012
               </span>
-            </h3>
+            </h4>
             <div class="content">
               <ul>
                 <li>Course Leader in Digital Arts &amp; Media</li>
@@ -98,7 +110,7 @@
               <ul>
                 <li>Rising Star Award.</li>
                 <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150, 000 for the department.</li>
-                <li>Game Design Team co-ordinator for AHRC joint project bid with Birmingham University Superconductivity Research Laboratory.</li>
+                <li>Game Design Team co-ordinator for AHRC (Arts and Humanities Research Council) joint project bid with Birmingham University Superconductivity Research Laboratory.</li>
                 <li>Artist &amp; Speaker at ISEA Symposium, Singapore (2009).</li>
               </ul>
             </div>
@@ -106,27 +118,38 @@
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Freelance <span class="has-text-weight-normal">&mdash;  <i>Web Developer</i></span>
+              Web Developer
+            </h3>
+            <h4 class="subtitle">
+              <i>Freelance</i>
               <span class="date">
                 2004 &ndash; 2006
               </span>
-            </h3>
+            </h4>
             <div class="content">
               <p>
-                Various web development projects including a consultancy for the University of Wolverhampton School of Art &amp; Design.
+                Various web development projects mostly creating custom solutions using HTML, CSS, and PHP. Clients included:
               </p>
+              <ul>
+                <li>University of Wolverhampton School of Art &amp; Design</li>
+                <li>Induced Energy Limited</li>
+              </ul>
             </div>
           </div>
           <!-- End Item -->
           <!-- Start Item -->
           <div class="item">
             <h3 class="title is-size-4">
-              Arkwright Consulting Limited <span class="has-text-weight-normal">&mdash; <i>Technical Lead</i></span>
+              Web Designer
+            </h3>
+            <h4 class="subtitle">
+              <i>Arkwright Consulting Limited</i>
               <span class="date">
                 Sept 2004 &ndash; Sept 2005
               </span>
-            </h3>
+            </h4>
             <div class="content">
+              <p>I started at Arkwright Consulting as a graduate trainee on a placement scheme but was soon promoted to a lead role. Working in a small business allowed me to experience all aspects of running a business first hand and gave me the confidence to become self-employed.</p>
               <ul>
                 <li>Graphic design</li>
                 <li>Web development (PHP + MySQL)</li>
@@ -149,40 +172,64 @@
           </h2>
           <div class="item">
             <h3 class="title is-size-4">
-              Prosperity Health <span class="has-text-weight-normal"><i>&mdash; Custom Wordpress site with Ecommerce</i></span>
-              <span class="date">
-                2018 &ndash; present
-              </span>
+              Prosperity Health
             </h3>
+            <h4 class="subtitle">
+              <i>Custom Wordpress site with Ecommerce</i>
+              <span class="date">
+                2019
+              </span>
+            </h4>
             <div class="content">
               <p>Consulting on web marketing strategy. Designing and implementing a custom Wordpress site with WooCommerce.</p>
             </div>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              The Little Big Programme <span class="has-text-weight-normal"><i>&mdash; Bespoke web app</i></span>
+              The Little Big Programme
+            </h3>
+            <h4 class="subtitle">
+              <i>Bespoke Full-Stack Web App</i>
               <span class="date">
                 2018
               </span>
-            </h3>
-            <p>Built with Laravel, Bootstrap, and GSAP Animation Library</p>
+            </h4>
+            <p>Child project of The Big Programme. Built with Laravel, Bootstrap, and GSAP Animation Library</p>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              3 Days (Shots fired) <span class="has-text-weight-normal"><br><i>&mdash; A coffee table book for the post-truth era &mdash; Personal project</i></span>
+              The Big Programme
+            </h3>
+            <h4 class="subtitle">
+              <i>Proof of Concept</i>
               <span class="date">
                 2017
               </span>
-            </h3>
-            <p>Programmatically generated photo gallery of the locations and details of gun violence incidents in the USA over 3 days in December 2015. Created using Google Street View API, Gun Violence Archive datasets, PHP. Active research for a broader project on crime data.</p>
+            </h4>
+            <p>Built with Laravel. Full-stack project</p>
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              J-Grain <span class="has-text-weight-normal"><i>&mdash; Granular Synthesiser &mdash; Personal project</i></span>
+              3 Days (Shots fired)
+            </h3>
+            <h4 class="subtitle">
+              <i>Personal Project</i>
+              <span class="date">
+                2017
+              </span>
+            </h4>
+            <p>Programmatically generated photo gallery of the locations and details of gun violence incidents across the USA over 3 days in December 2015. Created using Google Street View API, Gun Violence Archive datasets, PHP. Active research for a broader project on crime data.</p>
+          </div>
+          <div class="item">
+            <h3 class="title is-size-4">
+              J-Grain
+            </h3>
+            <h4 class="subtitle">
+              <i>Personal Project</i>
               <span class="date">
                 2015
               </span>
-            </h3>
+            </h4>
             <p>A breadboard prototype for a pocket-sized granular synthesiser made with Arduino.</p>
           </div>
         </div>
@@ -195,8 +242,8 @@
             <div class="column is-half">
               <div>
                 <ul>
-                  <li>HTML5, CSS3</li>
-                  <li>Javascript, Vue.js, Nuxt.js, jQuery</li>
+                  <li>HTML5, CSS3, Javascript, jQuery</li>
+                  <li>Vue.js, Nuxt.js</li>
                   <li>PHP</li>
                   <li>Laravel</li>
                   <li>Wordpress</li>
@@ -214,18 +261,18 @@
           </h2>
           <div class="item">
             <h3 class="title is-size-4">
-              Coventry University
-              <span class="has-text-weight-normal">&mdash;
-                <i>MA in Media Arts</i>
-              </span>
-              <span class="date">
-                November 2008
-              </span>
+              MA in Media Arts
             </h3>
+            <h4 class="subtitle">
+              <i>Coventry University</i>
+              <span class="date">
+                2008
+              </span>
+            </h4>
             <div class="content">
               <p>
                 Research into language and semiotics,
-                modern Mythologies, and Human-Computer Interaction.
+                modern Mythologies, experimental practice, and Human-Computer Interaction.
                 Final project (entitled "Scionica") created using:
                 <ul>
                   <li>Microsoft Speech SDK (C# .Net) for language processing,</li>
@@ -237,18 +284,24 @@
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              University of Wolverhampton
-              <span class="has-text-weight-normal"><br>&mdash;
-                <i>BA(Hons) 2.1 in Interactive Media</i>
-              </span>
-              <span class="date">
-                June 2004
-              </span>
+              BA(Hons) 2.1 in Interactive Media
             </h3>
+            <h4 class="subtitle">
+              <i>University of Wolverhampton</i>
+              <span class="date">
+                2004
+              </span>
+            </h4>
             <div class="content">
               <p>
                 <!-- Content -->
+                Course content included:
               </p>
+              <ul>
+                <li>User-centered Design</li>
+                <li>Design for Interaction</li>
+                <li>Project Management</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -257,7 +310,7 @@
             Interests
           </h2>
           <div class="content">
-            <p>Open Source Culture, Arduino, Music (playing &amp; listening), Electric Guitars, Yoga &amp; Meditation, Self Improvement, Life Hacking, Productivity Techniques, Art, Science, Technology, Philosophy, Food (cooking &amp; eating), Film, Human Psychology</p>
+            <p>Open Source Culture, Music (playing &amp; listening), Yoga &amp; Meditation, Self Improvement, Life Hacking, Productivity Techniques, Art, Science, Technology, Philosophy, Food (cooking &amp; eating), Film, Human Psychology</p>
           </div>
         </div>
       </div>
@@ -323,7 +376,7 @@ export default {
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Raleway';
-    color: $teal;
+    color: #006767;
     margin-top: 0.5rem;
   }
 
