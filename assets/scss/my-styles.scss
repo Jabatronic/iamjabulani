@@ -11,6 +11,10 @@ body {
   padding-top: 3.25rem;
 }
 
+.title, .subtitle {
+  word-break: normal;
+}
+
 .has-text-teal {
   color: $teal !important;
 }
