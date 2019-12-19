@@ -147,11 +147,11 @@ export default {
         }
       }
     },
-    // bundleRenderer: {
-    //   shouldPreload: (file, type) => {
-    //     return ['script', 'style', 'font'].includes(type)
-    //   }
-    // },
+    bundleRenderer: {
+      shouldPreload: (file, type) => {
+        return ['script', 'style', 'font'].includes(type)
+      }
+    },
     /*
     ** You can extend webpack config here
     */
