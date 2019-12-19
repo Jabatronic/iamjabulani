@@ -54,7 +54,7 @@
                     data-aos-delay="400"
                     data-aos-easing="ease-in-out-back"
                   >
-                    I use web technologies to make things. I love learning and problem solving and I'd like to think I'm pretty good with people too. I'm available for work at the moment so browse some of my projects below (more to come soon!) or <nuxt-link to="resume">
+                    I use web technologies to make things. I love learning and problem solving and I'm a good communicator who enjoys interacting with people. I'm available for work at the moment so browse some of the projects I've been involved in below (more to come soon!) or, <nuxt-link to="resume">
                       check out my résumé
                     </nuxt-link> and
                     <a href="mailto://jabu.robbins@gmail.com" target="blank">get in touch!</a>
