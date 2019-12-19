@@ -6,7 +6,7 @@
         <strong>Using </strong>Vue, Nuxt, Bulma, HTML5, CSS3, Sass, Green Tea &amp; Dedication
       </p>
       <ul>
-        <li><a href="mailto://jabu.robbins@gmail.com" target="blank">jabu.robbins@gmail.com</a></li>
+        <li><a href="mailto:i@iamjabulani.tech" target="blank">i@iamjabulani.tech</a></li>
         <li>+44 7969 910 258</li>
       </ul>
     </div>
