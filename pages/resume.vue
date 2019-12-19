@@ -6,11 +6,8 @@
         <h1 class="title is-uppercase has-font-roboto-slab has-text-teal">
           Jabulani Robbins
         </h1>
-
-        <p>
-          {{ myPhoneNum }} | {{ myEmailAddr }}
-        </p>
-        <p>{{ myLocation }}</p>
+        <p>www.iamjabulani.tech | jr@iamjabulani.tech | +44 7969 910 258</p>
+        <p />
 
         <hr class="is-teal">
       </div>
@@ -321,13 +318,6 @@
 <script>
 export default {
   name: 'Resume',
-  data () {
-    return {
-      myPhoneNum: '(+44) 7969 910 258',
-      myEmailAddr: 'jabu.robbins@gmail.com',
-      myLocation: 'Poole, Dorset, UK'
-    }
-  },
   head () {
     return {
       title: 'Résumé - Web development & Design - Jabulani Robbins',
