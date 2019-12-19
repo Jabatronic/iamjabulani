@@ -25,9 +25,11 @@ export default {
       { name: 'twitter:image:alt', content: 'NuxtJS Logo' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preload', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap', as: 'style' },
-      { rel: 'stylesheet', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'preload', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap', as: 'style' },
+      // { rel: 'stylesheet', crossorigin: 'anonymous', href: 'https://fonts.googleapis.com/css?family=Raleway|Roboto|Roboto+Slab:600&display=swap' }
+      // { rel: 'preload', type: 'href: '@assets/fonts/typeface-roboto-slab/index.css', as: 'style' },
+      // { rel: 'stylesheet', type: 'preload', href: './assets/fonts/typeface-roboto-slab/index.css' }
     ],
     bodyAttrs: {
       class: ['has-navbar-fixed-top']
@@ -110,8 +112,8 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/style-resources-module
     '@nuxtjs/style-resources',
-    '@bazzite/nuxt-optimized-images'
-    // '~/modules/typefaces'
+    '@bazzite/nuxt-optimized-images',
+    '~/modules/typefaces'
   ],
   optimizedImages: {
     optimizeImages: true,
@@ -145,6 +147,11 @@ export default {
         }
       }
     },
+    // bundleRenderer: {
+    //   shouldPreload: (file, type) => {
+    //     return ['script', 'style', 'font'].includes(type)
+    //   }
+    // },
     /*
     ** You can extend webpack config here
     */
