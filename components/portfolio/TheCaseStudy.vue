@@ -36,7 +36,7 @@
           </div>
         </div>
         <div id="CaseStudyOverview">
-          <div>
+          <div class="gap-bottom">
             <h3>
               {{ overviewTitle }}
             </h3>
