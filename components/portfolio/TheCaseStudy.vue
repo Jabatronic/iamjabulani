@@ -36,7 +36,7 @@
           </div>
         </div>
         <div id="CaseStudyOverview">
-          <div class="mb-20 mt-20">
+          <div>
             <h3>
               {{ overviewTitle }}
             </h3>
@@ -55,7 +55,7 @@
             </figure>
           </div>
         </div>
-        <div id="CaseStudySolution" class="mb-20 mt-20">
+        <div id="CaseStudySolution" class="gap-bottom">
           <div class="columns">
             <div class="column is-two-thirds">
               <h3>
@@ -66,8 +66,8 @@
                 class="content"
               />
             </div>
-            <div class="column">
-              <div class="skills-component content">
+            <div class="column skills-component">
+              <div class="content">
                 <ul>
                   <li
                     v-for="(item, index) in skills"
@@ -80,7 +80,7 @@
             </div>
           </div>
         </div>
-        <div id="CaseStudyImage1" class="mb-20 mt-20">
+        <div id="CaseStudyImage1" class="gap-bottom">
           <div class="figure-wrap">
             <figure class="folio-image desktop">
               <img

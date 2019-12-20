@@ -32,6 +32,11 @@ body {
   color: $teal !important;
 }
 
+/* Helpers */
+.gap-bottom {
+  margin-bottom: $gap;
+}
+
 /* Folio Tiles */
 .folio-tile.box {
   padding: 0;
