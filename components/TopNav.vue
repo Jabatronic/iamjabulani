@@ -5,7 +5,7 @@
     >
       <div class="navbar-brand">
         <nuxt-link class="navbar-item" to="/">
-          <span class="jtron-logotype">MJR</span>
+          <span class="jtron-logotype">JR</span>
         </nuxt-link>
         <a
           :class="{'is-active': isMenuOpen}"
