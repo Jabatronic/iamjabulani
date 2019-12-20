@@ -40,12 +40,12 @@
             </h4>
             <div class="content">
               <ul>
-                <li>Creating designs from scratch, wireframing, mockups using Adobe Photoshop and XD.</li>
-                <li>Learning to develop web apps and PWAs using Vue and Nuxt.js.</li>
-                <li>Installing and configuring Wordpress and Wordpress plugins.</li>
-                <li>Modifying Wordpress themes.</li>
-                <li>Fixing issues with existing sites, primarily Wordpress.</li>
-                <li>Creating and implementing solutions on existing sites, both Wordpress and bespoke solutions. </li>
+                <li>Creating designs from scratch, wireframing, mockups using Adobe Photoshop and XD</li>
+                <li>Learning to develop web apps and PWAs using Vue and Nuxt.js</li>
+                <li>Installing and configuring Wordpress and Wordpress plugins</li>
+                <li>Modifying Wordpress themes</li>
+                <li>Fixing issues with existing sites, primarily Wordpress</li>
+                <li>Creating and implementing solutions on existing sites, both Wordpress and bespoke solutions.</li>
               </ul>
             </div>
           </div>
@@ -63,9 +63,9 @@
               <p>
                 Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly onboard, partly remote.
                 <ul>
-                  <li>Modifying and fixing the existing website.</li>
-                  <li>Wordpress, PHP, CSS, JavaScript, WAMP.</li>
-                  <li>Graphics work (Photoshop).</li>
+                  <li>Modifying and fixing the existing website</li>
+                  <li>Wordpress, PHP, CSS, JavaScript, WAMP</li>
+                  <li>Graphics work (Photoshop)</li>
                   <li>Remote working (Skype, messaging, email).</li>
                 </ul>
               </p>
@@ -101,15 +101,15 @@
               <ul>
                 <li>Course Leader in Digital Arts &amp; Media</li>
                 <li>Lecturer in Computer Games Design</li>
-                <li>Module Leader in Digital Image Manipulation; Design for Interaction; Gameplay &amp; Game Mechanics; Final Project</li>
+                <li>Module Leader in Digital Image Manipulation; Design for Interaction; Gameplay &amp; Game Mechanics; Final Project.</li>
               </ul>
               <h5 class="is-size-6 pl-10">
                 Special Achievements
               </h5>
               <ul>
-                <li>Rising Star Award.</li>
-                <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150, 000 for the department.</li>
-                <li>Game Design Team co-ordinator for AHRC (Arts and Humanities Research Council) joint project bid with Birmingham University Superconductivity Research Laboratory.</li>
+                <li>Rising Star Award</li>
+                <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150, 000 for the department</li>
+                <li>Game Design Team co-ordinator for AHRC (Arts and Humanities Research Council) joint project bid with Birmingham University Superconductivity Research Laboratory</li>
                 <li>Artist &amp; Speaker at ISEA Symposium, Singapore (2009).</li>
               </ul>
             </div>
@@ -131,7 +131,7 @@
               </p>
               <ul>
                 <li>University of Wolverhampton School of Art &amp; Design</li>
-                <li>Induced Energy Limited</li>
+                <li>Induced Energy Limited.</li>
               </ul>
             </div>
           </div>
@@ -156,7 +156,7 @@
                 <li>Account Management</li>
                 <li>Technical Sales</li>
                 <li>Business Networking</li>
-                <li>Bookkeeping</li>
+                <li>Bookkeeping.</li>
               </ul>
             </div>
           </div>
@@ -274,8 +274,8 @@
                 modern Mythologies, experimental practice, and Human-Computer Interaction.
                 Final project (entitled "Scionica") created using:
                 <ul>
-                  <li>Microsoft Speech SDK (C# .Net) for language processing,</li>
-                  <li>Actionscript 3 for visualisations,</li>
+                  <li>Microsoft Speech SDK (C# .Net) for language processing</li>
+                  <li>Actionscript 3 for visualisations</li>
                   <li>PureData for audio processing.</li>
                 </ul>
               </p>
@@ -299,7 +299,7 @@
               <ul>
                 <li>User-centered Design</li>
                 <li>Design for Interaction</li>
-                <li>Project Management</li>
+                <li>Project Management.</li>
               </ul>
             </div>
           </div>
