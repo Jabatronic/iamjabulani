@@ -21,7 +21,7 @@
             Summary
           </h2>
           <p>
-            An enthusiastic and creative web developer with 4 years of recent experience working as a freelancer. I have demonstrable skills working with both front-end and back-end technologies and thrive on learning new things. Looking to gain experience with a forward-thinking digital agency or brand management company.
+            An enthusiastic and creative web developer with four years' recent experience working as a freelancer. I have demonstrable skills working with both front-end and back-end technologies and thrive on learning new things. Looking to gain experience with a forward-thinking digital agency or brand management company.
           </p>
         </div>
         <div class="experience">
@@ -148,14 +148,14 @@
               </span>
             </h4>
             <div class="content">
-              <p>I started at Arkwright Consulting as a graduate trainee on a placement scheme but was soon promoted to a lead role. Working in a small business allowed me to experience all aspects of running a business first hand and gave me the confidence to become self-employed.</p>
+              <p>I started at Arkwright Consulting as a graduate trainee on a placement scheme but was soon promoted to a lead role. This allowed me gain firsthand experience of many aspects of running the business and gave me the confidence to become self-employed.</p>
               <ul>
                 <li>Graphic design</li>
                 <li>Web development (PHP + MySQL)</li>
                 <li>Web design (HTML, CSS)</li>
-                <li>Account Management</li>
-                <li>Technical Sales</li>
-                <li>Business Networking</li>
+                <li>Account management</li>
+                <li>Technical sales</li>
+                <li>Business networking</li>
                 <li>Bookkeeping.</li>
               </ul>
             </div>
@@ -271,7 +271,7 @@
             <div class="content">
               <p>
                 Research into language and semiotics,
-                modern Mythologies, experimental practice, and Human-Computer Interaction.
+                modern mythologies (Bartes), experimental practice.
                 Final project (entitled "Scionica") created using:
                 <ul>
                   <li>Microsoft Speech SDK (C# .Net) for language processing</li>
@@ -309,7 +309,7 @@
             Interests
           </h2>
           <div class="content">
-            <p>Open Source Culture, Music (playing &amp; listening), Yoga &amp; Meditation, Self Improvement, Life Hacking, Productivity Techniques, Art, Science, Technology, Philosophy, Food (cooking &amp; eating), Film, Human Psychology</p>
+            <p>Open source culture, music (playing &amp; listening), yoga &amp; meditation, self-improvement, life hacking, productivity techniques, art, science, technology, philosophy, food (cooking &amp; eating), film, psychology.</p>
           </div>
         </div>
       </div>
