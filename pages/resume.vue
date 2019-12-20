@@ -6,9 +6,7 @@
         <h1 class="title is-uppercase has-font-roboto-slab has-text-teal">
           Jabulani Robbins
         </h1>
-        <p>www.iamjabulani.tech | jr@iamjabulani.tech | +44 7969 910 258</p>
-        <p />
-
+        <p>jr@iamjabulani.tech<span class="is-hidden-mobile"> | </span><br class="is-hidden-tablet">(+44) 7969 910 258<span class="is-hidden-mobile"> | </span><br class="is-hidden-tablet">www.iamjabulani.tech</p>
         <hr class="is-teal">
       </div>
     </div>
