@@ -11,11 +11,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Resume' },
       // Open Graph
-      { name: 'og:title', content: 'IAMJABULANI' },
-      { name: 'og:description', content: 'The Web Development Portfolio & Resume' },
+      { name: 'og:title', content: 'I AM JABULANI' },
+      { name: 'og:description', content: 'Web Development Portfolio & Resume' },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://iamjabulani.tech' },
-      { name: 'og:image', content: 'https://nuxtjs.org/meta_640.png' },
+      { name: 'og:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
       // Twitter Card
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:site', content: '@?????' },
