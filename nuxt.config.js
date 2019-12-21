@@ -21,8 +21,8 @@ export default {
       { name: 'twitter:site', content: '@?????' },
       { name: 'twitter:title', content: 'IAMJABULANI' },
       { name: 'twitter:description', content: 'The Web Development Portfolio & Resume' },
-      { name: 'twitter:image', content: 'https://nuxtjs.org/meta_640.png' },
-      { name: 'twitter:image:alt', content: 'NuxtJS Logo' }
+      { name: 'twitter:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
+      { name: 'twitter:image:alt', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
