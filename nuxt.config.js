@@ -5,14 +5,14 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Jabulani Robbins - Portfolio & Resume',
+    title: 'Jabulani Robbins - Portfolio & Résumé',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Resume' },
+      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Résumé' },
       // Open Graph
       { name: 'og:title', content: 'I AM JABULANI' },
-      { name: 'og:description', content: 'Web Development Portfolio & Resume' },
+      { name: 'og:description', content: 'Web Development Portfolio & Résumé' },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://iamjabulani.tech' },
       { name: 'og:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
@@ -20,7 +20,7 @@ export default {
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:site', content: '@?????' },
       { name: 'twitter:title', content: 'IAMJABULANI' },
-      { name: 'twitter:description', content: 'The Web Development Portfolio & Resume' },
+      { name: 'twitter:description', content: 'The Web Development Portfolio & Résumé' },
       { name: 'twitter:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
       { name: 'twitter:image:alt', content: '' }
     ],
