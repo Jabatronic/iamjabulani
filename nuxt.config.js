@@ -18,7 +18,7 @@ export default {
       { name: 'og:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
       // Twitter Card
       { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:site', content: '@?????' },
+      { name: 'twitter:site', content: 'https://iamjabulani.tech' },
       { name: 'twitter:title', content: 'IAMJABULANI' },
       { name: 'twitter:description', content: 'The Web Development Portfolio & Résumé' },
       { name: 'twitter:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
