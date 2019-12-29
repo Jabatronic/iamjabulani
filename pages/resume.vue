@@ -339,6 +339,9 @@ export default {
   border-bottom: 1px solid $teal;
   padding-bottom: 0px;
   max-width: 40rem;
+  @media print {
+    max-width: 100%;
+  }
 }
 
 .cv-heading.underline:after {
@@ -353,6 +356,10 @@ export default {
 
 .left-column > * {
   max-width: 40rem;
+  @media print {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .summary, .experience, .projects, .skills, .education, .interests {
@@ -380,5 +387,44 @@ export default {
 // Hide footer on this page only by page ID
 #ResumePage .footer {
   display: none;
+}
+
+// Printer styles
+@media print {
+  body {
+    // zoom: 80%;
+    margin: 1cm;
+    &.has-navbar-fixed-top {
+      padding-top: 0;
+    }
+  }
+
+  nav {
+    display: none;
+  }
+
+  .title {
+    font-size: 18pt;
+  }
+
+  h3.title.is-size-4 {
+    font-size: 16pt !important;
+  }
+
+ .columns:not(.is-desktop) {
+    display: block;
+  }
+
+ .column.is-three-fifths {
+   width: 100%;
+ }
+
+  .is-hidden-desktop {
+    display:none;
+  }
+
+  .pf-page-break {
+    page-break-after: always;
+  }
 }
 </style>
