@@ -46,6 +46,7 @@
         background: $primary;
         padding: .5rem;
         margin: .5rem;
+        font-size: 1.1rem;
         & a {
           color: #fff;
         }
