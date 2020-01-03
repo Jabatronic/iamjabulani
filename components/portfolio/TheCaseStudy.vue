@@ -110,20 +110,27 @@
             >
           </figure>
         </div>
-        <!--
-          TODO:
-          A final item??
-          e.g. Call to action, arrows to next and previous project, etc
-         -->
+        <!-- External link Comp here -->
+        <out-link
+          link-title="Test Link"
+          link-url="https://google.com"
+        />
+        <case-study-nav />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import CaseStudyNav from '~/components/portfolio/CaseStudyNav.vue'
+import CaseStudyOutLink from '~/components/portfolio/CaseStudyOutLink.vue'
+
 export default {
   name: 'TheCaseStudy',
-  components: {},
+  components: {
+    CaseStudyNav,
+    'out-link': CaseStudyOutLink
+  },
   props: {
     heading: {
       type: String,
