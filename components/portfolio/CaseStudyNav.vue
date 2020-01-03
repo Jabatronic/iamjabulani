@@ -5,29 +5,9 @@
         <p class="label">
           Other Selected Works
         </p>
-        <li>
-          <nuxt-link to="case_study_dantanna">
-            Dantanna Beatz
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="case_study_first_wealth">
-            First Wealth
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="case_study_ice_chef">
-            The Ice Chef
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="case_study_little_big_programme">
-            The Little Big Programme
-          </nuxt-link>
-        </li>
-        <li>
-          <nuxt-link to="case_study_prosperity_health">
-            Prosperity Health
+        <li v-for="( link, index ) in navLinks" :key="index">
+          <nuxt-link :to="link.path">
+            {{ link.title }}
           </nuxt-link>
         </li>
       </ul>
@@ -43,13 +23,34 @@
 
       & li {
         display: inline-block;
-        background: $primary;
-        padding: .5rem;
-        margin: .5rem;
-        font-size: 1.1rem;
+        margin: .7rem .5rem;
         & a {
+          background: $primary;
+          font-size: 1.1rem;
           color: #fff;
+          padding: .5rem .75rem;
+          &.nuxt-link-active {
+            background: $grey;
+            cursor: default;
+          }
         }
       }
   }
 </style>
+
+<script>
+export default {
+  computed: {
+    navLinks () {
+      const linkList = [
+        { path: '/case_study_dantanna', title: 'Dantanna Beatz' },
+        { path: '/case_study_first_wealth', title: 'First Wealth' },
+        { path: '/case_study_ice_chef', title: 'The Ice Chef' },
+        { path: '/case_study_little_big_programme', title: 'The Little Big Programme' },
+        { path: '/case_study_prosperity_health', title: 'Prosperity Health' }
+      ]
+      return linkList
+    }
+  }
+}
+</script>
