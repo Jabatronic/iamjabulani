@@ -112,8 +112,8 @@
         </div>
         <!-- External link Comp here -->
         <out-link
-          link-title="Test Link"
-          link-url="https://google.com"
+          :link-title="folioOutLinkUrl"
+          :link-url="folioOutLinkTitle"
         />
         <case-study-nav />
       </div>
@@ -171,6 +171,14 @@ export default {
     folioImageExtra: {
       type: Object,
       default: () => null
+    },
+    folioOutLinkUrl: {
+      type: String,
+      default: null
+    },
+    folioOutLinkTitle: {
+      type: String,
+      default: null
     },
     folioOther: {
       type: Object,

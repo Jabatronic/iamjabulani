@@ -37,6 +37,10 @@
       :folio-image-mobile="require('~/assets/images/case_study/little_big_programme/little-big-programme-folio-image-02-laptop.png')"
 
       :folioImageExtra="require('~/assets/images/case_study/little_big_programme/little-big-programme-folio-image-03-laptop.png')"
+
+      :folioOutLinkUrl="'https://littlebigprogramme.edasuk.org/'"
+
+      :folioOutLinkTitle="'https://littlebigprogramme.edasuk.org/'"
     />
   </div>
 </template>

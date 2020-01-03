@@ -22,6 +22,10 @@
       :folio-image-laptop="require('~/assets/images/case_study/prosperity_health/prosperity-health-folio-image-01-laptop.png')"
 
       :folio-image-mobile="require('~/assets/images/case_study/prosperity_health/prosperity-health-folio-image-mobile.png?size=300')"
+
+      :folioOutLinkUrl="'https://www.prosperity.health/'"
+
+      :folioOutLinkTitle="'https://www.prosperity.health/'"
     />
   </div>
 </template>

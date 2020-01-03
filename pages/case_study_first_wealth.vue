@@ -18,6 +18,10 @@
         'Photoshop'
       ]"
 
+      :folioOutLinkUrl="'https://firstwealth.co.uk/careers/'"
+
+      :folioOutLinkTitle="'https://firstwealth.co.uk/careers/'"
+
       solution="<p>I built a custom Wordpress template that integrated with their existing (custom built) Wordpress site and utilised Advanced Custom Fields to implement content management functionality specifically for that area of the site.</p>"
     />
   </div>

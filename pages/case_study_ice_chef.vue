@@ -22,6 +22,10 @@
       :folio-image-laptop="require('~/assets/images/case_study/the_ice_chef/home-page-hero-laptop.png')"
 
       :folio-image-mobile="require('~/assets/images/case_study/the_ice_chef/mobile-01.png?size=300')"
+
+      :folioOutLinkUrl="'https://theicechef.co.uk/'"
+
+      :folioOutLinkTitle="'https://theicechef.co.uk/'"
     />
   </div>
 </template>
