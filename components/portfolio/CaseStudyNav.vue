@@ -2,9 +2,9 @@
   <div>
     <div>
       <ul class="case-study-nav">
-        <p class="label">
+        <div class="label">
           Other Selected Works
-        </p>
+        </div>
         <li v-for="( link, index ) in navLinks" :key="index">
           <nuxt-link :to="link.path">
             {{ link.title }}
@@ -17,7 +17,6 @@
 
 <style lang="scss">
   ul.case-study-nav {
-    width: 60%;
     margin: 0 auto;
     text-align: center;
 
