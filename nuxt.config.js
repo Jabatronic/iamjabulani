@@ -22,7 +22,9 @@ export default {
       { name: 'twitter:title', content: 'IAMJABULANI' },
       { name: 'twitter:description', content: 'The Web Development Portfolio & Résumé' },
       { name: 'twitter:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
-      { name: 'twitter:image:alt', content: '' }
+      { name: 'twitter:image:alt', content: '' },
+      // Google
+      { name: 'google-site-verification', content: 'yc6LLW5qdaiJfVKs8EDXhyumzm18D-oooskj9dYXs9A' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
