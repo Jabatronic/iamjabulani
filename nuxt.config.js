@@ -106,10 +106,10 @@ export default {
   ],
   googleAnalytics: {
     id: 'UA-132812852-3'
-  //   debug: {
-  //     enabled: false,
-  //     sendHitTask: true
-  //   }
+    // debug: {
+    //   enabled: false
+    //   // sendHitTask: true
+    // }
   },
   /*
   ** Nuxt.js modules
