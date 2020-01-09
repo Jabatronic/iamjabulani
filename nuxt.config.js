@@ -9,10 +9,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Portfolio & Résumé' },
+      { hid: 'description', name: 'description', content: 'Jabulani Robbins - Web Developer, Designer' },
       // Open Graph
       { name: 'og:title', content: 'I AM JABULANI' },
-      { name: 'og:description', content: 'Web Development Portfolio & Résumé' },
+      { name: 'og:description', content: 'Jabulani Robbins - Web Developer, Designer' },
       { name: 'og:type', content: 'website' },
       { name: 'og:url', content: 'https://iamjabulani.tech' },
       { name: 'og:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
@@ -20,7 +20,7 @@ export default {
       { name: 'twitter:card', content: 'summary' },
       { name: 'twitter:site', content: 'https://iamjabulani.tech' },
       { name: 'twitter:title', content: 'IAMJABULANI' },
-      { name: 'twitter:description', content: 'The Web Development Portfolio & Résumé' },
+      { name: 'twitter:description', content: 'Jabulani Robbins - Web Developer, Designer' },
       { name: 'twitter:image', content: 'https://iamjabulani.tech/_nuxt/img/5845c69-128.jpg' },
       { name: 'twitter:image:alt', content: '' },
       // Google
@@ -84,7 +84,7 @@ export default {
   ** Overwrite's generated manifest values
   */
   manifest: {
-    name: 'I AM JABULANI - The Portfolio & Resume',
+    name: 'I AM JABULANI - Portfolio & Résumé',
     short_name: 'I AM JABULANI',
     lang: 'en',
     display: 'standalone'
