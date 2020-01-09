@@ -101,16 +101,16 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
-    // '@nuxtjs/google-analytics'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
-  // googleAnalytics: {
-  //   id: 'UA-132812852-3',
+  googleAnalytics: {
+    id: 'UA-132812852-3'
   //   debug: {
   //     enabled: false,
   //     sendHitTask: true
   //   }
-  // },
+  },
   /*
   ** Nuxt.js modules
   */
