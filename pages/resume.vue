@@ -148,7 +148,7 @@
               </span>
             </h4>
             <div class="content">
-              <p>I started at Arkwright Consulting as a graduate trainee on a placement scheme but was soon promoted to a lead role. This allowed me gain firsthand experience of many aspects of running the business and gave me the confidence to become self-employed.</p>
+              <p>I started at Arkwright Consulting as a graduate trainee on a placement scheme but was soon promoted to a lead role. This allowed me to gain firsthand experience of many aspects of running the business and gave me the confidence to become self-employed.</p>
               <ul>
                 <li>Graphic design</li>
                 <li>Web development (PHP + MySQL)</li>
