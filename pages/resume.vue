@@ -21,7 +21,7 @@
             Summary
           </h2>
           <p>
-            An enthusiastic and creative web developer with four years' recent experience working as a freelancer. I have demonstrable skills working with both front-end and back-end technologies and thrive on learning new things. Looking to gain experience with a forward-thinking digital agency or brand management company.
+            An enthusiastic and creative web developer with four years' recent experience working as a freelancer. I have demonstrable skills working with both front-end and back-end technologies and thrive on learning new things. Looking to gain additional experience with a forward-thinking digital agency or brand management company.
           </p>
         </div>
         <div class="experience">
@@ -51,7 +51,7 @@
           </div>
           <div class="item">
             <h3 class="title is-size-4">
-              Developer/Designer/Content Manager
+              Developer / Designer / Content Manager
             </h3>
             <h4 class="subtitle">
               <i>Adventures of the Valparaiso</i>
@@ -64,7 +64,7 @@
                 Web developer for a creative social enterprise located on an antique canal boat in Amsterdam. Partly onboard, partly remote.
                 <ul>
                   <li>Modifying and fixing the existing website</li>
-                  <li>Wordpress, PHP, CSS, JavaScript, WAMP</li>
+                  <li>Wordpress, PHP, CSS, JavaScript</li>
                   <li>Graphics work (Photoshop)</li>
                   <li>Remote working (Skype, messaging, email).</li>
                 </ul>
@@ -108,7 +108,7 @@
               </h5>
               <ul>
                 <li>Rising Star Award</li>
-                <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150, 000 for the department</li>
+                <li>Successful KTP (Knowledge Transfer Partnership) bid writing and project specification bringing in £150,000 for the department</li>
                 <li>Game Design Team co-ordinator for AHRC (Arts and Humanities Research Council) joint project bid with Birmingham University Superconductivity Research Laboratory</li>
                 <li>Artist &amp; Speaker at ISEA Symposium, Singapore (2009).</li>
               </ul>
@@ -174,7 +174,7 @@
               Prosperity Health
             </h3>
             <h4 class="subtitle">
-              <i>Custom Wordpress site with Ecommerce</i>
+              <i>Custom Wordpress site with ecommerce</i>
               <span class="date">
                 2019
               </span>
@@ -188,7 +188,7 @@
               The Little Big Programme
             </h3>
             <h4 class="subtitle">
-              <i>Bespoke Full-Stack Web App</i>
+              <i>Bespoke full-Stack web app</i>
               <span class="date">
                 2018
               </span>
@@ -200,7 +200,7 @@
               The Big Programme
             </h3>
             <h4 class="subtitle">
-              <i>Proof of Concept</i>
+              <i>Proof of concept</i>
               <span class="date">
                 2017
               </span>
@@ -212,7 +212,7 @@
               3 Days (Shots fired)
             </h3>
             <h4 class="subtitle">
-              <i>Personal Project</i>
+              <i>Personal project</i>
               <span class="date">
                 2017
               </span>
@@ -224,7 +224,7 @@
               J-Grain
             </h3>
             <h4 class="subtitle">
-              <i>Personal Project</i>
+              <i>Personal project</i>
               <span class="date">
                 2015
               </span>
