@@ -22,7 +22,7 @@
         <p>The highlights of working on this project were:</p>
         <ul>
           <li>Working with a charity on something intended to improve people's lives</li>
-          <li>Learning Laravel framework (I had never used it before this project)</li>
+          <li>Learning Laravel framework</li>
           <li>Deepening my knowledge of CSS3 in finding ways to replicate the shapes and layouts from the booklet. I would like to attempt this using SVG format in future.</li>
           <li>Learning to use GSAP Javascript to create animations</li>
         </ul>`"
