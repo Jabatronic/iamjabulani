@@ -49,7 +49,7 @@
         </div>
 
         <div class="navbar-end">
-          <a class="navbar-item" href="https://github.com/Jabatronic/iamjabulani" title="Check out the source!">
+          <a class="navbar-item" href="https://github.com/Jabatronic/iamjabulani" title="Check out the sauce!">
             <svg
               height="32"
               viewBox="0 0 16 16"
