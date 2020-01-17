@@ -7,7 +7,7 @@
 
       :overview-title="'Bringing the party to the people...'"
 
-      :overview="`<p>Dantanna is a Birmingham based music producer specialising in full-band live hip-hop. The personnel of his projects is fluid with members changing over time and for different projects. Their performances are raucous, frenetic, and unapologetically “DIY” in aesthetic. He required a website that he could update himself, to back up his already active social media presence in a way that allowed more stylistic agency.</p>`"
+      :overview="`<p>Dantanna is a Birmingham-based music producer specialising in full-band live hip-hop. The personnel of his projects is fluid with members changing over time and for different projects. Their performances are raucous, frenetic, and unapologetically “DIY” in aesthetic. He required a website that he could update himself, to back up his already active social media presence in a way that allowed more stylistic agency.</p>`"
 
       :folio-image="require('~/assets/images/case_study/dantanna/dantanna-folio-image.jpg')"
 
