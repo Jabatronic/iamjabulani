@@ -16,7 +16,7 @@
         <ul>
           <li>a sign-up and login system for participants,</li>
           <li>a login system and admin panel for staff,</li>
-          <li>user progress to saved in a database</li>
+          <li>user progress to be saved in a database</li>
         </ul>
         <p>After researching the best-of-breed potential solutions, I settled on HTML, CSS and Javascript for the front-end and Laravel for business logic and database handling due to its clean database abstraction API and MVC architecture.</p><p>The client was very happy with the results and as such implemented it as part of their range of therapeutic tools.</p>
         <p>The highlights of working on this project were:</p>
@@ -28,7 +28,7 @@
         </ul>`"
       :skills="[
         'Laravel Framework',
-        'PHP, HTML5, JavaScript, CSS3, Apache',
+        'PHP, HTML5, Javascript, CSS3, Apache',
         'GSAP (JavaScript) Animation',
       ]"
 
