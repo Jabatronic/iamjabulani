@@ -7,7 +7,7 @@
 
       :overview-title="'Deliciously different...'"
 
-      :overview="`<p>The Ice Chef creates rolled ice cream desserts inspired by Thai street food. Lindsay - A single mum of one - started the business after a life-changing trip to Thailand with her young daughter.</p><p>Her business caters for events of all sizes, including but not limited to: Weddings; Birthdays &amp; Kids Parties; Corporate events &amp; festivals.</p>`"
+      :overview="`<p>The Ice Chef creates rolled ice cream desserts inspired by Thai street food. Lindsay - a single mum of one - started the business after a life-changing trip to Thailand with her young daughter.</p><p>Her business caters for events of all sizes, including but not limited to: weddings, birthdays &amp; kids' parties; corporate events &amp; festivals.</p>`"
 
       :folio-image="require('~/assets/images/case_study/the_ice_chef/the-ce-chef-folio-image-01.jpg')"
 
