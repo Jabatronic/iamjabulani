@@ -1,6 +1,8 @@
 # IAMJABULANI
 
-> IAMJABULANI started life as my attempt to create a statically generated portfolio/résumé site for myself built on the Nuxt framework. In the end it has grown into my own scaffold for rapid prototyping PWAs. 
+> IAMJABULANI started life as my attempt to create a statically generated portfolio/résumé site for myself built on the Nuxt framework.
+
+Clone this repo and then...
 
 ## Build Setup
 
