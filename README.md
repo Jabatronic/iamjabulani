@@ -1,8 +1,8 @@
 # IAMJABULANI
 
-> IAMJABULANI started life as my attempt to create a statically generated portfolio/résumé site for myself built on the Nuxt framework.
+> IAMJABULANI started life as my statically generated portfolio/résumé site built on the Nuxt framework. During that process it grew into a useful starter project for rapid prototyping vue sites.
 
-Clone this repo and then...
+Want to try it out? Just clone this repo and then...
 
 ## Build Setup
 
