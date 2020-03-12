@@ -1,7 +1,7 @@
 <template>
   <div class="external-link">
     <a :href="linkUrl" target="_blank">
-      View {{ linkTitle }}
+      {{ linkTitle }}
     </a>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     },
     linkUrl: {
       type: String,
-      default: 'add a valid valiue for "linkUrl" prop'
+      default: 'add a valid value for "linkUrl" prop'
     }
   }
 }

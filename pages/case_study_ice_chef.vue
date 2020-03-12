@@ -23,9 +23,9 @@
 
       :folio-image-mobile="require('~/assets/images/case_study/the_ice_chef/mobile-01.png?size=300')"
 
-      :folioOutLinkUrl="'https://theicechef.co.uk/'"
+      folio-out-link-url="#"
 
-      :folioOutLinkTitle="'https://theicechef.co.uk/'"
+      folio-out-link-title="This site has been replaced by work not done by me."
     />
   </div>
 </template>

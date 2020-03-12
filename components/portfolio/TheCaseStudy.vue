@@ -9,9 +9,6 @@
               <h1 class="title is-size-2 has-text-centered has-text-primary has-font-roboto-slab">
                 {{ heading }}
               </h1>
-              <!-- <h5 class="subtitle has-text-centered">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, minus! Exercitationem, blanditiis. Sint, consectetur tempora!
-              </h5> -->
             </div>
           </div>
         </div>
@@ -112,8 +109,8 @@
         </div>
         <!-- External link Comp here -->
         <out-link
-          :link-title="folioOutLinkUrl"
-          :link-url="folioOutLinkTitle"
+          :link-title="folioOutLinkTitle"
+          :link-url="folioOutLinkUrl"
         />
         <case-study-nav />
       </div>
